@@ -9,13 +9,13 @@ content for this 100 days challenge is as follows:
 ### Beginner Python
 
     Content for section this is as following:
-    ~~01  Variables in Python~~
-    ~~02  String Manipulation~~
-    ~~03  Input and Print Function~~
-    ~~04  Variable Naming Rules~~
-    ~~05  Mathematical Operations~~
-    ~~06  DataTypes~~
-    ~~07  Converting Types (Type Casting)~~
+    01  Variables in Python
+    02  String Manipulation
+    03  Input and Print Function
+    04  Variable Naming Rules
+    05  Mathematical Operations
+    06  DataTypes
+    07  Converting Types (Type Casting)
     08  Conditional Statements (Nested)
     09  Logical Operators
     10  Randomization
