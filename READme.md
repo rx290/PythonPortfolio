@@ -9,7 +9,7 @@ content for this 100 days challenge is as follows:
 ### Beginner Python
 
     Content for section this is as following:
-    - [x]  01  Variables in Python
+    - [:heavy_check_mark:]  01  Variables in Python
     - [x]  02  String Manipulation
     - [x]  03  Input and Print Function
     - [x]  04  Variable Naming Rules
