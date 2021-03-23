@@ -7,6 +7,10 @@
         "Plotly",
         "Scikit",
         "Subsetting",
-        "Templating"
+        "Templating",
+        "createdb",
+        "manjaro",
+        "pacman",
+        "postgresql"
     ]
 }
