@@ -19,12 +19,12 @@ content for this 100 days challenge is as follows:
     - [x]  08  Conditional Statements (Nested)
     - [x]  09  Logical Operators
     - [ ]  10  Randomization
-    - [ ]  11  Error Handling (Exception Handling)
+    - [x]  11  Error Handling (Exception Handling)
     - [ ]  12  Custom and Builtin Functions
-    - [ ]  13  Iterative Statements (For loop)
+    - [x]  13  Iterative Statements (For loop)
     - [ ]  14  Code Blocks and Indentation
     - [ ]  15  Conditional Iteration (While Loop)
-    - [ ]  16  Flowchart Programming
+    - [x]  16  Flowchart Programming
     - [ ]  17  Positional and Keyword Arguments
     - [ ]  18  Python Dictionaries and List
     - [ ]  19  Nested Collections
