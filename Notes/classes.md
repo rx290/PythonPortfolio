@@ -40,4 +40,3 @@ class Matt(Student):
         self.section = section
         self.class = class
         self.program = program
-
