@@ -28,7 +28,7 @@ content for this 100 days challenge is as follows:
     - [ ]  17  Positional and Keyword Arguments
     - [ ]  18  Python Dictionaries and List
     - [ ]  19  Nested Collections
-    - [ ]  20  Returning Functions
+    - [x]  20  Returning Functions
     - [ ]  21  Return vs Print
     - [ ]  22  Doc Strings vs Comments
     - [ ]  23  Scope and Local / Global Scope Variable
