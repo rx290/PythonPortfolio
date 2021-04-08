@@ -54,3 +54,20 @@ This clause is used to update an entry stored in a table example:
 2. update Student set fullName = 'Ali Mehra' where id = 12;
 3. Update Student set fullName = 'Ali Mehra', address = " " where id = 12;
 
+## Delete Clause
+
+This Clause is used to delete the item from the table example:
+
+1. Delete from Student;
+2. Delete from Student where id = 2;
+
+## SQL Functions
+
+These built in functions are used to manipulate data according to users need. Examples:
+
+1. Select Min(Salary) from Employees;
+2. Select Max(Price) from Products;
+3. Select Count(*) From Products Where Price = 18;
+4. Select Avg(Price) From Products;
+5. Select Sum(Price) from Products;
+
