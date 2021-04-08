@@ -71,3 +71,12 @@ These built in functions are used to manipulate data according to users need. Ex
 4. Select Avg(Price) From Products;
 5. Select Sum(Price) from Products;
 
+## Like Clause
+
+This is a clause to use RE like methods to fetch abstracted data, examples
+
+1. Select * from Students where fullName like "a%";
+2. Select * from Students where fullName like "%a";
+3. Select * from Students where fullName like "%a%";
+4. Select * from Students where fullName like "a%b";
+5. select * from Students where fullName Not like "a%";
