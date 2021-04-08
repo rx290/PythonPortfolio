@@ -18,20 +18,20 @@ content for this 100 days challenge is as follows:
     - [x]  07  Converting Types (Type Casting)
     - [x]  08  Conditional Statements (Nested)
     - [x]  09  Logical Operators
-    - [ ]  10  Randomization
+    - [x]  10  Randomization
     - [x]  11  Error Handling (Exception Handling)
-    - [ ]  12  Custom and Builtin Functions
+    - [x]  12  Custom and Builtin Functions
     - [x]  13  Iterative Statements (For loop)
-    - [ ]  14  Code Blocks and Indentation
-    - [ ]  15  Conditional Iteration (While Loop)
+    - [x]  14  Code Blocks and Indentation
+    - [x]  15  Conditional Iteration (While Loop)
     - [x]  16  Flowchart Programming
-    - [ ]  17  Positional and Keyword Arguments
-    - [ ]  18  Python Dictionaries and List
-    - [ ]  19  Nested Collections
+    - [x]  17  Positional and Keyword Arguments
+    - [x]  18  Python Dictionaries and List
+    - [x]  19  Nested Collections
     - [x]  20  Returning Functions
-    - [ ]  21  Return vs Print
-    - [ ]  22  Doc Strings vs Comments
-    - [ ]  23  Scope and Local / Global Scope Variable
+    - [x]  21  Return vs Print
+    - [x]  22  Doc Strings vs Comments
+    - [x]  23  Scope and Local / Global Scope Variable
     - [ ]  24  Debugging Techniques
 
 ### Intermediate Python
@@ -44,7 +44,7 @@ content for this 100 days challenge is as follows:
     - [ ]  05  Using External Python Modules / importing
     - [ ]  06  Getting / Setting Attributes
     - [ ]  07  Python Methods
-    - [ ]  08  Class Initializers
+    - [x]  08  Class Initializers
     - [ ]  09  Module Aliasing
     - [ ]  10  Optional, Required and Default Parameters
     - [ ]  11  Event Listeners
@@ -63,7 +63,7 @@ content for this 100 days challenge is as follows:
     - [ ]  24  Creating Desktop GUI Apps with Tkinter
     - [ ]  25  Strongly Dynamic Typing
     - [ ]  26  Error Handling and Exceptions in Depth
-    - [ ]  27  Try / Except / Raise  
+    - [x]  27  Try / Except / Raise  
     - [ ]  28  Working with JSONs
     - [ ]  29  Local Persistence
     - [ ]  30  Sending Email with Python SMTP
