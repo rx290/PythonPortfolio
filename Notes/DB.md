@@ -152,7 +152,7 @@ It groups two or more than two rows, examples:
 1. What is RDBMS?
 2. What are records?
 3. What are advantages of RDBMS?
-4. What is Data Redundancy? 
+4. What is Data Redundancy?
 5. What are Database Relationships?
    1. 1 - 1
    2. 1 - many
