@@ -1,5 +1,14 @@
 # Database Notes
 
+## Database General
+
+1. Create Database testDB;
+2. Drop Database testDB;
+3. Drop Table Student;
+4. Turncate table Person;
+5. Alter Table Person Add Birthday Date;
+6. Alter Table Person Drop Column Birthday;
+
 ## Create Clause
 
 This clause is used to either create Database or tables examples are as follows:
@@ -80,3 +89,106 @@ This is a clause to use RE like methods to fetch abstracted data, examples
 3. Select * from Students where fullName like "%a%";
 4. Select * from Students where fullName like "a%b";
 5. select * from Students where fullName Not like "a%";
+
+## WildCards
+
+These clauses are used with like to attain more arbitrary results, example:
+
+1. Select * from Student where address Like '_a%';
+   1. To Select any address which has a as the second character of first word
+2. Select * from Student where address Like '[acs]%';
+   1. Select all from students where address is either starting with a, c or s
+3. Select * from Student where address Like '[a-f]%';
+   1. Select all from students where address is either starting from a and going towards f
+4. Select * from Student where address Like '[!acf]';
+
+## In clause
+
+In clauses are used when one have to iterate through some sort of parenthesis having multiple values, example:
+
+1. Select * from Student where City in ('Karachi','Lahore','Islamabad');
+2. Select * from Student where City Not in ('Wazirabad', 'HafizaBad', 'Lailpur');
+
+## Between Clause
+
+This is a range finder of sql example:
+
+1. Select * From Products where prices Between 10 and 20;
+2. Select * From Products where prices Not Between 10 and 20;
+3. Select * From Products where fullName Between 'Ali' and 'Farhan;
+
+## Alias Clause
+
+This clause is used to give nickname to views, tables and fetched data eg:
+
+1. Select fullName from Student as Names;
+2. Select * from Student as DayScholars;
+
+## join Clause
+
+A clause which is used to combine rows from two or more than two tables, based on related / mutual table between them.
+
+There are fours types of joins which are as follows:
+    1. Left Join (Returns all records of the left table, and only mutual or matched records from right table)
+    2. Right Join (Returns all records of the Right table, and only mutual or matched records from left table)
+    3. Inner Join (Returns mutual records having same values)
+    4. Outer Join (Return all records where there is a mutual / matched value of either table)
+
+examples:
+
+1. Select * from Orders left join Customers on Orders.CustomerID = Customers.CustomerID;
+2. Select * From Orders Inner Join Customers on Orders.CustomerID = Customers.CustomerID;
+3. Select * from Orders Right Join Customers on Orders.CustomerID = Customers.CustomerID;
+
+## Group By
+
+It groups two or more than two rows, examples:
+
+1. Select * count(CustomerID), Country from Customers group by Country;
+2. Select * count(CustomerID), Country from Customers order  by Country Order by count(CustomerID) DESC;
+
+## Most common Interview Questions
+
+1. What is RDBMS?
+2. What are records?
+3. What are advantages of RDBMS?
+4. What is Data Redundancy? 
+5. What are Database Relationships?
+   1. 1 - 1
+   2. 1 - many
+   3. many - 1
+6. Explain Normalization and De-normalization?
+7. Why is indexing used?
+8. Types of SQL Statements?
+   1. DDL: Data Definition Language
+   2. DML: Data Manipulation language
+   3. DCL: Data Control Language
+9. State DDL , DML and DCL Clauses?
+   1. DDL
+       1. Create
+       2. Alter
+       3. Truncate
+       4. Drop
+       5. Rename
+   2. DML
+      1. Insert
+      2. Update
+      3. Delete
+      4. Merge
+   3. DCL
+      1. Commit
+      2. Rollback
+      3. Savepoint
+10. Difference between Having and Where Clause?
+11. Explain Indexing and its purpose?
+12. What are views?
+13. What are cursors and its type?
+14. What are database transactions?
+15. What are database lock?
+16. Define Joins and explain its types?
+17. What are aggregated functions?
+18. What are keys?
+19. Difference between delete and truncate and drop?
+20. What is normalization and its types?
+21. Find Second Highest Salary?
+    1. Select Max(salary) from employee order by salary DESC n-1, 1;
