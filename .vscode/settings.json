@@ -9,8 +9,10 @@
         "Subsetting",
         "Templating",
         "createdb",
+        "kwargs",
         "manjaro",
         "pacman",
-        "postgresql"
+        "postgresql",
+        "unpickling"
     ]
 }
