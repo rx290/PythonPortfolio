@@ -227,4 +227,42 @@
 
 ## Interview Questions
 
-1.  
+1.  Difference between file structure and structure storage structure?
+2.  What is LIFO?
+3.  What is FIFO?
+4.  What are common types of Data Structures?
+5.  What is a stack?
+6.  What is a queue?
+7.  What is a binary tree?
+8.  What data types are applied using recursion?
+9.  what are multidimensional arrays?
+10. linked list are linear or non linear in nature? Explain
+11. what is a heap?
+12. what is an orderd list?
+13. What is a liner search?
+14. Difference between BFS and DFS?
+15. Heap vs stack?
+16. How does bubble sort, selection sort and merge sort work ?
+17. How does signed and unsigned numbers affect memory?
+18. What is the realtionship between queue and linked list?
+
+19. Give a basic algorithm for searching a binary search tree.
+    1. if the tree is empty, then the target is not in the tree, end search
+    2. if the tree is not empty, the target is in the tree
+    3. check if the target is in the root item
+    4. if a target is not in the root item, check if a target is smaller than the root’s value
+    5. if a target is smaller than the root’s value, search the left subtree
+    6. else, search the right subtree
+
+20. what is a graph?
+21. linear vs non linear data structures?
+22. what is an avl tree?
+23. what is a doubly linked list?
+24. What is huffman algorith?
+24. what is fibonacci search?
+25. Explain recursion?
+26. What is hashing?
+27. What is a spanning tress?
+28. What are greedy algorith,?
+29. what is an algorithm?
+30. which DS should be used for implementiong LRU cache?
