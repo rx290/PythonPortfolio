@@ -355,3 +355,52 @@
     Queue which is implemented using a doubly linked list. The maximum size of the queue will be equal to the total number of frames available (cache size). The most recently used pages will be near rear end and least recently pages will be near front end.
 
     A Hash with page number as key and address of the corresponding queue node as value. See How to implement LRU caching scheme? What data structures should be used?
+
+
+# Database Interview Questions
+
+## Most common Interview Questions
+
+1. What is RDBMS?
+2. What are records?
+3. What are advantages of RDBMS?
+4. What is Data Redundancy?
+5. What are Database Relationships?
+   1. 1 - 1
+   2. 1 - many
+   3. many - 1
+6. Explain Normalization and De-normalization?
+7. Why is indexing used?
+8. Types of SQL Statements?
+   1. DDL: Data Definition Language
+   2. DML: Data Manipulation language
+   3. DCL: Data Control Language
+9. State DDL , DML and DCL Clauses?
+   1. DDL
+       1. Create
+       2. Alter
+       3. Truncate
+       4. Drop
+       5. Rename
+   2. DML
+      1. Insert
+      2. Update
+      3. Delete
+      4. Merge
+   3. DCL
+      1. Commit
+      2. Rollback
+      3. Savepoint
+10. Difference between Having and Where Clause?
+11. Explain Indexing and its purpose?
+12. What are views?
+13. What are cursors and its type?
+14. What are database transactions?
+15. What are database lock?
+16. Define Joins and explain its types?
+17. What are aggregated functions?
+18. What are keys?
+19. Difference between delete and truncate and drop?
+20. What is normalization and its types?
+21. Find Second Highest Salary?
+    1. Select Max(salary) from employee order by salary DESC n-1, 1;
