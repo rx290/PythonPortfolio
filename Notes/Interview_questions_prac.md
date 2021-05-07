@@ -24,7 +24,7 @@
 4. What is inheritance?
     The concept where one class can share its structure and behavior to another class is called inheritance.
     there are several types of inheritance which are as follows:
-        1. Signle inheritance
+        1. Single inheritance
         2. Multiple inheritance
         3. Multilevel inheritance
         4. Hybrid inheritance
@@ -228,23 +228,74 @@
 ## Interview Questions
 
 1.  Difference between file structure and structure storage structure?
+    he key difference between both the data structure is the memory area that is being accessed. When dealing with the structure that resides the main memory of the computer system, this is referred to as storage structure. When dealing with an auxiliary structure, we refer to it as file structures.
+
 2.  What is LIFO?
+    LIFO is a short form of Last In First Out. It refers how data is accessed, stored and retrieved. Using this scheme, data that was stored last should be the one to be extracted first. This also means that in order to gain access to the first data, all the other data that was stored before this first data must first be retrieved and extracted.
+
 3.  What is FIFO?
+    FIFO stands for First-in, First-out, and is used to represent how data is accessed in a queue. Data has been inserted into the queue list the longest is the one that is removed first.
+
 4.  What are common types of Data Structures?
+    1.  Array
+    2.  Queue
+    3.  Linked list
+    4.  Heap
+    5.  Tree
+    6.  Stack
+    7.  graph
+
 5.  What is a stack?
+    A stack is a data structure in which only the top element can be accessed. As data is stored in the stack, each data is pushed downward, leaving the most recently added data on top.
+
 6.  What is a queue?
+    A queue is a data structure that can simulate a list or stream of data. In this structure, new elements are inserted at one end, and existing elements are removed from the other end.
+
 7.  What is a binary tree?
+    A binary search tree stores data in such a way that they can be retrieved very efficiently. The left subtree contains nodes whose keys are less than the node’s key value, while the right subtree contains nodes whose keys are greater than or equal to the node’s key value. Moreover, both subtrees are also binary search trees.
+
 8.  What data types are applied using recursion?
+    Recursion, is a function that calls itself based on a terminating condition, makes use of the stack. Using LIFO, a call to a recursive function saves the return address so that it knows how to return to the calling function after the call terminates.
+
 9.  what are multidimensional arrays?
+    Multidimensional arrays make use of multiple indexes to store data. It is useful when storing data that cannot be represented using single dimensional indexing, such as data representation in a board game, tables with data stored in more than one column.
+
 10. linked list are linear or non linear in nature? Explain
+    It depends on where you intend to apply linked lists. If you based it on storage, a linked list is considered non-linear. On the other hand, if you based it on access strategies, then a linked list is considered linear.
+
 11. what is a heap?
+    A Heap is a special Tree-based data structure in which the tree is a complete binary tree. Generally, Heaps can be of two types:
+
+    Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
+    
+    Min-Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
+
 12. what is an orderd list?
+    An ordered list is a list in which each node’s position in the list is determined by the value of its key component, so that the key values form an increasing sequence, as the list is traversed.
+
 13. What is a liner search?
+    A linear search refers to the way a target key is being searched in a sequential data structure. In this method, each element in the list is checked and compared against the target key. The process is repeated until found or if the end of the file has been reached.
+
 14. Difference between BFS and DFS?
+    | Sr.No | BFS                                                                                                                                                              | DFS                                                                                                                                                                       |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1     | BFS stands for Breadth First Search.                                                                                                                             | DFS stands for Depth First Search.                                                                                                                                        |
+| 2     | BFS(Breadth First Search) uses Queue data structure for finding the shortest path.                                                                               | DFS(Depth First Search) uses Stack data structure.                                                                                                                        |
+| 3     | BFS can be used to find single source shortest path in an unweighted graph, because in BFS, we reach a vertex with minimum number of edges from a source vertex. | In DFS, we might traverse through more edges to reach a destination vertex from a source.                                                                                 |
+| 4     | BFS is more suitable for searching vertices which are closer to the given source.                                                                                | DFS is more suitable when there are solutions away from source.                                                                                                           |
+| 5     | BFS considers all neighbors first and therefore not suitable for decision making trees used in games or puzzles.                                                 | DFS is more suitable for game or puzzle problems. We make a decision, then explore all paths through this decision. And if this decision leads to win situation, we stop. |
+| 6     | The Time complexity of BFS is O(V + E) when Adjacency List is used and O(V^2) when Adjacency Matrix is used, where V stands for vertices and E stands for edges. | The Time complexity of DFS is also O(V + E) when Adjacency List is used and O(V^2) when Adjacency Matrix is used, where V stands for vertices and E stands for edges.     |
+
 15. Heap vs stack?
+    The heap is more flexible than the stack. That’s because memory space for the heap can be dynamically allocated and de-allocated as needed. However, the memory of the heap can at times be slower when compared to that stack.
+
 16. How does bubble sort, selection sort and merge sort work ?
+
 17. How does signed and unsigned numbers affect memory?
+    In the case of signed numbers, the first bit is used to indicate whether positive or negative, which leaves you with one bit short. With unsigned numbers, you have all bits available for that number. The effect is best seen in the number range (an unsigned 8-bit number has a range 0-255, while the 8-bit signed number has a range -128 to +127.
+
 18. What is the realtionship between queue and linked list?
+    The structre of queue is based on singly linked list which is dynamic in nature. 
 
 19. Give a basic algorithm for searching a binary search tree.
     1. if the tree is empty, then the target is not in the tree, end search
@@ -255,14 +306,52 @@
     6. else, search the right subtree
 
 20. what is a graph?
+    A graph is one type of data structure that contains a set of ordered pairs. These ordered pairs are also referred to as edges or arcs and are used to connect nodes where data can be stored and retrieved.
+
 21. linear vs non linear data structures?
+    The linear data structure is a structure wherein data elements are adjacent to each other. Examples of linear data structure include arrays, linked lists, stacks, and queues. On the other hand, a non-linear data structure is a structure wherein each data element can connect to more than two adjacent data elements. Examples of nonlinear data structure include trees and graphs.
+
 22. what is an avl tree?
+    An AVL tree is a type of binary search tree that is always in a state of partially balanced. The balance is measured as a difference between the heights of the subtrees from the root. This self-balancing tree was known to be the first data structure to be designed as such.
+
 23. what is a doubly linked list?
+    Doubly linked lists are a special type of linked list wherein traversal across the data elements can be done in both directions. This is made possible by having two links in every node, one that links to the next node and another one that connects to the previous node
+
 24. What is huffman algorith?
+    Huffman’s algorithm is used for creating extended binary trees that have minimum weighted path lengths from the given weights. It makes use of a table that contains the frequency of occurrence for each data element.
+
 24. what is fibonacci search?
+    Fibonacci search is a search algorithm that applies to a sorted array. It makes use of a divide-and-conquer approach that can significantly reduce the time needed in order to reach the target element.
+
 25. Explain recursion?
+    Recursive algorithm targets a problem by dividing it into smaller, manageable sub-problems. The output of one recursion after processing one sub-problem becomes the input to the next recursive process.
+
 26. What is hashing?
+    Hashing is a technique or process of mapping keys, values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
+
+    Let a hash function H(x) maps the value x at the index x%10 in an Array. For example if the list of values is [11,12,13,14,15] it will be stored at positions {1,2,3,4,5} in the array or Hash table respectively.
+
 27. What is a spanning tress?
+    A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. A spanning tree does not have cycles and it can not be disconnected.
+
 28. What are greedy algorith,?
+    The below given problems find their solution using greedy algorithm approach −
+
+        Travelling Salesman Problem
+        Prim's Minimal Spanning Tree Algorithm
+        Kruskal's Minimal Spanning Tree Algorithm
+        Dijkstra's Minimal Spanning Tree Algorithm
+        Graph - Map Coloring
+        Graph - Vertex Cover
+        Knapsack Problem
+        Job Scheduling Problem
+
 29. what is an algorithm?
+    Algorithm is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.
+
 30. which DS should be used for implementiong LRU cache?
+    We use two data structures to implement an LRU Cache.
+
+    Queue which is implemented using a doubly linked list. The maximum size of the queue will be equal to the total number of frames available (cache size). The most recently used pages will be near rear end and least recently pages will be near front end.
+
+    A Hash with page number as key and address of the corresponding queue node as value. See How to implement LRU caching scheme? What data structures should be used?
