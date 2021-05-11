@@ -10,6 +10,12 @@
     - [ ]  Beeware
     - [ ]  PyInstaller
     - [ ]  PySimpleGUI
+    - [ ]  Typer (CLI Project)
+    - [ ]  Rich (Terminal Output Modifier)
+    - [ ]  Dear PyGUI
+    - [ ]  Diagrams (System Architecture Design tool from code)
+    - [ ]  
+  
   
 </details>
 
@@ -52,13 +58,57 @@
 
 <details>
 
+<summary>  Game Development  </summary>
+
+    - [ ]  PyGame
+    - [ ]  Pyglet
+    - [ ]  Pyodbc for SQL Server
+    - [ ]  Pymysql for MariaDB/MySQL
+    - [ ]  fdb for Firebird
+  
+</details>
+
+<details>
+
+<summary>  Hardware / IOT  </summary>
+
+## Robotics
+
+    - [ ]  Robot Framework
+    - [ ]  Pyro
+    - [ ]  DART
+    - [ ]  PyRobot
+    - [ ]  PyDy
+    - [ ]  Simulation Open Framework Architecture
+    - [ ]  Klamp’t
+    - [ ]  Pybotics
+    - [ ]  Siconos
+    - [ ]  iDynTree
+
+## IOT
+
+    - [ ]  mraa
+    - [ ]  sockets
+    - [ ]  mysqldb
+    - [ ]  paho-mqtt
+    - [ ]  DeviceHive
+    - [ ]  SiteWhere
+    - [ ]  DAS
+    - [ ]  MicroPython
+    - [ ]  Azure
+    - [ ]  AWS
+    - [ ]  PyFirmata
+    - [ ]  
+
+</details>
+
+<details>
+
 <summary>  Hands on Python Libraries  </summary>
 
     - [ ]  Request
-    - [ ]  Robot
     - [ ]  fasttext
     - [ ]  core Audio
-    - [ ]  Scikit-Learn
     - [ ]  Pandas
     - [ ]  Numpy
     - [ ]  Keras
@@ -66,7 +116,6 @@
     - [ ]  Random
     - [ ]  OS
     - [ ]  Sys
-    - [ ]  Pytorch
     - [ ]  NLTK
     - [ ]  D3j
     - [ ]  Matplotlib
@@ -80,7 +129,6 @@
     - [ ]  Theano
     - [ ]  SparkML
     - [ ]  PyBorn
-    - [ ]  OpenCV
     - [ ]  NuPIC
     - [ ]  Pipenv
     - [ ]  Bob
@@ -91,12 +139,9 @@
     - [ ]  Caffe2
     - [ ]  Hebel
     - [ ]  ChainerBokeh
-    - [ ]  XGBoost
     - [ ]  Pydot
     - [ ]  Gensim
     - [ ]  PyOD
-    - [ ]  Pyglet
-    - [ ]  PyGame
     - [ ]  Python Twisted
     - [ ]  Pillow
     - [ ]  pywin32
@@ -127,7 +172,7 @@
     - [ ]  Python Docx
     - [ ]  sh
     - [ ]  Splinter
-    - [ ]  
+    - [ ]  Hiplot
 
   
 </details>
@@ -151,10 +196,7 @@
 
 <summary>  Automation with Python  </summary>
 
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+    - [ ]  Automating Boring Stuff With Python
   
 </details>
 
@@ -162,10 +204,17 @@
 
 <summary>  Testing with Python  </summary>
 
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+    - [ ]  Pretty Errors
+    - [ ]  Scalene (CPU and memory profiler)
+    - [ ]  Unit Testing
+    - [ ]  Integration Testing
+    - [ ]  Pytest
+    - [ ]  Nose or nose2
+    - [ ]  tox
+    - [ ]  Jenkins and Dockers
+    - [ ]  OLID, KISS, DRY, YAGNI design patterns
+    - [ ]  Doc Testing
+    - [ ]  Selenium
   
 </details>
 
@@ -173,10 +222,10 @@
 
 <summary>  Networking with Python  </summary>
 
-  1. A numbered
-  2. list
+  <!-- 1. A numbered
+  1. list
      * With some
-     * Sub bullets
+     * Sub bullets -->
   
 </details>
 
@@ -185,10 +234,7 @@
 
 <summary>  Data Science  </summary>
 
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+    - [ ]  Pytorch Lightning
   
 </details>
 
@@ -196,10 +242,10 @@
 
 <summary>  Data Visualization  </summary>
 
-  1. A numbered
+  <!-- 1. A numbered
   2. list
      * With some
-     * Sub bullets
+     * Sub bullets -->
   
 </details>
 
@@ -207,31 +253,50 @@
 
 <summary>  Machine Learning  </summary>
 
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+    - [ ]  Hydra
+    - [ ]  OmegaConf
+    - [ ]  Pytorch
+    - [ ]  Scikit-Learn
+    - [ ]  XGBoost
   
 </details>
 
 <details>
 
 <summary>  Deep Learning  </summary>
-  
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+
+    - [ ]  HummingBird
+    - [ ]  
   
 </details>
 
 <details>
 
 <summary>  Computer Vision  </summary>
-  
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+
+    - [ ]  Norfair
+    - [ ]  OpenCV
+    - [ ]  SimpleCV
+    - [ ]  Azure Cognitive Science
   
 </details>
+
+</details>
+
+<details>
+
+<summary>  Other Libraries </summary>
+
+    - [ ]  quart — an async web framework with Flask-compatible API. Some of the existing Flask extensions will even work!
+    - [ ]  alibi-detect — monitor outliers and distribution drift in your production models, for tabular data, text, images and time      series.
+    - [ ]  einops — popularized in 2020, einops lets you write tensor operations for readable and reliable code, supporting numpy, PyTorch, TensorFlow, and others. Recommended by Karpathy, do you need anything else?
+    - [ ]  stanza — accurate natural language processing tools on 60+ languages, from Stanford. Multiple available pre-trained models for different tasks.
+    - [ ]  datasets — from HuggingFace, lightweight and extensible library to easily share and access datasets and evaluation metrics for Natural Language Processing (NLP) and more
+    - [ ]  pytorch-forecasting — eases timeseries forecasting with neural networks for real-world cases and research alike.
+    - [ ]  sktime — provides dedicated time series algorithms and scikit-learn compatible tools for building, tuning, and evaluating composite models. Also check their companion sktime-dl package for deep learning based models.
+    - [ ]  netron — a visualizer for neural network, deep learning and machine learning models. Supports more formats than I even knew existed.
+    - [ ]  pycaret — wraps several common ML libraries and makes you vastly more productive, saving you hundreds of lines of code.
+    - [ ]  tensor-sensor — helps you get the dimensions of your tensor math right, by improving error messages and providing visualizations.
+  
+</details>
+
