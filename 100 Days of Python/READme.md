@@ -8,20 +8,9 @@ content for this 100 days challenge is as follows:
 
 <details>
 
-<summary>Click to expand!</summary>
+<summary> Beginner Python </summary>
   
-## Heading
-  
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-  
-</details>
-
-
-
-### Beginner Python
+## Course Content
 
     Content for section this is as following:
     - [x]  01  Variables in Python
@@ -48,10 +37,16 @@ content for this 100 days challenge is as follows:
     - [x]  22  Doc Strings vs Comments
     - [x]  23  Scope and Local / Global Scope Variable
     - [ ]  24  Debugging Techniques
+  
+</details>
 
-### Intermediate Python
+<details>
 
-    Content for this section is as follows:
+<summary> Intermediate Python </summary>
+  
+## Course Content
+  
+  Content for this section is as follows:
     - [ ]  01  Local Development Environment Setup
     - [ ]  02  PyCharm Tips & Tricks
     - [ ]  03  Python Object Oriented Programming
@@ -85,7 +80,7 @@ content for this 100 days challenge is as follows:
     - [ ]  31  Working with date and Time
     - [ ]  32  Hosting Python Code Online with PythonAnywhere
 
-### Intermediate Bonus Topics Python
+## Intermediate Bonus Topics Python
 
     Content for this section is as follows:
     - [ ]  01  APIs
@@ -104,10 +99,16 @@ content for this 100 days challenge is as follows:
     - [ ]  14  Python Decorators
     - [ ]  15  Templating with Jinja2
     - [ ]  16  WTForms
+  
+</details>
 
-### Advance Python
+<details>
 
-    Content for this section is as follows:
+<summary> Advance Python </summary>
+  
+## Course Content
+  
+  Content for this section is as follows:
     - [ ]  01  Build Your Own Rest API with Python
     - [ ]  02  Build Your Own Blog
     - [ ]  03  Databases with SQLite
@@ -133,10 +134,16 @@ content for this 100 days challenge is as follows:
     - [ ]  23  Multi-Variable Regression
     - [ ]  24  Log Transformation
     - [ ]  25  Residuals Analysis
+  
+</details>
 
-### Professional Portfolio Building Independent Assignments
+<details>
 
-        Content for this section is as follows:
+<summary>  Professional Portfolio Building Independent Assignments  </summary>
+  
+## Course Content
+  
+   Content for this section is as follows:
     - [ ]  01  Text to Morse Code Converter
     - [ ]  02  Portfolio Website
     - [ ]  03  Tic Tac Toe Game
@@ -145,7 +152,7 @@ content for this 100 days challenge is as follows:
     - [ ]  06  Breakout Game
     - [ ]  07  Cafe and Wi-fi Website
     - [ ]  08  Todo List Website
-    - [ ]  09  Disappearing Text Writing App 
+    - [ ]  09  Disappearing Text Writing App
     - [ ]  10  Image Color Palette Generator
     - [ ]  11  Custom Web Scrapper
     - [ ]  12  Automating the Google Dinosaur Game
@@ -153,6 +160,8 @@ content for this 100 days challenge is as follows:
     - [ ]  14  Custom API Driven Website
     - [ ]  15  An Online Shop
     - [ ]  16  Custom Browser Automation
-    - [ ]  17  Analyse and Visualize the Space Race 
+    - [ ]  17  Analyse and Visualize the Space Race
     - [ ]  18  Analyse Deaths Involving the Police in the US
     - [ ]  19  Predict Earnings using Multi-variable Regression
+  
+</details>
