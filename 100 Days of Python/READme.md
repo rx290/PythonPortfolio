@@ -1,4 +1,10 @@
-# Introduction
+# 100 Days Python Bootcamp
+
+This repository will contains every chunk of code that i'll be practicing and coding for these 100 days challenge. It doesn't matter if the code was for understanding, practice or project.
+
+## Course-content
+
+content for this 100 days challenge is as follows:
 
 <details>
 
@@ -12,13 +18,7 @@
      * Sub bullets
 </details>
 
-# 100 Days Python Bootcamp
 
-This repository will contains every chunk of code that i'll be practicing and coding for these 100 days challenge. It doesn't matter if the code was for understanding, practice or project.
-
-## Course-content
-
-content for this 100 days challenge is as follows:
 
 ### Beginner Python
 
