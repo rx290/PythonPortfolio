@@ -41,8 +41,8 @@ content for this 100 days challenge is as follows:
 <details>
 
 <summary> Intermediate Python Concepts & Challenges </summary>
-
-  Content for this section is as follows:
+  
+    Content for this section is as follows:
     - [ ]  01  Local Development Environment Setup
     - [ ]  02  PyCharm Tips & Tricks
     - [ ]  03  Python Object Oriented Programming
