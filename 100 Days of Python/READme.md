@@ -101,8 +101,8 @@ content for this 100 days challenge is as follows:
 <details>
 
 <summary> Advance Python Concepts & Challenges  </summary>
-
-  Content for this section is as follows:
+  
+    Content for this section is as follows:
     - [ ]  01  Build Your Own Rest API with Python
     - [ ]  02  Build Your Own Blog
     - [ ]  03  Databases with SQLite
@@ -134,8 +134,8 @@ content for this 100 days challenge is as follows:
 <details>
 
 <summary>  Professional Portfolio Ideas </summary>
-
-   Content for this section is as follows:
+  
+    Content for this section is as follows:
     - [ ]  01  Text to Morse Code Converter
     - [ ]  02  Portfolio Website
     - [ ]  03  Tic Tac Toe Game
