@@ -8,14 +8,15 @@ content for this 100 days challenge is as follows:
 
 <details>
 
-  <summary>Click to expand!</summary>
+<summary>Click to expand!</summary>
   
-  ## Heading
+## Heading
   
   1. A numbered
   2. list
      * With some
      * Sub bullets
+  
 </details>
 
 
