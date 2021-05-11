@@ -181,14 +181,14 @@
 
 <summary>  Maths With Python  </summary>
 
-  1. Basics Maths
-  2. Arithmetic
-  3. Algebra
-  4. Graphing
-  5. Trigonometry
-  6. Calculus
-  7. Linear Algebra
-  8. Equation in Markdown and LaTex
+    - [ ]  Basics Maths
+    - [ ]  Arithmetic
+    - [ ]  Algebra
+    - [ ]  Graphing
+    - [ ]  Trigonometry
+    - [ ]  Calculus
+    - [ ]  Linear Algebra
+    - [ ]  Equation in Markdown and LaTex
   
 </details>
 
