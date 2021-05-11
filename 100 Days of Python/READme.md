@@ -8,10 +8,8 @@ content for this 100 days challenge is as follows:
 
 <details>
 
-<summary> Beginner Python </summary>
+<summary> Beginner Python Concepts & Challenges </summary>
   
-## Course Content
-
     Content for section this is as following:
     - [x]  01  Variables in Python
     - [x]  02  String Manipulation
@@ -42,10 +40,8 @@ content for this 100 days challenge is as follows:
 
 <details>
 
-<summary> Intermediate Python </summary>
-  
-## Course Content
-  
+<summary> Intermediate Python Concepts & Challenges </summary>
+
   Content for this section is as follows:
     - [ ]  01  Local Development Environment Setup
     - [ ]  02  PyCharm Tips & Tricks
@@ -104,10 +100,8 @@ content for this 100 days challenge is as follows:
 
 <details>
 
-<summary> Advance Python </summary>
-  
-## Course Content
-  
+<summary> Advance Python Concepts & Challenges  </summary>
+
   Content for this section is as follows:
     - [ ]  01  Build Your Own Rest API with Python
     - [ ]  02  Build Your Own Blog
@@ -139,10 +133,8 @@ content for this 100 days challenge is as follows:
 
 <details>
 
-<summary>  Professional Portfolio Building Independent Assignments  </summary>
-  
-## Course Content
-  
+<summary>  Professional Portfolio Ideas </summary>
+
    Content for this section is as follows:
     - [ ]  01  Text to Morse Code Converter
     - [ ]  02  Portfolio Website
