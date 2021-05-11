@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>  Python GUI Framework  </summary>
+<summary>  Python GUI / CLI Framework  </summary>
 
     - [ ]  Tkinter
     - [ ]  PyQt5
@@ -13,8 +13,11 @@
     - [ ]  Typer (CLI Project)
     - [ ]  Rich (Terminal Output Modifier)
     - [ ]  Dear PyGUI
-    - [ ]  Diagrams (System Architecture Design tool from code)
-    - [ ]  
+    - [ ]  Diagrams (System Architecture Design tool from code)  
+    - [ ]  pywin32
+    - [ ]  wxPython
+    - [ ]  Click
+    - [ ]  Gooey
   
   
 </details>
@@ -26,6 +29,8 @@
     - [ ]  Scrappy
     - [ ]  Beautiful Soap
     - [ ]  Selenium
+    - [ ]  Fabric
+    - [ ]  PyGTK
   
 </details>
 
@@ -41,6 +46,8 @@
     - [ ]  FastAPI
     - [ ]  TurboGears
     - [ ]  Web2Py
+    - [ ]  Dash
+    - [ ]  Zappa
 
 </details>
 
@@ -53,6 +60,7 @@
     - [ ]  Pyodbc for SQL Server
     - [ ]  Pymysql for MariaDB/MySQL
     - [ ]  fdb for Firebird
+    - [ ]  Peewee
   
 </details>
 
@@ -62,9 +70,6 @@
 
     - [ ]  PyGame
     - [ ]  Pyglet
-    - [ ]  Pyodbc for SQL Server
-    - [ ]  Pymysql for MariaDB/MySQL
-    - [ ]  fdb for Firebird
   
 </details>
 
@@ -98,81 +103,53 @@
     - [ ]  Azure
     - [ ]  AWS
     - [ ]  PyFirmata
-    - [ ]  
+    - [ ]  Python Twisted
 
+</details>
+
+<details>
+
+<summary>  File Handling and Documentation with Python  </summary>
+
+    - [ ]  PyFileSystem
+    - [ ]  Python Docx
+    - [ ]  Behold
+    - [ ]  Black
+    - [ ]  Invoke
+    - [ ]  Openpyxl
+    - [ ]  pandas
+## Datetime simplifiers, package manager and compilers
+
+    - [ ]  Arrow
+    - [ ]  poetry
+    - [ ]  pendulum
+    - [ ]  Nuitka
+    - [ ]  Numba
+  
 </details>
 
 <details>
 
 <summary>  Hands on Python Libraries  </summary>
 
-    - [ ]  Request
     - [ ]  fasttext
     - [ ]  core Audio
-    - [ ]  Pandas
-    - [ ]  Numpy
-    - [ ]  Keras
-    - [ ]  Seaborn
     - [ ]  Random
     - [ ]  OS
     - [ ]  Sys
     - [ ]  NLTK
-    - [ ]  D3j
-    - [ ]  Matplotlib
-    - [ ]  Gradio
-    - [ ]  SciPy
-    - [ ]  Tensor Flow
-    - [ ]  Ploty
-    - [ ]  Stats Model
-    - [ ]  Light GBM
-    - [ ]  Eli5
-    - [ ]  Theano
-    - [ ]  SparkML
     - [ ]  PyBorn
     - [ ]  NuPIC
     - [ ]  Pipenv
-    - [ ]  Bob
-    - [ ]  PyBrain
-    - [ ]  Dash
-    - [ ]  MILK
     - [ ]  Sympy
-    - [ ]  Caffe2
-    - [ ]  Hebel
-    - [ ]  ChainerBokeh
-    - [ ]  Pydot
     - [ ]  Gensim
-    - [ ]  PyOD
-    - [ ]  Python Twisted
     - [ ]  Pillow
-    - [ ]  pywin32
-    - [ ]  wxPython
     - [ ]  iPython
-    - [ ]  Nose
-    - [ ]  Fabric
-    - [ ]  PyGTK
-    - [ ]  simpleCV
-    - [ ]  zappa
     - [ ]  Imbalanced-learn 
-    - [ ]  poetry
-    - [ ]  pendulum
     - [ ]  loguru
     - [ ]  Appache libcloud
-    - [ ]  Arrow
-    - [ ]  Behold
-    - [ ]  Black
-    - [ ]  Click
     - [ ]  EbookLib
-    - [ ]  Gooey
-    - [ ]  Invoke
-    - [ ]  Nuitka
-    - [ ]  Numba
-    - [ ]  Openpyxl
-    - [ ]  Peewee
-    - [ ]  PyFileSystem
-    - [ ]  Python Docx
     - [ ]  sh
-    - [ ]  Splinter
-    - [ ]  Hiplot
 
   
 </details>
@@ -189,6 +166,12 @@
     - [ ]  Calculus
     - [ ]  Linear Algebra
     - [ ]  Equation in Markdown and LaTex
+    - [ ]  SciPy
+    - [ ]  Pandas
+    - [ ]  Numpy
+    - [ ]  Theano
+    - [ ]  PyOD
+    - [ ]  Stats Model
   
 </details>
 
@@ -215,6 +198,7 @@
     - [ ]  OLID, KISS, DRY, YAGNI design patterns
     - [ ]  Doc Testing
     - [ ]  Selenium
+    - [ ]  Splinter
   
 </details>
 
@@ -222,13 +206,14 @@
 
 <summary>  Networking with Python  </summary>
 
+    - [ ]  Request
+    - [ ]  Python Twisted
   <!-- 1. A numbered
   1. list
      * With some
      * Sub bullets -->
   
 </details>
-
 
 <details>
 
@@ -242,10 +227,12 @@
 
 <summary>  Data Visualization  </summary>
 
-  <!-- 1. A numbered
-  2. list
-     * With some
-     * Sub bullets -->
+    - [ ]  Seaborn
+    - [ ]  D3j
+    - [ ]  Hiplot
+    - [ ]  Pydot
+    - [ ]  Ploty
+    - [ ]  Matplotlib
   
 </details>
 
@@ -258,6 +245,15 @@
     - [ ]  Pytorch
     - [ ]  Scikit-Learn
     - [ ]  XGBoost
+    - [ ]  Gradio
+    - [ ]  SciPy
+    - [ ]  Eli5
+    - [ ]  Light GBM
+    - [ ]  Tensor Flow
+    - [ ]  MILK
+    - [ ]  Bob
+    - [ ]  PyBrain
+    - [ ]  SparkML
   
 </details>
 
@@ -266,7 +262,10 @@
 <summary>  Deep Learning  </summary>
 
     - [ ]  HummingBird
-    - [ ]  
+    - [ ]  Keras
+    - [ ]  Caffe2
+    - [ ]  Hebel
+    - [ ]  ChainerBokeh
   
 </details>
 
