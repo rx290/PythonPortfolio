@@ -43,21 +43,21 @@ content for this 100 days challenge is as follows:
 <summary> Intermediate Python Concepts & Challenges </summary>
   
     Content for this section is as follows:
-    - [ ]  01  Local Development Environment Setup
-    - [ ]  02  PyCharm Tips & Tricks
-    - [ ]  03  Python Object Oriented Programming
-    - [ ]  04  Creating Classes in Programming
-    - [ ]  05  Using External Python Modules / importing
+    - [x]  01  Local Development Environment Setup
+    - [x]  02  PyCharm Tips & Tricks
+    - [x]  03  Python Object Oriented Programming
+    - [x]  04  Creating Classes in Programming
+    - [x]  05  Using External Python Modules / importing
     - [ ]  06  Getting / Setting Attributes
-    - [ ]  07  Python Methods
+    - [x]  07  Python Methods
     - [x]  08  Class Initializers
-    - [ ]  09  Module Aliasing
-    - [ ]  10  Optional, Required and Default Parameters
+    - [x]  09  Module Aliasing
+    - [x]  10  Optional, Required and Default Parameters
     - [ ]  11  Event Listeners
     - [ ]  12  Python Instances and State
     - [ ]  13  Python Turtle
     - [ ]  14  Game Development with Python and OOP
-    - [ ]  15  Python Inheritance
+    - [x]  15  Python Inheritance
     - [ ]  16  Python Slice Function
     - [ ]  17  File I/O Reading and Writing to Local FIles
     - [ ]  18  File Directories
