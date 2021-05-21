@@ -54,16 +54,16 @@
    it will fetch every element with the class name let say we only need to find anchors with that class then we could do this:  \
    response.css('.chr-a a').getall()  \
    if we only need all text from anchors then we will do this:  \
-   response.css('.chr-a a::text').getall()  \
+   response.css('.chr-a a::text').getall()
 
 6. Selecting by using regular expression  \
     we have a property known as re which is used to fetch data with regular expressions for example:  \
-    response.css('P::text').re(r 'rimuru')  \
+    response.css('P::text').re(r 'rimuru')
 
     rimuru is the name of a character in a light novel and i just want to fetch the word rimuru from all paragraphs
 
 7. we can also use xpath to fetch data which is as follows  \
-    response.xpath('//h3') to get all h3  \
+    response.xpath('//h3') to get all h3
 
     to extract the encapsulated child we are required to use /text and extract() property for eg:  \
 
