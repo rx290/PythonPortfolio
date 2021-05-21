@@ -26,7 +26,7 @@
 
     scrapy shell
 
-### Basic Shell Commands
+## Basic Shell Commands
 
 1. response.css('title').get():  \
         what this command is doing is fetching "<title> </title>" element in the HTML webpage.
