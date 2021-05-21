@@ -65,9 +65,9 @@
 7. we can also use xpath to fetch data which is as follows  \
     response.xpath('//h3') to get all h3
 
-    to extract the encapsulated child we are required to use /text and extract() property for eg:  \
+    to extract the encapsulated child we are required to use /text and extract() property for eg:
 
-    response.xpath('//h3/text').extract() or response.xpath('//h3/text').getall()  \
+    response.xpath('//h3/text').extract() or response.xpath('//h3/text').getall()
 
     scrapy crawl "Crawler Name without quotes"
 
