@@ -26,7 +26,7 @@
 
     scrapy shell
 
-## Basic Shell Commands
+### Basic Shell Commands
 
     1. response.css('title').get():  \
             what this command is doing is fetching "<title> </title>" element in the HTML webpage.
@@ -39,22 +39,22 @@
         we will only fetch "some title"
 
     3. let say we have multiple we have multiple html elements like headings, spans, div or paragraphs so what we could do is  \
-    we can use indexing to fetch them with the above command for example:  \
-    response.css('h2::text')[1].get()  \
-    That command is going to fetch the second h2 heading text from the webpage.  \
-    note: index always starts with 0 until overridden
+        we can use indexing to fetch them with the above command for example:  \
+        response.css('h2::text')[1].get()  \
+        That command is going to fetch the second h2 heading text from the webpage.  \
+        note: index always starts with 0 until overridden
 
     4. How can we get all elements of the same type?  \
-    That is pretty simple just type the above mentioned command without indexer and use getall instead of get i.e.  \
-    response.css('h2::text').getall()
+        That is pretty simple just type the above mentioned command without indexer and use getall instead of get i.e.  \
+        response.css('h2::text').getall()
 
     5. Selecting by class and id:  \
-    "." is the notation used for class in css and "#" is the notation used for id. Same things are applicable in scrapy for eg:  \
-    response.css('.chr-a').getall()  \
-    it will fetch every element with the class name let say we only need to find anchors with that class then we could do this:  \
-    response.css('.chr-a a').getall()  \
-    if we only need all text from anchors then we will do this:  \
-    response.css('.chr-a a::text').getall()
+        "." is the notation used for class in css and "#" is the notation used for id. Same things are applicable in scrapy for eg:  \
+        response.css('.chr-a').getall()  \
+        it will fetch every element with the class name let say we only need to find anchors with that class then we could do this:  \
+        response.css('.chr-a a').getall()  \
+        if we only need all text from anchors then we will do this:  \
+        response.css('.chr-a a::text').getall()
 
     6. Selecting by using regular expression  \
         we have a property known as re which is used to fetch data with regular expressions for example:  \
@@ -63,13 +63,11 @@
         rimuru is the name of a character in a light novel and i just want to fetch the word rimuru from all paragraphs
 
     7. we can also use xpath to fetch data which is as follows  \
-        response.xpath('//h3') to get all h3
-
-        to extract the encapsulated child we are required to use /text and extract() property for eg:
-
+        response.xpath('//h3') to get all h3  \
+        to extract the encapsulated child we are required to use /text and extract() property for eg:  \
         response.xpath('//h3/text').extract() or response.xpath('//h3/text').getall()
 
-    scrapy crawl "Crawler Name without quotes"
+scrapy crawl "Crawler Name without quotes"
 
 ## Settings
 
