@@ -26,7 +26,7 @@
 
 <summary>  Web Scrapping  </summary>
 
-    - [ ]  Scrappy
+    - [x]  Scrappy
     - [ ]  Beautiful Soap
     - [ ]  Selenium
     - [ ]  Fabric
