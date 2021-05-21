@@ -28,7 +28,7 @@
 
 ### Basic Shell Commands
 
-1. response.css('title').get():
+1. response.css('title').get():  \
         what this command is doing is fetching "<title> </title>" element in the HTML webpage.
 
 2. ::text
@@ -50,6 +50,26 @@
    That is pretty simple just type the above mentioned command without indexer and use getall instead of get i.e.
    response.css('h2::text').getall()
 
+5. Selecting by class and id:
+   "." is the notation used for class in css and "#" is the notation used for id. Same things are applicable in scrapy for eg:
+   response.css('.chr-a').getall()
+   it will fetch every element with the class name let say we only need to find anchors with that class then we could do this:
+   response.css('.chr-a a').getall()
+   if we only need all text from anchors then we will do this:
+   response.css('.chr-a a::text').getall()
+
+6. Selecting by using regular expression
+    we have a property known as re which is used to fetch data with regular expressions for example:
+    response.css('P::text').re(r 'rimuru')
+
+    rimuru is the name of a character in a light novel and i just want to fetch the word rimuru from all paragraphs
+
+7. we can also use xpath to fetch data which is as follows
+    response.xpath('//h3') to get all h3
+
+    to extract the encapsulated child we are required to use /text and extract() property for eg:
+
+    response.xpath('//h3/text').extract() or response.xpath('//h3/text').getall()
 
     scrapy crawl "Crawler Name without quotes"
 
