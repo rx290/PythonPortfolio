@@ -139,7 +139,7 @@
 
 20. What is finalize keyword?
     Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class.
-    Finalize as an object method used to free up unmanaged resources and cleanup before Garbage Collection(GC). It performs memory management tasks.
+    Finalize as an object method used to free up unmanned resources and cleanup before Garbage Collection(GC). It performs memory management tasks.
 
 21. What is Garbage Collection (GC)?
     GC is an implementation of automatic memory management. The Garbage collector frees up space occupied by objects that are no longer in existence.
