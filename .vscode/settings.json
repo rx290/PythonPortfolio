@@ -7,14 +7,22 @@
         "Plotly",
         "Ronacher",
         "Scikit",
+        "Scrapy",
         "Subsetting",
         "Templating",
         "createdb",
+        "getall",
         "kwargs",
         "manjaro",
         "microframework",
         "pacman",
         "postgresql",
+        "scrapy",
         "unpickling"
-    ]
+    ],
+    "cSpell.ignoreWords": [
+        "createproject",
+        "scrapy"
+    ],
+    "python.pythonPath": "C:\\Program Files\\Python39\\python.exe"
 }
