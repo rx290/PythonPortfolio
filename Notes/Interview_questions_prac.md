@@ -278,7 +278,7 @@
 
 14. Difference between BFS and DFS?
 
-        <table class="tg">
+    <table class="tg">
     <thead>
     <tr>
         <th class="tg-0pky">Sr.No</th>
