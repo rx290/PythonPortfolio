@@ -5,18 +5,18 @@
 1. What is encapsulation?
 
     The attribute of an object to hide the data and set access specifiers for it is known as encapsulation.
-        Access specifiers are of three types which are as follows:
-            1. Public
-            2. Protected
-            3. Private
+    Access specifiers are of three types which are as follows:
+    1. Public
+    2. Protected
+    3. Private
 
 2. What is polymorphism?
 
     The attribute to exist in multiple forms is known as polymorphism. as per object attribute it means having multiple definitions
     of a method.
     Types:
-        1. Static (occurs at compile time i.e. method overloading)
-        2. Dynamic (occurs at runtime i.e. method overriding)
+    1. Static (occurs at compile time i.e. method overloading)
+    2. Dynamic (occurs at runtime i.e. method overriding)
 
 3. What is method overloading and overriding?
 
@@ -30,17 +30,17 @@
 
     The concept where one class can share its structure and behavior to another class is called inheritance.
     there are several types of inheritance which are as follows:
-        1. Single inheritance
-        2. Multiple inheritance
-        3. Multilevel inheritance
-        4. Hybrid inheritance
+    1. Single inheritance
+    2. Multiple inheritance
+    3. Multilevel inheritance
+    4. Hybrid inheritance
 
 5. What is data abstraction?
 
     Hiding of implementation details and displaying only relevant information is known as data abstraction.
     Data abstraction techniques:
-        1. Abstract Class
-        2. Abstract Methods
+    1. Abstract Class
+    2. Abstract Methods
 
     Abstract class consist of abstract methods and these methods are declared but not defined if these methods are to be used in any subsclass then these methods needs to be exclusively defined in that subclass
 
@@ -52,12 +52,12 @@
 
     access modifiers / specifiers are basically attributes of a class which determines the access scope of its methods or variables.
     Types of access specifiers are as follows:
-        1. Public
-        2. Default
-        3. Private
-        4. Protected
-        5. Friend
-        6. Protected Friend
+    1. Public
+    2. Default
+    3. Private
+    4. Protected
+    5. Friend
+    6. Protected Friend
 
     Level of access:
 
@@ -77,22 +77,22 @@
 9. Why setters, getters are kept public but the data is kept private?
 
     Apart from data encapsulation and easier future modifications here is a list of pros for keeping them public:
-        1. Encapsulation of behavior associated with getting or setting the property - this allows additional functionality (like validation) to be added more easily later.
-        2. Hiding the internal representation of the property while exposing a property using an alternative representation.
-        3. Insulating your public interface from change - allowing the public interface to remain constant while the implementation changes without affecting existing consumers.
-        4. Controlling the lifetime and memory management (disposal) semantics of the property - particularly important in non-managed memory environments (like C++ or Objective-C).
-        5. Providing a debugging interception point for when a property changes at runtime - debugging when and where a property changed to a particular value can be quite difficult without this in some languages.
-        6. Improved interoperability with libraries that are designed to operate against property getter/setters - Mocking, Serialization, and WPF come to mind.
-        7. Allowing inheritors to change the semantics of how the property behaves and is exposed by overriding the getter/setter methods.
-        8. Allowing the getter/setter to be passed around as lambda expressions rather than values.
-        9. Getters and setters can allow different access levels - for example the get may be public, but the set could be protected.
+    1. Encapsulation of behavior associated with getting or setting the property - this allows additional functionality (like validation) to be added more easily later.
+    2. Hiding the internal representation of the property while exposing a property using an alternative representation.
+    3. Insulating your public interface from change - allowing the public interface to remain constant while the implementation changes without affecting existing consumers.
+    4. Controlling the lifetime and memory management (disposal) semantics of the property - particularly important in non-managed memory environments (like C++ or Objective-C).
+    5. Providing a debugging interception point for when a property changes at runtime - debugging when and where a property changed to a particular value can be quite difficult without this in some languages.
+    6. Improved interoperability with libraries that are designed to operate against property getter/setters - Mocking, Serialization, and WPF come to mind.
+    7. Allowing inheritors to change the semantics of how the property behaves and is exposed by overriding the getter/setter methods.
+    8. Allowing the getter/setter to be passed around as lambda expressions rather than values.
+    9. Getters and setters can allow different access levels - for example the get may be public, but the set could be protected.
 
 10. What are different types of argument?
 
     A parameter is a variable used during the declaration of the function or subroutine, and arguments are passed to the function body, and it should match with the parameter defined. There are two types of Arguments.
 
-        1. Call by Value – Value passed will get modified only inside the function, and it returns the same value whatever it is passed into the function.
-        2. Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.
+    1. Call by Value – Value passed will get modified only inside the function, and it returns the same value whatever it is passed into the function.
+    2. Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.
 
 11. What is an interface?
 
@@ -463,16 +463,16 @@
         
         we can see how Bubble Compares each pair in the data-set and swaps the position of the value if the value is larger, pushing the largest values to the right and smallest to the left, building the output from right to left.
 
-        Merge Sort
-        
+    Merge Sort
+
         Time Complexity: Θ(n log n)
         
         Merge Sort is considered to be one of the fastest sorting algorithms, it is a bit more complex than Selection and Bubble Sort but its more efficient. The idea of Merge Sort is to divide the data-set into smaller data-sets, sort those smaller data-sets and then join them (merge them) together. The way this algorithm behaves is by sorting the left side of the data- set first then the right part and them merging them. Merge sort will divide in two the data-set until all the elements are separate then it will start joining from left to right in pairs then those pairs will merge from left to right until there are only two bigger pairs to join. If we think about it, this makes it easy to merge because if we have to parts of a data-set that are both sorted we can then compare the first element in one data-set with the other and determine which one is smaller, therefore, pushing that smaller element first into a new data-set.
 
         This algorithm has the same Time Complexity for both worst and best-case scenarios because even if the array is sorted(best-case) the algorithm will still have to do the full procedure to determine whether the data-set is sorted or not.
 
-        Quicksort
-            
+    Quicksort
+
             Time Complexity: Ω(n log(n)) — O(n²)
             
             Quicksort is also one of the fastest algorithms. To perform a Quicksort we need to pick one element in the data-set and use it as something called a “pivot”, a pivot is an element that is used to compare other elements in the data-set and determine in what position they should be. The first pivot can be a random element in the data-set but by convention, the first or last element is used. The first objective will be getting the first pivot to its correct position in the data-set, to achieve this, we have to sort the elements such that all the elements that are bigger than the pivot are sent to the right of the pivot and all the elements that are smaller than the pivot are sent to the left of the pivot.
