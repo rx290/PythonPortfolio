@@ -20,7 +20,40 @@
     2. Protected
     3. Private
 
-2. What is polymorphism?
+2. What is difference between encapsulation and abstraction?
+
+   {| class="wikitable"
+    |-
+    ! Sr. no
+    ! Abstraction
+    ! Encapsulation
+    |-
+    | 1
+    | Abstraction is the process or method of gaining the information.
+    | While encapsulation is the process or method to contain the information.
+    |-
+    | 2
+    | In abstraction, problems are solved at the design or interface level.
+    | While in encapsulation, problems are solved at the implementation level.
+    |-
+    | 3
+    | Abstraction is the method of hiding the unwanted information.
+    | Whereas encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside.
+    |-
+    | 4
+    | We can implement abstraction using abstract class and interfaces.
+    | Whereas encapsulation can be implemented using by access modifier i.e. private, protected and public.
+    |-
+    | 5
+    | In abstraction, implementation complexities are hidden using abstract classes and interfaces.
+    | While in encapsulation, the data is hidden using methods of getters and setters.
+    |-
+    | 6
+    | The objects that help to perform abstraction are encapsulated.
+    | Whereas the objects that result in encapsulation need not be abstracted.
+    |}
+
+3. What is polymorphism?
 
     The attribute to exist in multiple forms is known as polymorphism. as per object attribute it means having multiple definitions
     of a method.
@@ -28,7 +61,7 @@
     1. Static (occurs at compile time i.e. method overloading)
     2. Dynamic (occurs at runtime i.e. method overriding)
 
-3. What is method overloading and overriding?
+4. What is method overloading and overriding?
 
     Method overloading:
         Creating methods of same name but with different arguments.
@@ -36,7 +69,7 @@
     Method overriding
         A feature to redefine the base class methods as per the child class need but the signature meaning, argument passed and return type will remain same.
 
-4. What is inheritance?
+5. What is inheritance?
 
     The concept where one class can share its structure and behavior to another class is called inheritance.
     there are several types of inheritance which are as follows:
@@ -45,7 +78,7 @@
     3. Multilevel inheritance
     4. Hybrid inheritance
 
-5. What is data abstraction?
+6. What is data abstraction?
 
     Hiding of implementation details and displaying only relevant information is known as data abstraction.
     Data abstraction techniques:
@@ -54,11 +87,11 @@
 
     Abstract class consist of abstract methods and these methods are declared but not defined if these methods are to be used in any subsclass then these methods needs to be exclusively defined in that subclass
 
-6. virtual functions?
+7. virtual functions?
 
     These are defined in the parent class with virtual keywords and are overridden in the subclass these are used to achieve runtime polymorphism.
 
-7. What are access specifiers and why they're used?
+8. What are access specifiers and why they're used?
 
     access modifiers / specifiers are basically attributes of a class which determines the access scope of its methods or variables.
     Types of access specifiers are as follows:
@@ -80,11 +113,11 @@
         |  Same Package   | - [x]   | - [ ]   |  - [ ]   |   - [ ]   |  - [x]  |      - [x]       |
         |  Diff. Package  | - [x]   | - [ ]   |  - [ ]   |   - [ ]   |  - [ ]  |      - [x]       |
 
-8. How do we modify protected data?
+9.  How do we modify protected data?
 
     By using setter and getters
 
-9. Why setters, getters are kept public but the data is kept private?
+10. Why setters, getters are kept public but the data is kept private?
 
     Apart from data encapsulation and easier future modifications here is a list of pros for keeping them public:
     1. Encapsulation of behavior associated with getting or setting the property - this allows additional functionality (like validation) to be added more easily later.
@@ -97,14 +130,14 @@
     8. Allowing the getter/setter to be passed around as lambda expressions rather than values.
     9. Getters and setters can allow different access levels - for example the get may be public, but the set could be protected.
 
-10. What are different types of argument?
+11. What are different types of argument?
 
     A parameter is a variable used during the declaration of the function or subroutine, and arguments are passed to the function body, and it should match with the parameter defined. There are two types of Arguments.
 
     1. Call by Value – Value passed will get modified only inside the function, and it returns the same value whatever it is passed into the function.
     2. Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.
 
-11. What is an interface?
+12. What is an interface?
 
     In simple words each class can have its own interface and an interface is like a spec-sheet of attributes which is used to determine whether the instance qualify to be known as an object or not.
 
@@ -114,38 +147,38 @@
 
     To create an interface, interface keyword is used.
 
-12. What is exception handling?
+13. What is exception handling?
 
     An exception is an event that occurs during the execution of a program. Exceptions can be of any type – Runtime exception, Error exceptions. Those exceptions are adequately handled through exception handling mechanism like try, catch, and throw keywords.
 
-13. What is a friend function?
+14. What is a friend function?
 
     A friend function is a friend of a class that is allowed to access to Public, private, or protected data in that same class. If the function is defined outside the class cannot access such information.
 
     A friend can be declared anywhere in the class declaration, and it cannot be affected by access control keywords like private, public, or protected.
 
-14. What is this pointer?
+15. What is this pointer?
 
     THIS pointer refers to the current object of a class. THIS keyword is used as a pointer which differentiates between the current object with the global object. It refers to the current object.
 
-15. What is difference between structure and a class?
+16. What is difference between structure and a class?
 
     Class: User-defined blueprint from which objects are created. It consists of methods or set of instructions that are to be performed on the objects.
 
     Structure: A structure is basically a user-defined collection of variables which are of different data types.
 
-16. What is pure virtual function?
+17. What is pure virtual function?
 
     Pure virtual functions or abstract functions are functions that are only declared in the base class. This means that they do not contain any definition in the base class and need to be redefined in the subclass.
 
-17. How is overloading and overriding done?
+18. How is overloading and overriding done?
 
     Overloading is static Binding, whereas Overriding is dynamic Binding. Overloading is nothing but the same method with different arguments, and it may or may not return the equal value in the same class itself.
     Operator keyword is used for overloading.
 
     Overriding is the same method names with the same arguments and return types associated with the class and its child class.
 
-18. What is the difference between OOP and SOP?
+19. What is the difference between OOP and SOP?
 
         | Object oriented programming                                           | Structural Programming                                                       |
         | ------------------------------------------------------------------    | -------------------------------------------------------------------------    | 
@@ -155,7 +188,7 @@
         |  Can solve problems of any complexity                                 | Can solve moderate problems                                                  |
         |  Code can be reused thereby reducing redundancy                       | Does not support code reusability                                            |
 
-19. What is Data abstraction and its techniques?
+20. What is Data abstraction and its techniques?
 
     Data abstraction is a very important feature of OOPs that allows displaying only the important information and hiding the implementation details. For example, while riding a bike, you know that if you raise the accelerator, the speed will increase, but you don’t know how it actually happens. This is data abstraction as the implementation details are hidden from the rider.
     Data abstraction can be achieved through:
@@ -165,16 +198,16 @@
         
         Abstract method
 
-20. What is finalize keyword?
+21. What is finalize keyword?
 
     Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class.
     Finalize as an object method used to free up unmanned resources and cleanup before Garbage Collection(GC). It performs memory management tasks.
 
-21. What is Garbage Collection (GC)?
+22. What is Garbage Collection (GC)?
 
     GC is an implementation of automatic memory management. The Garbage collector frees up space occupied by objects that are no longer in existence.
 
-22. What is a final variable?
+23. What is a final variable?
 
     A variable whose value does not change. It always refers to the same object by the property of non-transversity.
 
