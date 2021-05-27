@@ -22,36 +22,47 @@
 
 2. What is difference between encapsulation and abstraction?
 
-   {| class="wikitable"
-    |-
-    ! Sr. no
-    ! Abstraction
-    ! Encapsulation
-    |-
-    | 1
-    | Abstraction is the process or method of gaining the information.
-    | While encapsulation is the process or method to contain the information.
-    |-
-    | 2
-    | In abstraction, problems are solved at the design or interface level.
-    | While in encapsulation, problems are solved at the implementation level.
-    |-
-    | 3
-    | Abstraction is the method of hiding the unwanted information.
-    | Whereas encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside.
-    |-
-    | 4
-    | We can implement abstraction using abstract class and interfaces.
-    | Whereas encapsulation can be implemented using by access modifier i.e. private, protected and public.
-    |-
-    | 5
-    | In abstraction, implementation complexities are hidden using abstract classes and interfaces.
-    | While in encapsulation, the data is hidden using methods of getters and setters.
-    |-
-    | 6
-    | The objects that help to perform abstraction are encapsulated.
-    | Whereas the objects that result in encapsulation need not be abstracted.
-    |}
+    <table>
+    <thead>
+    <tr>
+        <th>Sr. no</th>
+        <th>Abstraction</th>
+        <th>Encapsulation</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Abstraction is the process or method of gaining the information.</td>
+        <td>While encapsulation is the process or method to contain the information.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>In abstraction, problems are solved at the design or interface level.</td>
+        <td>While in encapsulation, problems are solved at the implementation level.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Abstraction is the method of hiding the unwanted information.</td>
+        <td>Whereas encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>We can implement abstraction using abstract class and interfaces.</td>
+        <td>Whereas encapsulation can be implemented using by access modifier i.e. private, protected and public.</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>In abstraction, implementation complexities are hidden using abstract classes and interfaces.</td>
+        <td>While in encapsulation, the data is hidden using methods of getters and setters.</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>The objects that help to perform abstraction are encapsulated.</td>
+        <td>Whereas the objects that result in encapsulation need not be abstracted.</td>
+    </tr>
+    </tbody>
+    </table>
 
 3. What is polymorphism?
 
