@@ -2,7 +2,6 @@
 
 - [Interview Preparations](#interview-preparations)
   - [OOP](#oop)
-- [<<<<<<< HEAD](#-head)
   - [Data Structure & Algorithm](#data-structure--algorithm)
     - [Time Complexities](#time-complexities)
       - [Data Structures](#data-structures)
@@ -264,11 +263,8 @@
 
     Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class.
     Finalize as an object method used to free up unmanned resources and cleanup before Garbage Collection(GC). It performs memory management tasks.
-<<<<<<< HEAD
-=======
 
 23. What is Garbage Collection (GC)?
->>>>>>> e891b4de91f0fe48889a6682d52abdf0d69a6a00
 
     GC is an implementation of automatic memory management. The Garbage collector frees up space occupied by objects that are no longer in existence.
 
