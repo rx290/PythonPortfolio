@@ -277,6 +277,7 @@
     A linear search refers to the way a target key is being searched in a sequential data structure. In this method, each element in the list is checked and compared against the target key. The process is repeated until found or if the end of the file has been reached.
 
 14. Difference between BFS and DFS?
+
     +-------+-----------------------------------------------------------+-----------------------------------------------------------------+
     | Sr.No | BFS                                                       | DFS                                                             |
     +-------+-----------------------------------------------------------+-----------------------------------------------------------------+
