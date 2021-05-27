@@ -1,5 +1,17 @@
 # Interview Preparations
 
+- [Interview Preparations](#interview-preparations)
+  - [OOP](#oop)
+  - [Data Structure & Algorithm](#data-structure--algorithm)
+    - [Time Complexities](#time-complexities)
+      - [Data Structures](#data-structures)
+      - [Sorting Algorithm](#sorting-algorithm)
+    - [Interview Questions](#interview-questions)
+  - [Database Interview Questions](#database-interview-questions)
+    - [Most common Interview Questions](#most-common-interview-questions)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## OOP
 
 1. What is encapsulation?
