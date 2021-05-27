@@ -1,22 +1,24 @@
-# OOP
+# Interview Preparations
 
-1.  What is encapsulation?
+## OOP
+
+1. What is encapsulation?
     The attribute of an object to hide the data and set access specifiers for it is known as encapsulation.
-        Access specifers are of three types which are as follows:
-            1. Public 
+        Access specifiers are of three types which are as follows:
+            1. Public
             2. Protected
             3. Private
 
-2.  What is polymorphism?
-    The attribute to exist in multiple forms is known as polymorphism. as per object attribute it means having multiple definitions 
+2. What is polymorphism?
+    The attribute to exist in multiple forms is known as polymorphism. as per object attribute it means having multiple definitions
     of a method.
     Types:
         1. Static (occurs at compile time i.e. method overloading)
         2. Dynamic (occurs at runtime i.e. method overriding)
 
-3. What is method overloadding and overriding?
+3. What is method overloading and overriding?
     Method overloading:
-        Creating metods of same name but with diffrent arguments.
+        Creating methods of same name but with different arguments.
 
     Method overriding
         A feature to redefine the base class methods as per the child class need but the signature meaning, argument passed and return type will remain same.
@@ -38,8 +40,8 @@
     Abstract class consist of abstract methods and these methods are declared but not defined if these methods are to be used in any subsclass then these methods needs to be exclusively defined in that subclass
 
 6. virtual functions?
-    These are defined in the parent class with virtual keywords and are overriden in the subclass these are used to achieve runtime polymorphism.
-    
+    These are defined in the parent class with virtual keywords and are overridden in the subclass these are used to achieve runtime polymorphism.
+
 7. What are access specifiers and why they're used?
     access modifiers / specifiers are basically attributes of a class which determines the access scope of its methods or variables.
     Types of access specifiers are as follows:
@@ -60,7 +62,7 @@
         |  Globally       | - [x]   | - [ ]   |  - [ ]   |   - [ ]   |  - [ ]  |      - [ ]       |
         |  Same Package   | - [x]   | - [ ]   |  - [ ]   |   - [ ]   |  - [x]  |      - [x]       |
         |  Diff. Package  | - [x]   | - [ ]   |  - [ ]   |   - [ ]   |  - [ ]  |      - [x]       |
-        
+
 8. How do we modify protected data?
     By using setter and getters
 
@@ -83,8 +85,8 @@
         2. Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.
 
 11. What is an interface?
-    In simple words each class can have its own interface and an interface is like a specsheet of attributes which is used to determine whether the instance qualify to be known as an object or not.
-    
+    In simple words each class can have its own interface and an interface is like a spec-sheet of attributes which is used to determine whether the instance qualify to be known as an object or not.
+
     or
 
     An interface is a collection of an abstract method. If the class implements an interface, it thereby inherits all the abstract methods of an interface.
@@ -116,10 +118,8 @@
 
     Overriding is the same method names with the same arguments and return types associated with the class and its child class.
 
-
-
 18. What is the difference between OOP and SOP?
-    
+
         | Object oriented programming                                           | Structural Programming                                                       |
         | ------------------------------------------------------------------    | -------------------------------------------------------------------------    | 
         |  OPP is  based on objects rather than just functions and procedures   | Provides logical structure to a program where programs are divided functions |
@@ -147,12 +147,12 @@
 22. What is a final variable?
     A variable whose value does not change. It always refers to the same object by the property of non-transversity.
 
+## Data Structure & Algorithm
 
-# Data Structure & Algorithm
+### Time Complexities
 
-## Time Complexities
+#### Data Structures
 
-### Data Structures
             +--------------------+-----------------------------------------------------------------------------------------------+------------------+
             |   Data Structure   |                                        Time Complexity                                        | Space Complexity |
             +--------------------+-----------------------------------------------+-----------------------------------------------+------------------+
@@ -189,7 +189,7 @@
             |       KD Tree      | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) | Θ(log(n)) |    O(n)   |    O(n)   |    O(n)   |    O(n)   |       O(n)       |
             +--------------------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+------------------+
 
-### Sorting Algorithm
+#### Sorting Algorithm
 
             +----------------+-----------------------------------------------+------------------+
             |    Algorithm   |                Time Complexity                | Space Complexity |
@@ -225,39 +225,39 @@
             |                |             |                 |               |                  |
             +----------------+-------------+-----------------+---------------+------------------+
 
-## Interview Questions
+### Interview Questions
 
-1.  Difference between file structure and structure storage structure?
+1. Difference between file structure and structure storage structure?
     he key difference between both the data structure is the memory area that is being accessed. When dealing with the structure that resides the main memory of the computer system, this is referred to as storage structure. When dealing with an auxiliary structure, we refer to it as file structures.
 
-2.  What is LIFO?
+2. What is LIFO?
     LIFO is a short form of Last In First Out. It refers how data is accessed, stored and retrieved. Using this scheme, data that was stored last should be the one to be extracted first. This also means that in order to gain access to the first data, all the other data that was stored before this first data must first be retrieved and extracted.
 
-3.  What is FIFO?
+3. What is FIFO?
     FIFO stands for First-in, First-out, and is used to represent how data is accessed in a queue. Data has been inserted into the queue list the longest is the one that is removed first.
 
-4.  What are common types of Data Structures?
-    1.  Array
-    2.  Queue
-    3.  Linked list
-    4.  Heap
-    5.  Tree
-    6.  Stack
-    7.  graph
+4. What are common types of Data Structures?
+    1. Array
+    2. Queue
+    3. Linked list
+    4. Heap
+    5. Tree
+    6. Stack
+    7. graph
 
-5.  What is a stack?
+5. What is a stack?
     A stack is a data structure in which only the top element can be accessed. As data is stored in the stack, each data is pushed downward, leaving the most recently added data on top.
 
-6.  What is a queue?
+6. What is a queue?
     A queue is a data structure that can simulate a list or stream of data. In this structure, new elements are inserted at one end, and existing elements are removed from the other end.
 
-7.  What is a binary tree?
+7. What is a binary tree?
     A binary search tree stores data in such a way that they can be retrieved very efficiently. The left subtree contains nodes whose keys are less than the node’s key value, while the right subtree contains nodes whose keys are greater than or equal to the node’s key value. Moreover, both subtrees are also binary search trees.
 
-8.  What data types are applied using recursion?
+8. What data types are applied using recursion?
     Recursion, is a function that calls itself based on a terminating condition, makes use of the stack. Using LIFO, a call to a recursive function saves the return address so that it knows how to return to the calling function after the call terminates.
 
-9.  what are multidimensional arrays?
+9. what are multidimensional arrays?
     Multidimensional arrays make use of multiple indexes to store data. It is useful when storing data that cannot be represented using single dimensional indexing, such as data representation in a board game, tables with data stored in more than one column.
 
 10. linked list are linear or non linear in nature? Explain
@@ -267,10 +267,10 @@
     A Heap is a special Tree-based data structure in which the tree is a complete binary tree. Generally, Heaps can be of two types:
 
     Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
-    
+
     Min-Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.
 
-12. what is an orderd list?
+12. what is an ordered list?
     An ordered list is a list in which each node’s position in the list is determined by the value of its key component, so that the key values form an increasing sequence, as the list is traversed.
 
 13. What is a liner search?
@@ -294,8 +294,8 @@
 17. How does signed and unsigned numbers affect memory?
     In the case of signed numbers, the first bit is used to indicate whether positive or negative, which leaves you with one bit short. With unsigned numbers, you have all bits available for that number. The effect is best seen in the number range (an unsigned 8-bit number has a range 0-255, while the 8-bit signed number has a range -128 to +127.
 
-18. What is the realtionship between queue and linked list?
-    The structre of queue is based on singly linked list which is dynamic in nature. 
+18. What is the relationship between queue and linked list?
+    The structure of queue is based on singly linked list which is dynamic in nature. 
 
 19. Give a basic algorithm for searching a binary search tree.
     1. if the tree is empty, then the target is not in the tree, end search
@@ -317,24 +317,24 @@
 23. what is a doubly linked list?
     Doubly linked lists are a special type of linked list wherein traversal across the data elements can be done in both directions. This is made possible by having two links in every node, one that links to the next node and another one that connects to the previous node
 
-24. What is huffman algorith?
+24. What is huffman algorithm?
     Huffman’s algorithm is used for creating extended binary trees that have minimum weighted path lengths from the given weights. It makes use of a table that contains the frequency of occurrence for each data element.
 
-24. what is fibonacci search?
+25. what is fibonacci search?
     Fibonacci search is a search algorithm that applies to a sorted array. It makes use of a divide-and-conquer approach that can significantly reduce the time needed in order to reach the target element.
 
-25. Explain recursion?
+26. Explain recursion?
     Recursive algorithm targets a problem by dividing it into smaller, manageable sub-problems. The output of one recursion after processing one sub-problem becomes the input to the next recursive process.
 
-26. What is hashing?
+27. What is hashing?
     Hashing is a technique or process of mapping keys, values into the hash table by using a hash function. It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function used.
 
     Let a hash function H(x) maps the value x at the index x%10 in an Array. For example if the list of values is [11,12,13,14,15] it will be stored at positions {1,2,3,4,5} in the array or Hash table respectively.
 
-27. What is a spanning tress?
+28. What is a spanning tress?
     A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. A spanning tree does not have cycles and it can not be disconnected.
 
-28. What are greedy algorith,?
+29. What are greedy algorith,?
     The below given problems find their solution using greedy algorithm approach −
 
         Travelling Salesman Problem
@@ -346,61 +346,157 @@
         Knapsack Problem
         Job Scheduling Problem
 
-29. what is an algorithm?
+30. what is an algorithm?
     Algorithm is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.
 
-30. which DS should be used for implementiong LRU cache?
+31. which DS should be used for implementiong LRU cache?
     We use two data structures to implement an LRU Cache.
 
     Queue which is implemented using a doubly linked list. The maximum size of the queue will be equal to the total number of frames available (cache size). The most recently used pages will be near rear end and least recently pages will be near front end.
 
     A Hash with page number as key and address of the corresponding queue node as value. See How to implement LRU caching scheme? What data structures should be used?
 
+## Database Interview Questions
 
-# Database Interview Questions
-
-## Most common Interview Questions
+### Most common Interview Questions
 
 1. What is RDBMS?
+   That type of database which uses tables to store data. which are also used to create relationship with other stored dataset are known as Relation Database Management system.
+
 2. What are records?
+   A collection of sequential fields with different data types to store data in a table is known as a record.
+
 3. What are advantages of RDBMS?
+    1. Simplicity in Data Models
+    2. Data Accuracy
+    3. Data is easy to access
+    4. Data integrity
+    5. Flexibility
+    6. Normalization
+    7. it welcomes future proofing i.e. it welcomes future modifications
+    8. High Security
+
 4. What is Data Redundancy?
+   Occurrence or storing of same data at different locations are known as data redundancy.
+
 5. What are Database Relationships?
    1. 1 - 1
    2. 1 - many
    3. many - 1
+  
 6. Explain Normalization and De-normalization?
+   Normalization:
+    1. Normalization is used to remove redundant data from DB and to store non redundant and consistent data into it.
+    2. It uses optimized memory hence faster in performance.
+    3. Normalization is generally used where no. of CURD operations are performed and joins of the tables are not expensive.
+
+    De-normalization:
+    1. It is used to combine multiple table into a single table so that it could be queried quickly.
+    2. it introduces redundancy for faster execution of queries.
+    3. Joins are expensive and the queries are frequently executed on the tables.
+
 7. Why is indexing used?
-8. Types of SQL Statements?
+   Indexes are used to quickly locate data without having to search every row in the database table every time a database table is accessed.
+   Indexes can be created using or or more fields of Tables which provides basis of both rapid random lookups and efficient access of ordered records.
+
+8. Types of SQL Statements? and State DDL , DML and DCL Clauses?
    1. DDL: Data Definition Language
    2. DML: Data Manipulation language
    3. DCL: Data Control Language
-9. State DDL , DML and DCL Clauses?
-   1. DDL
+   4. DDL
        1. Create
        2. Alter
        3. Truncate
        4. Drop
        5. Rename
-   2. DML
+   5. DML
       1. Insert
       2. Update
       3. Delete
       4. Merge
-   3. DCL
+   6. DCL
       1. Commit
       2. Rollback
-      3. Savepoint
-10. Difference between Having and Where Clause?
-11. Explain Indexing and its purpose?
-12. What are views?
-13. What are cursors and its type?
-14. What are database transactions?
-15. What are database lock?
-16. Define Joins and explain its types?
-17. What are aggregated functions?
-18. What are keys?
-19. Difference between delete and truncate and drop?
-20. What is normalization and its types?
-21. Find Second Highest Salary?
+      3. Save point
+
+9. Difference between Having and Where Clause?
+    Where Clause:
+        Where clause is used for filtration purposes i.e. while joining one or more table or fetching only specific records which are going to satisfy a specific condition for e.g:
+
+        select * from Student where age >= 21;
+
+    Having Clause:
+        Having clause is used when aggregated functions or calculations are going to get performed in the queries. for e.g:
+
+        select Item, sum(Amount) as Net_amount from Transaction group by item having sum(Net_amount) > 1200;
+
+10. What are views?
+    A virtual tables based on the result set of a query performed on one or more real tables.
+
+11. What are cursors and its type?
+    Cursors are temporary work area created in the main memory of a system when sql queries are executed. These work areas contain information on a select statement and the rows of data accessed by the query.
+    This work area is used to store, retrieve and manipulate data from the database.
+    There are two types of cursors which are as follows:
+        1. implicit Cursors (Created by default)
+        2. Explicit Cursors (must be created)
+
+12. What are database transactions?
+    A single module / unit / logic or procedure which is made up of multiple operations is known as a transaction. for example:
+    a bank transfer requires checking of the balance whether they have sufficient funds or not then subtracting the amount from their bank account and transferring it to the targeted account by adding transferred amount to their current balance.  
+
+13. What are database lock?
+    A mechanism to ensure data consistency. it occurs when a transaction starts and it ends when the transaction is completed in order to prevent further changes from other sources for that particular transaction.
+
+14. Define Joins and explain its types?
+    There are several types of joins which are as follows:
+    1. Left Join : Returns all records from the left table, and the matched records from the right table
+    2. Right Join : Returns all records from the right table, and the matched records from the left table
+    3. Inner Join : Returns records that have matching values in both tables
+    4. Full Outer Join : Returns all records when there is a match in either left or right table
+    5. Cross Join :  it returns a cartesian product of the tables if where clause is not used otherwise it returns same results as an inner join
+    6. Self Join
+
+15. What are aggregated functions?
+    An aggregate function performs a calculation on a set of values, and returns a single value. Except for COUNT(*) , aggregate functions ignore null values. Aggregate functions are often used with the GROUP BY clause of the SELECT statement. All aggregate functions are deterministic.
+    list of aggregated functions:
+        1. AVG
+        2. Count
+        3. Max
+        4. Min
+        5. Sum
+
+16. What are keys?
+    KEYS in DBMS is an attribute or set of attributes which helps you to identify a row(tuple) in a relation(table). They allow you to find the relation between two tables. Key is also helpful for finding unique record or row from the table.
+    Types of keys:
+    1. Super Key -  A super key is a group of single or multiple keys which identifies rows in a table.
+    2. Primary Key -  is a column or group of columns in a table that uniquely identify every row in that table.
+    3. Candidate Key -  is a set of attributes that uniquely identify tuples in a table. Candidate Key is a super key with no repeated attributes.
+    4. Alternate Key -  is a column or group of columns in a table that uniquely identify every row in that table.
+    5. Foreign Key -  is a column that creates a relationship between two tables. The purpose of Foreign keys is to maintain data integrity and allow navigation between two different instances of an entity.
+    6. Compound Key -  has two or more attributes that allow you to uniquely recognize a specific record. It is possible that each column may not be unique by itself within the database.
+    7. Composite Key -  An artificial key which aims to uniquely identify each record is called a surrogate key. These kind of key are unique because they are created when you don't have any natural primary key.
+    8. Surrogate Key -  An artificial key which aims to uniquely identify each record is called a surrogate key. These kind of key are unique because they are created when you don't have any natural primary key. 
+
+17. Difference between delete and truncate and drop?
+    | Sr. No. |          Key         |                      Delete                     |                      Truncate                      |
+|:-------:|:--------------------:|:-----------------------------------------------:|:--------------------------------------------------:|
+| 1       | Basic                | It is used to delete specific data              | It is used to delete the entire data of the table  |
+| 2       |        Where clause  | We can use with where clause                    | It can’t be used with where clause                 |
+| 3       | Locking              | It locks the table row before deleting the row  | It locks the entire table                          |
+| 4       | Rollback             | We can rollback the changes.                    | We can’t rollback the changes                      |
+| 5       | Performance          | It is slower than truncate                      | It is faster than delete                           |
+
+18. What is normalization and its types?
+    Database Normalization is a process and it should be carried out for every database you design. The process of taking a database design, and apply a set of formal criteria and rules, is called Normal Forms.
+
+    The database normalization process is further categorized into the following types:
+
+    1. First Normal Form (1 NF): records should have atomic values
+    2. Second Normal Form (2 NF): 1NF, every non key field must depend on primary key, no partial dependencies
+    3. Third Normal Form (3 NF): 2nf, no transitive functional dependency
+    4. Boyce Codd Normal Form or Fourth Normal Form ( BCNF or 4 NF): not having more than one candidate key
+    5. Fifth Normal Form (5 NF): can't be divided into smaller tables without loss of data
+    6. Sixth Normal Form (6 NF): isn't standardized yet
+
+19. Find Second Highest Salary?
     1. Select Max(salary) from employee order by salary DESC n-1, 1;
