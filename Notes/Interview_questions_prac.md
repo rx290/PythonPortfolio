@@ -295,7 +295,7 @@
     In the case of signed numbers, the first bit is used to indicate whether positive or negative, which leaves you with one bit short. With unsigned numbers, you have all bits available for that number. The effect is best seen in the number range (an unsigned 8-bit number has a range 0-255, while the 8-bit signed number has a range -128 to +127.
 
 18. What is the relationship between queue and linked list?
-    The structure of queue is based on singly linked list which is dynamic in nature. 
+    The structure of queue is based on singly linked list which is dynamic in nature.
 
 19. Give a basic algorithm for searching a binary search tree.
     1. if the tree is empty, then the target is not in the tree, end search
@@ -479,12 +479,12 @@
 
 17. Difference between delete and truncate and drop?
     | Sr. No. |          Key         |                      Delete                     |                      Truncate                      |
-|:-------:|:--------------------:|:-----------------------------------------------:|:--------------------------------------------------:|
-| 1       | Basic                | It is used to delete specific data              | It is used to delete the entire data of the table  |
-| 2       |        Where clause  | We can use with where clause                    | It can’t be used with where clause                 |
-| 3       | Locking              | It locks the table row before deleting the row  | It locks the entire table                          |
-| 4       | Rollback             | We can rollback the changes.                    | We can’t rollback the changes                      |
-| 5       | Performance          | It is slower than truncate                      | It is faster than delete                           |
+    |:-------:|:--------------------:|:-----------------------------------------------:|:--------------------------------------------------:|
+    | 1       | Basic                | It is used to delete specific data              | It is used to delete the entire data of the table  |
+    | 2       |        Where clause  | We can use with where clause                    | It can’t be used with where clause                 |
+    | 3       | Locking              | It locks the table row before deleting the row  | It locks the entire table                          |
+    | 4       | Rollback             | We can rollback the changes.                    | We can’t rollback the changes                      |
+    | 5       | Performance          | It is slower than truncate                      | It is faster than delete                           |
 
 18. What is normalization and its types?
     Database Normalization is a process and it should be carried out for every database you design. The process of taking a database design, and apply a set of formal criteria and rules, is called Normal Forms.
