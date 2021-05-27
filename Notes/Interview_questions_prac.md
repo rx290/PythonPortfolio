@@ -10,8 +10,6 @@
   - [Database Interview Questions](#database-interview-questions)
     - [Most common Interview Questions](#most-common-interview-questions)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## OOP
 
 1. What is encapsulation?
