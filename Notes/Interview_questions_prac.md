@@ -278,79 +278,47 @@
 
 14. Difference between BFS and DFS?
 
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+  \
-    | Sr.No | BFS                                                       | DFS                                                             |  \
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+  \
-    | 1     | BFS stands for Breadth First Search.                      | DFS stands for Depth First Search.                              |  \
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+  \
-    | 2     | BFS(Breadth First Search) uses Queue data structure       | DFS(Depth First Search) uses Stack data structure.              |  \
-    |       | for finding the shortest path.                            |                                                                 |  \
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+  \
-    | 3     | BFS can be used to find single source shortest path       | In DFS, we might traverse through more edges to                 |  \
-    |       | in an unweighted graph, because in BFS, we reach a        | reach a destination vertex from a source.                       |  \
-    |       | vertex with minimum number of edges from a source vertex. |                                                                 |  \
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+  \
-    | 4     | BFS is more suitable for searching vertices which are     | DFS is more suitable when there are solutions away from source. |  \
-    |       | closer to the given source.                               |                                                                 |  \
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+  \
-    | 5     | BFS considers all neighbors first and therefore not       | DFS is more suitable for game or puzzle problems. We make a     |  \
-    |       | suitable for decision making trees used in games or       | decision, then explore all paths through this decision.         |  \
-    |       | puzzles.                                                  | And if this decision leads to win situation, we stop.           |  \
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+  \
-    | 6     | The Time complexity of BFS is O(V + E) when Adjacency     | The Time complexity of DFS is also O(V + E) when Adjacency      |  \
-    |       | List is used and O(V^2) when Adjacency Matrix is used,    | List is used and O(V^2) when Adjacency Matrix is used,          |  \
-    |       | where V stands for vertices and E stands for edges.       | where V stands for vertices and E stands for edges.             |  \
-    +-------+-----------------------------------------------------------+-----------------------------------------------------------------+
-
-    <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky">Sr.No</th>
-    <th class="tg-0pky">BFS</th>
-    <th class="tg-0pky">DFS</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">1</td>
-    <td class="tg-0pky">BFS stands for Breadth First Search.</td>
-    <td class="tg-0pky">DFS stands for Depth First Search.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">2</td>
-    <td class="tg-0pky">BFS(Breadth First Search) uses Queue data structure <br>for finding the shortest path.</td>
-    <td class="tg-0pky">DFS(Depth First Search) uses Stack data structure.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">3</td>
-    <td class="tg-0pky">BFS can be used to find single source shortest path<br>in an unweighted graph, because in BFS, we reach a <br>vertex with minimum number of edges from a source vertex.</td>
-    <td class="tg-0pky">In DFS, we might traverse through more edges to <br>reach a destination vertex from a source.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">4</td>
-    <td class="tg-0pky">BFS is more suitable for searching vertices which are <br>closer to the given source.</td>
-    <td class="tg-0pky">DFS is more suitable when there are solutions away from source.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">5</td>
-    <td class="tg-0pky">BFS considers all neighbors first and therefore not <br>suitable for decision making trees used in games or <br>puzzles.</td>
-    <td class="tg-0pky">DFS is more suitable for game or puzzle problems. We make a <br>decision, then explore all paths through this decision. <br>And if this decision leads to win situation, we stop.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">6</td>
-    <td class="tg-0pky">The Time complexity of BFS is O(V + E) when Adjacency <br>List is used and O(V^2) when Adjacency Matrix is used, <br>where V stands for vertices and E stands for edges.</td>
-    <td class="tg-0pky">The Time complexity of DFS is also O(V + E) when Adjacency <br>List is used and O(V^2) when Adjacency Matrix is used, <br>where V stands for vertices and E stands for edges.</td>
-  </tr>
-</tbody>
-</table>
+        <table class="tg">
+    <thead>
+    <tr>
+        <th class="tg-0pky">Sr.No</th>
+        <th class="tg-0pky">BFS</th>
+        <th class="tg-0pky">DFS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="tg-0pky">1</td>
+        <td class="tg-0pky">BFS stands for Breadth First Search.</td>
+        <td class="tg-0pky">DFS stands for Depth First Search.</td>
+    </tr>
+    <tr>
+        <td class="tg-0pky">2</td>
+        <td class="tg-0pky">BFS(Breadth First Search) uses Queue data structure <br>for finding the shortest path.</td>
+        <td class="tg-0pky">DFS(Depth First Search) uses Stack data structure.</td>
+    </tr>
+    <tr>
+        <td class="tg-0pky">3</td>
+        <td class="tg-0pky">BFS can be used to find single source shortest path<br>in an unweighted graph, because in BFS, we reach a <br>vertex with minimum number of edges from a source vertex.</td>
+        <td class="tg-0pky">In DFS, we might traverse through more edges to <br>reach a destination vertex from a source.</td>
+    </tr>
+    <tr>
+        <td class="tg-0pky">4</td>
+        <td class="tg-0pky">BFS is more suitable for searching vertices which are <br>closer to the given source.</td>
+        <td class="tg-0pky">DFS is more suitable when there are solutions away from source.</td>
+    </tr>
+    <tr>
+        <td class="tg-0pky">5</td>
+        <td class="tg-0pky">BFS considers all neighbors first and therefore not <br>suitable for decision making trees used in games or <br>puzzles.</td>
+        <td class="tg-0pky">DFS is more suitable for game or puzzle problems. We make a <br>decision, then explore all paths through this decision. <br>And if this decision leads to win situation, we stop.</td>
+    </tr>
+    <tr>
+        <td class="tg-0pky">6</td>
+        <td class="tg-0pky">The Time complexity of BFS is O(V + E) when Adjacency <br>List is used and O(V^2) when Adjacency Matrix is used, <br>where V stands for vertices and E stands for edges.</td>
+        <td class="tg-0pky">The Time complexity of DFS is also O(V + E) when Adjacency <br>List is used and O(V^2) when Adjacency Matrix is used, <br>where V stands for vertices and E stands for edges.</td>
+    </tr>
+    </tbody>
+    </table>
 
 15. Heap vs stack?
     The heap is more flexible than the stack. That’s because memory space for the heap can be dynamically allocated and de-allocated as needed. However, the memory of the heap can at times be slower when compared to that stack.
