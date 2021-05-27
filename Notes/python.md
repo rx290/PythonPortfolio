@@ -108,4 +108,3 @@
     2. A global scope refers to the objects that are available throughout the execution of the code.
     3. A module-level scope refers to the global objects that are associated with the current module in the program.
     4. An outermost scope refers to all the available built-in names callable in the program.
-
