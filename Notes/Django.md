@@ -86,3 +86,59 @@
     Django provides two options for that particular things which are as follows:
     1.  Add default to values to all previous entries
     2.  Add default to the current value and make migration which will only add fields to stuff added in future
+
+## Creating Views and setting home in Django
+
+    So we want to change the default landing page of our django app and we want some html or other frontend technology to be our default landing page.
+    so what we gotta do is to create a view function in the views.py of our app and link it to the urls.py add the custom url of our project.
+    Example:
+
+    in blog/views.py
+        import django.http import HttpResponse
+        
+        def home_view(*args, **Kwargs):
+            return HttpResponse("<h1>Hello World!</h1>")
+
+    now in main_working_directory/project/url.py
+
+    from blog import views
+
+    # now edit the urlpattern list with this
+    path('',views.home_view,name='home')
+
+### Url pattern and routing in Django
+
+    To understand the actual routing in Django we are going to break a sample route into understandable code chunks
+
+    our route is like this : path("", view_name, name='some name')
+    so we have four parts of the commands here with their explanation:
+    1. Path keyword which is actually handling the HttpRequest we are making while interacting with the domain
+    2. String Pram for adding domain section with the actual url
+    3. Calling og the actual view function imported view from the app
+    4. some name to refer that view
+
+    So to route to a contact page we are going to do as follows:
+
+    path("contact/",view_contact,name='contact')
+
+## Django Template
+
+    Till now we have been dealing with simple html elements which are not nice to look at so we are going to use Django provided tools to display a webpage as per our routes.
+    This procedure is called templates and it can be achieved as follows:
+
+    1. Create a templates folder at the root of the project
+    2. Create your html files there
+    3. User render function to display the webpage created eg. render(request,"name of the html file", {})
+    4. Now go to settings and go to templates sections in the dirs list add this line os.path.join(BASE_DIR,"templates")
+    5. hit restart and you're good to go
+
+### Django Templating Engine Basics
+
+    {{ request.user }}: By defaults active, checks which user is accessing the webpage
+
+    {{ request.user.isAuthenticated }}: check whether the user is authenticated or not
+
+    {{ extends 'base.html' }}: used to inherit everything from the base html file
+
+    {%block content %} {% endblock %} / {%block content %} {% endblock content %}: used to manipulate body element of html pages
+
