@@ -142,3 +142,219 @@
 
     {%block content %} {% endblock %} / {%block content %} {% endblock content %}: used to manipulate body element of html pages
 
+    {$ include "external template" %} i.e. {$ include "navbar.html" %}
+
+#### Rendering Content inside of templates
+
+    To render other data to the view we simply need to modify our context which is mentioned in *Django Template Section, point 3*.
+    We can just create a dictionary and pass it as a context to the view which will later be merged by Django and displayed as a view.
+    The keys used inside of the dictionary are our context variables in the html template so we can just go to our html page and use those keys.
+
+    example:
+            In aboutUs_view:
+                my_context = {
+                    "my title" : "This is About US!"
+                    "text" : "This is some random text."
+                }
+
+            now pass the dict like this:
+
+                    path("contact/",view_contact,name='contact',my_context)
+
+            Now in template.html we can call these keys as context variables provided by django as follows:
+
+            <body> 
+                <p>
+                    {{ my_title }}
+                    <br>
+                    {{ text }}
+                </p>
+            </body>
+
+### Using for loop in templates
+
+    syntax:
+        {% for var_name in context_list_var %}
+         statements
+        {% endfor %}
+    
+    {{ forloop.counter }} a statement to use for iteration display
+
+### Conditions in templates
+
+    if condition
+
+    Syntax:
+        {% if condition %}
+        statements
+        {% endif %}
+
+    example:
+        {% if True %}
+        <li> Bazinga </li>
+        {% endif %}
+
+        {% if abc==9 %}
+        <li> Bazinga </li>
+        {% endif %}
+
+    if else condition
+
+    syntax:
+        {% if condition %}
+        statement
+        {% else %}
+        statement
+        {% endif %}
+
+    nested if else
+
+    syntax:
+
+        {% if condition %}
+        statement
+        {% elif %}
+        statement
+        {% else %}
+        statement
+        {% endif %}
+
+### Django Template Built-in tags and filters
+
+    Django has a lot to offer and we have been using tags from the very beginning some of these common tags are as follows:
+    
+    1. block
+    2. comment
+    3. cycle
+    4. extends
+    5. firstof
+    6. for and for empty
+    7. if | ifequal | ifnotequal | ifchanged
+    8. include
+    9. load
+    10. now
+    11. regroup
+    12. with
+    13. Widthration
+    14. url
+    15. spaceless
+
+    To add filter we just use "|" to a tag and write filter next to it.
+    we can also stack together some filters by adding "|" to the first filter and add another after it.
+    There are lots of builtin filters for django some of common filters are as follows:
+
+    1. add | addslashes
+    2. capfirst | title | upper | lower
+    3. cut
+    4. date | time | timesince | timeuntil
+    5. default | default_if_none
+    6. dictsort | ductsortreversed
+    7. divisibleby
+    8. escape | escapejs
+    9. filesizeformat
+    10. join | join_script
+    11. length | length_is
+    12. linenumbers
+    13. random
+    14. safe | safeseq
+    15. slugify
+    16. truncatechars | truncatechars_html | truncatewords
+    17. unorderdlist
+    18. urlencode | urlize | urlizetrunc
+    19. wordcount | wordwrap
+    20. yesno
+
+### Render data from database model
+
+#### How to view blogs
+
+    in blog app open view and then type:
+
+    from .models import Blog
+
+    def blog_detailed_view(request):
+        _blog_obj = Blog.objects.get(id=1)
+        context = {
+            "title" = _blog_obj.title,
+            "content" = _blog_obj.content,
+            "date"= _blog_obj.title.date,
+            author = _blog_obj.title.author,
+        }
+        return render(request, "blog/details.html",context)
+
+    Now in urls.py in root directory
+
+    import the blog_detailed_view and add url to the urlpatterns list
+
+    path('blog_detailed',blog_detailed_view)
+
+    Now edit the details.html, import the base template and in content section add your stuff
+
+    for example:
+         {% if title is != None and title != '' %} {{ title }} {{ description }} {{ date }} {{ author }} {% else %} Blog Coming Soon {% endif %}
+
+#### Mapping data to the context
+
+    object = { "object" : _blog_obj }
+
+## Django Model Forms
+
+    No one wants to provide users the admin panel or the shell access of the application so we want to create some way for the authorized users to create some blogs without having the access to the admin panel or shell.
+    To do that we simply need need to create a Django form which will directly interact with the user and will help us keep the admin access to ourselves.
+
+    to create form we need to do as follows:
+        
+        Create a file called forms.py in the app folder
+
+        in forms.py import forms and models by following commands:
+
+        from django import forms
+        from .models import Blog
+
+        now create a new class to create body of the form to do so one must write same statements:
+
+        Class BlogForm(forms.ModelForm):
+            Class Meta:
+                model = Blog
+                # These are the entries which we want user to interact with
+                field = [
+                    "title",
+                    "content"
+                    "author"
+                ]
+
+        After creating the form go to the view of the app and import the form there
+
+        blog/views.py:
+
+            from .forms import BlogForm
+
+            # Now create a view for the form
+
+            def create_blog(request):
+                #initiate blog form and check whether the request is either post or none
+
+                form = BlogForm(request.POST or None)
+                if form.is_valid():
+                    from.save()
+                    form = BlogForm()
+
+                context = { "form": form }
+
+                return render(request, "blogs/create_blog.html",context)
+
+        After creating the view update the create_blog.html with the form:
+
+            {% extends "base.html" %}
+            {% block content %}
+            <form method = "POST"> {% csrf_token %}
+                {{ form.as_p }}
+                <input type='submit' value ="submit">
+            </form>
+            {% endblock %}
+
+        Now import the view from the blog to urls.py and add the path to urlpatterns list
+        There you have it a working blog creating form.
+
+## Raw Django Form
+
