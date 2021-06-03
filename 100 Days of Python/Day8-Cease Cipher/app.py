@@ -1,3 +1,5 @@
+import string
+
 print ("""  ___|                             ___|_)       |               
  |      _ \  _` |  __|  _ \  __|  |     | __ \  __ \   _ \  __| 
  |      __/ (   |\__ \  __/ |     |     | |   | | | |  __/ |    
@@ -18,3 +20,4 @@ while True:
     else:
         print("Please enter only encode or decode: ")
         choice
+
