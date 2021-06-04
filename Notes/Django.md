@@ -608,4 +608,172 @@
             path('admin/', admin.site.urls),
         ]
 
-## 
+### namespaces
+
+    After cleaning and writing efficient code our code won't work as we want because it lacks the leading medium something which tells the paths to look to the exact app place where it is directing to.
+
+    for that particular problem django has provided us with namespaces like app_name which performs above mentioned task.
+    so to add it simply add this above urlpatterns
+
+    app_name = 'blogs'
+
+    after doing that go to blogs models.py and add blogs: to the url path like this
+
+    return reverse("blogs:blog-detail", kwargs = { "id" : self.id })
+
+## Class Based Operation
+
+### Views - List Views
+
+    These tricks are essential and easy to learn to use class based view you should have a good understanding of Objects and class inheritance.
+
+    now lets make a class based view of a blog:
+
+    in views.py
+
+        from django.shortcuts import render
+        from django.views.generic import(
+            CreateView,
+            DetailView,
+            ListView,
+            UpdateView,
+            ListView,
+            DeleteView
+        )
+        from .models import Article
+
+        # Here article List view is going to inherit the structure and behavior from Listview 
+        class ArticleListView(ListView):
+
+            # to override the template lookup we can also create a variable to store the lookup pattern which is as follows:
+            # template_name = "articles/article_list.html"
+
+            queryset = Article.objects.all()
+
+        after that import the class to the app urls.py and create a path for it i.e.
+
+        from .views import(
+            ArticleListView,
+        )
+
+        app_name = 'articles'
+        urlpatterns= [
+            path ('',ArticleListView.as_View(), name='article_list')
+        ]
+
+        There we go we have classed based list view
+
+### View - Detail view
+
+    in same file create another class called ArticleDetailedView like this
+
+        class ArticleDetailView(DetailView):
+            template_name = 'articles/article_detail.html'
+            queryset= Article.objects.all()
+
+    now in urls.py add path and import ArticleDetail view
+
+        path ('',ArticleDetailView.as_View(), name='article_detail')
+
+### View - Create View
+
+    Create a class ArticleCreateView and inherit CreateView like this
+
+        class ArticleCreateView(CreateView):
+            template_name = 'article/article_create.html'
+            form_class =ArticleModelForm
+            queryset = Article.objects.all()
+            <!-- success_ur = '/' -->
+
+            def form_validation(self,form):
+                print(form.cleaned_data)
+                return super().form_valid(form)
+            
+            <!-- def get_success_url(self):
+                return '/' -->
+
+
+    now in urls.py add path and import ArticleDetail view
+
+        path ('',ArticleCreateView.as_View(), name='article_detail')
+
+### Views - Update View
+
+        Create a class ArticleCreateView and inherit CreateView like this
+
+        class ArticleUpdateView(UpdateView):
+            template_name = 'article/article_create.html'
+            form_class =ArticleModelForm
+            queryset = Article.objects.all()
+
+            def get_object(self):
+                _id = self.kwargs.get("id")
+                return get_object_or_404(Article,id = _id)
+
+
+            def form_validation(self,form):
+                print(form.cleaned_data)
+                return super().form_valid(form)
+            
+
+
+    now in urls.py add path and import ArticleUpdate view
+
+        path ('',ArticleUpdateView.as_View(), name='article_update')
+
+### View - Delete view
+
+    in same file create another class called ArticleDeleteView like this
+
+        class ArticleDeleteView(DeleteView):
+            template_name = 'articles/article_detail.html'
+        
+            def get_object(self):
+                _id = self.kwargs.get("id")
+                return get_object_or_404(Article,id = _id)
+            
+            def get_success_url(self):
+                return reverse('blog:article-view')
+
+    now in urls.py add path and import ArticleDelete view
+
+        path ('',ArticleDeleteView.as_View(), name='article_delete')
+
+### Getting an object in classes
+
+    you can't simple fetch something like in the conventional way so you need to use another builtin method known as get_object_or_404
+
+    define a method and fetch the object like this
+
+    def get_object(self):
+        _id = self.kwargs.get("id")
+        return get_object_or_404(Article,id = _id)
+
+## Function based view to class based view
+
+    so here is a function class 
+
+        from django.shortcuts import render
+        
+        def my_fbv(request, *args, **kwargs):
+            return render(request, 'about.html',{})
+
+    so how to convert that into a class based view?
+
+    to do that we need to import a base view from a class with this statement
+
+    from django.views import View
+
+    so the in previous file just import this class and create a class and initialize the same function with name of get and an extra parameter self
+    the file will now look like this
+
+
+    from django.shortcuts import render
+    from django.views import View
+
+    class CourseView(View):
+        template_name = "about.htm"
+        def get(self, request, *args, **kwargs):
+            return render(request, self.template_name,{})
+
+    and in url we just need to add a path to this class and that's it. function based class is converted into a class based view
