@@ -391,5 +391,221 @@
     3. initial
     4. widget = textarea etc
 
-### Form Validation Method:
+### Form Validation Method
 
+    Let say we want something in our context and without that form is not going to get submitted, we can do that with form validation which is done as follows:
+
+    create a function 
+    
+    def clean_name_of_field(self):
+        content - self.cleaned_data.get("content")
+        if "any_word or any_sentence" in content:
+            return content
+        else:
+            raise forms.ValidationError("Content doesn't have required word or sentence")
+
+        # Above example is for single validation if we want to create multiple validations we need to tweak our code a little bit 
+        # which would be like this
+
+        if not "any_word or any_sentence" in content:
+            raise forms.ValidationError("Content doesn't have required word or sentence")
+        if not "any_word or any_sentence" in content:
+            raise forms.ValidationError("Content doesn't have required word or sentence")
+        else:
+            return content
+
+        # what this above mentioned chunk of code is going to do is it'll check for each if not statement and will return default i.e.
+        # else part when all the statements validation are true.
+
+### Setting Initial Values on a form
+
+    to set initial values we need to create a dictionary same as context when rendering a template and assign an initial value to that key in that dictionary
+
+    initial_data = {
+        "author" : "Anonymous"
+    }
+
+    Let say we have to edit a user and want to set initial data from the database of that particular person what to do then?
+    well it is quite easy when initializing a form just add a parameter of instance and set it equal to the object and it'll add the data accordingly i.e. 
+
+    in views.py
+
+        def edit_blog(request):
+            obj = Blog.objects.get(id=1)
+            form = BlogForm(request.POST or None, instance = obj)
+            if form.is_valid():
+                form.save()
+            context = {'form':form}
+            return render(request,"blogs/blog_create.html",context)
+
+### Dynamic URL Routing
+
+    in urls.py add a param to the string path i.e.
+
+    "blogs/<int:id>"
+
+    now in views.py parse in id as a parameter to the view function
+
+    def blog_detailed_view(request,id):
+        _blog_obj = Blog.objects.get(id)
+        context = {
+           "object" : _blog_obj
+        }
+        return render(request, "blog/details.html",context)
+
+    Now your blogs app have that dynamic url handling enabled
+
+### Handle DoesNotExist Error
+
+    import get_object_or_404 from django.shortcuts or Http404 form django.http
+    
+    get_object_or_404:
+        def blog_detailed_view(request,id):
+            _blog_obj = get_object_or_404(Blog,id=id)
+            context = {
+            "object" : _blog_obj
+            }
+            return render(request, "blog/details.html",context)
+
+    Http404:
+        def blog_detailed_view(request,id):
+            try:
+                _blog_obj = Blog.objects.get(id=id)
+            except Blog.DoesNotExist:
+                raise Http404
+            context = {
+            "object" : _blog_obj
+            }
+            return render(request, "blog/details.html",context)
+
+## Delete and Confirm
+
+    create a simple form for it which would be like this
+
+        {% extends 'base.html' %}
+
+        {% block content %}
+
+        <form action='.' method = "POST">{% csrf_token %}
+            <h1>Do you want to delete the blog "{{ object.title }}"?</h1>
+            <p><input type="submit" value ="yes"> <a href='../'>Cancel</a></p>
+        </form>
+        {% endblock %}
+
+    url path
+        path('blogs/<int:id>/delete',blog_delete_view, name='blog-delete')
+
+    view:
+
+        def blog_delete_view(request,id):
+            obj = get_object_or_4040(Blot,id=id)
+            #POST request
+
+            if request.method == "POST":
+                obj.delete()
+            context = { "object" : obj }
+            return render (request, "blogs/blog_delete.html",context)
+
+## View of a list of database objects
+
+    view:
+        def blog_list_view(request):
+            queryset = Blog.objects.all()
+            context = {
+                'object_list' : queryset
+            }
+            return render(request, "blog/blog_list.html", context)
+
+    template:
+        
+        {% extends 'base.html' %}
+
+        {% block content %}
+
+        {% for instance in object_list %}
+        
+            <p> {{ instance.id }} - {{ instance.title }}</p>
+        
+        {% endfor %}
+        {% endblock %}
+
+## Dynamic Url Linking
+
+    When dealing with tons of objects we can't just hard code thousands of urls to our views so what we are going to learn today is to create dynamic url linking for the objects stored in the database
+
+    to generate a dynamic url we need to create a method to obtain an absolute url which have an editable part to navigate to certain pages to achieve that we need to edit models.py
+
+    in models.py create a function get_absolute_url
+
+        def get_absolute_url(self):
+            return "/blogs/{self.id}/"
+            # this method is returning a string which contains our absolute and finalized url along with a dynamic tag to navigate to 
+            # desired page
+
+    now in template we need to change these things
+        {% extends 'base.html' %}
+
+        {% block content %}
+
+        {% for instance in object_list %}
+        
+            <p> {{ instance.id }} - <a href='{{ instance.get_absolute_url }}'>{{ instance.title }}</a></p>
+        
+        {% endfor %}
+        {% endblock %}
+
+## Django URLs Reverse
+
+    This is the easy approach of above mentioned method where we are going to use the provided attributes and kwargs provided int he urls.py.
+
+    example:
+
+        def get_absolute_url(self):
+            
+            # now rather than returning a string we are going to return an expression using the name and kwargs defined earlier
+            # return reverse("name", kwargs={ kwargs parameters here })
+
+            return reverse("blog-detail", kwargs = { "id" : self.id })
+
+## In App URLs and Namespaces
+
+    so a lot of confusion can occur if we declare all url paths in main url.py so what we are going to do is to create a new urls.py for in app uses and then import that into the main urls.py to avoid any sort of breaching
+
+    firs to create a urls.py in app we need to create this template:
+
+        from django.urls import path
+        from .views import (
+            blog_create_view,
+            blog_detail_view,
+            blog_delete_view,
+            blog_list_view,
+            blog_update_view
+        )
+
+        urlpatterns= [
+            
+            #reason we have removed blogs/ from the path is the include feature used in the root urls.py which will add blogs/ to 
+            # these paths itself.
+            
+            path('', blog_list_view, name = 'blog-list'),
+            path('create/', blog_create_view, name = 'blog-crete'),
+            path('<int:id>/', blog_detail_view, name = 'blog-detail'),
+            path('<int:id>/update', blog_update_view, name = 'blog-update'),
+            path('<int:id>/delete', blog_delete_view, name = 'blog-delete'),
+        ]
+
+    Now back at main urls.py 
+
+        from django.contrib import admin
+        from django.urls import include, path
+        
+        urlpatterns= [
+            path('blogs/', include('blogs.urls')),
+            
+            path('', home_view, name = 'home'),
+            path('aboutUs/', about_view, name = 'AboutUs'),
+            path('contact/', contact_view, name = 'contact'),
+            path('admin/', admin.site.urls),
+        ]
+
+## 
