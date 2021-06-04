@@ -356,5 +356,40 @@
         Now import the view from the blog to urls.py and add the path to urlpatterns list
         There you have it a working blog creating form.
 
-## Raw Django Form
+## Pure Django Form
+
+    So we want to create a new form which is purely based on DJango and it should have a custom touch ? 
+
+    well for that particular reasons we will be creating a class with form model and then creating fields according to our needs.
+
+    in forms.py add this class to create a new pure django form
+
+    class PureDjangoForm(forms.Form):
+        title = forms.CharField()
+        date = forms.DateField()
+        content = forms.TextField()
+        author = forms.CharField()
+
+    now after creating a pure django form we have to initialize that form in our views.py
+    and pass it as a context variable
+
+    by doing this:
+        my_form = PureDjangoForm(request.GET)
+        if request.method = "POST":
+            my_form = PureDjangoForm(request.POST)
+            if my_form.is_valid():
+                #do something
+            else:
+                # do something else
+        context = { "form" : my_form }
+
+### Django Forms Widget
+
+    This section deals with the parameters passed with the django data fields in the form some of which are as follows:
+    1. label
+    2. required
+    3. initial
+    4. widget = textarea etc
+
+### Form Validation Method:
 
