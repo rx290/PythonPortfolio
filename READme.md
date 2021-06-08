@@ -1,6 +1,6 @@
 # Introduction
 
-## A Codefolio for my Pythoneer Roadmap
+
 
     This is my python playground which is going to serve as my portfolio.
     My plan is to to add following stuff:
@@ -10,6 +10,8 @@
     3. Portfolio projects
     4. Random Projects
     5. Educational Projects 
+
+## A Codefolio for my Pythoneer Roadmap
 
 <details>
 
