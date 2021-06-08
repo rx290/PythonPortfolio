@@ -1,5 +1,14 @@
 # Introduction
 
+    This is my python playground which is going to serve as my portfolio.
+    My plan is to to add following stuff:
+
+    1. Notes for topics which i'll revise or topics which i'll be learning from scratch
+    2. Random code
+    3. Portfolio projects
+    4. Random Projects
+    5. Educational Projects 
+
 <details>
 
 <summary>  Python GUI / CLI Framework  </summary>
