@@ -4,7 +4,7 @@
 
 <summary>  Python GUI / CLI Framework  </summary>
 
-    - [ ]  Tkinter
+    - [x]  Tkinter
     - [ ]  PyQt5
     - [ ]  Kivy
     - [ ]  Beeware
