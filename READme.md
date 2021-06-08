@@ -38,8 +38,10 @@
 
 <summary>  Web Development Framework   </summary>
 
-    - [ ]  Flask
-    - [ ]  Django
+    - [x]  Flask
+    - [x]  Flask-Restful
+    - [x]  Django
+    - [ ]  Django-Restful
     - [ ]  Pyramid
     - [ ]  Bottle
     - [ ]  CherryPy
