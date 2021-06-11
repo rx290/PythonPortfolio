@@ -28,5 +28,5 @@
         "createproject",
         "scrapy"
     ],
-    "python.pythonPath": "C:\\Program Files\\Python39\\python.exe"
+    "python.pythonPath": "/bin/python"
 }
