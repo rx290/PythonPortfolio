@@ -13,6 +13,12 @@
 
 ## A Codefolio for my Pythoneer Roadmap
 
+
+<details> 
+
+<summary>Frameworks & Libraries </summary>
+
+
 <details>
 
 <summary>  Python GUI / CLI Framework  </summary>
@@ -314,3 +320,10 @@
   
 </details>
 
+</details>
+
+<details>
+
+<summary> Projects </summary>
+
+ </details>
