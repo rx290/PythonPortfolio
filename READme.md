@@ -373,14 +373,14 @@ content for this 100 days challenge is as follows:
     - [x]  03  Python Object Oriented Programming
     - [x]  04  Creating Classes in Programming
     - [x]  05  Using External Python Modules / importing
-    - [ ]  06  Getting / Setting Attributes
+    - [x]  06  Getting / Setting Attributes
     - [x]  07  Python Methods
     - [x]  08  Class Initializers
     - [x]  09  Module Aliasing
     - [x]  10  Optional, Required and Default Parameters
     - [ ]  11  Event Listeners
     - [ ]  12  Python Instances and State
-    - [ ]  13  Python Turtle
+    - [x]  13  Python Turtle
     - [ ]  14  Game Development with Python and OOP
     - [x]  15  Python Inheritance
     - [ ]  16  Python Slice Function
@@ -428,8 +428,8 @@ content for this 100 days challenge is as follows:
 <summary> Advance Python Concepts & Challenges  </summary>
   
     Content for this section is as follows:
-    - [ ]  01  Build Your Own Rest API with Python
-    - [ ]  02  Build Your Own Blog
+    - [x]  01  Build Your Own Rest API with Python
+    - [x]  02  Build Your Own Blog
     - [ ]  03  Databases with SQLite
     - [ ]  04  Dataframes inspection
     - [ ]  05  Data Cleaning
