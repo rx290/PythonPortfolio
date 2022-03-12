@@ -485,6 +485,7 @@ content for this 100 days challenge is as follows:
 
 <summary>  Conceptual Practice  </summary>
     Content for this section is as follows:  
+
     - [ ]  Basics  
     - [ ]  Control Structures  
     - [ ]  Functional Programming  
