@@ -1,7 +1,5 @@
 # Introduction
 
-
-
     This is my python playground which is going to serve as my portfolio.
     My plan is to to add following stuff:
 
@@ -9,15 +7,14 @@
     2. Random code
     3. Portfolio projects
     4. Random Projects
-    5. Educational Projects 
+    5. Educational Projects
+    6. Conceptual Practice
 
 ## A Codefolio for my Pythoneer Roadmap
 
-
-<details> 
+<details>
 
 <summary>Frameworks & Libraries </summary>
-
 
 <details>
 
@@ -25,7 +22,7 @@
 
     - [x]  Tkinter
     - [ ]  PyQt5
-    - [ ]  Kivy
+    - [x]  Kivy
     - [ ]  Beeware
     - [ ]  PyInstaller
     - [ ]  PySimpleGUI
@@ -37,7 +34,6 @@
     - [ ]  wxPython
     - [ ]  Click
     - [ ]  Gooey
-  
   
 </details>
 
@@ -139,6 +135,7 @@
     - [ ]  Invoke
     - [ ]  Openpyxl
     - [ ]  pandas
+
 ## Datetime simplifiers, package manager and compilers
 
     - [ ]  Arrow
@@ -172,7 +169,6 @@
     - [ ]  EbookLib
     - [ ]  sh
 
-  
 </details>
 
 <details>
@@ -484,3 +480,20 @@ content for this 100 days challenge is as follows:
 </details>
 
  </details>
+
+ <details>
+
+<summary>  Python GUI / CLI Framework  </summary>
+    Content for this section is as follows:
+    - [ ]  Basics
+    - [ ]  Control Structures
+    - [ ]  Functional Programming
+    - [ ]  Enumerators, Generators and Iterators
+    - [ ]  File Handling
+    - [ ]  Object Oriented programming
+    - [ ]  Data Structures
+    - [ ]  Algorithms
+    - [ ]  Pickling / Unpickling
+    - [ ]  Lambda Functions
+  
+</details>
