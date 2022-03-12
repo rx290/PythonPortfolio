@@ -483,17 +483,17 @@ content for this 100 days challenge is as follows:
 
  <details>
 
-<summary>  Python GUI / CLI Framework  </summary>
-    Content for this section is as follows:
-    - [ ]  Basics
-    - [ ]  Control Structures
-    - [ ]  Functional Programming
-    - [ ]  Enumerators, Generators and Iterators
-    - [ ]  File Handling
-    - [ ]  Object Oriented programming
-    - [ ]  Data Structures
-    - [ ]  Algorithms
-    - [ ]  Pickling / Unpickling
-    - [ ]  Lambda Functions
+<summary>  Conceptual Practice  </summary>
+    Content for this section is as follows:  
+    - [ ]  Basics  
+    - [ ]  Control Structures  
+    - [ ]  Functional Programming  
+    - [ ]  Enumerators, Generators and Iterators  
+    - [ ]  File Handling  
+    - [ ]  Object Oriented programming  
+    - [ ]  Data Structures  
+    - [ ]  Algorithms  
+    - [ ]  Pickling / Unpickling  
+    - [ ]  Lambda Functions  
   
 </details>
