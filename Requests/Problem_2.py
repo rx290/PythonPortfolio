@@ -1,0 +1,1 @@
+"""Write a Python code to check the status code issued by a server in response to a client's request made to the server. Print all of the methods and attributes available to objects on successful request.""" 
