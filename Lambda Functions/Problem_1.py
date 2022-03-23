@@ -5,3 +5,11 @@ Sample Output:
 25
 48
 """ 
+from audioop import add
+
+
+adder = lambda a : a + 15
+multiplier = lambda x,y : x*y
+
+print(adder(15))
+print(multiplier(20,400))
