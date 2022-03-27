@@ -24,7 +24,7 @@ def feet_to_centimeter(feet):
 
 def BMI():
     x = input("Do you have your weight in pounds? (yes/no): ")
-    y = input("Do you have your height in feet? (yes/no): ")
+    y = input("Do you have your height in inches? (yes/no): ")
     weight = float(input("Please enter your weight in pounds: ")) if x=="yes" else Kilo_converstion()
     height = float(input("Please enter your weight in inches: ")) if x=="yes" else feet_to_inches()
     
@@ -38,3 +38,6 @@ def BMI():
         print("You're overweight! Get a grip!")
     else:
         print("You're Obese, Shred some weight bruh!")
+        
+        
+BMI()
