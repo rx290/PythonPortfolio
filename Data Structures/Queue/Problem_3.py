@@ -2,3 +2,10 @@
 Expected Output:
 True
 False """ 
+
+queue = []
+
+if not queue:
+    print(True)
+else:
+    print(False)
