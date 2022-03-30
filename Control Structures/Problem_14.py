@@ -9,3 +9,15 @@ Enter a number: 7
     147 154 161 168 175 182 189 196 203 210
     .....
 """
+
+num = int(input("Please enter a number: "))
+line_count = 0
+i = 1
+while line_count != 20:
+    print(num * i,end =' ')
+    if i % 10 == 0:
+        line_count += 1
+        print(" ")
+    i = i + 1
+        
+    
