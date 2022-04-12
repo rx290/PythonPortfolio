@@ -1,4 +1,4 @@
-""" Convert the following equations into corresponding python statements according to operators precedence.add()
+""" Convert the following equations into corresponding python statements according to operators precedence.
 
 a)      8.8 ( a+ b) 2 / c - 05 + a a / (q + r)
     Z= ___________________________________________
