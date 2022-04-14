@@ -13,11 +13,11 @@ def Establish_Connection(database):
         product = input("Please enter the product name: ")
         price = int(input("Please Enter the price of {}: ".format(product)))
         cur.execute('''
-                    INSERT INTO products (product_name) VALUES ({})
-                    '''.format(product))
+                    INSERT INTO products (product_name) VALUES (?)
+                    ''',(product,))
         cur.execute('''
-          INSERT INTO prices (price) VALUES ({})
-          '''.format(price))
+          INSERT INTO prices (price) VALUES (?)
+          ''',(price,))
         cur.execute("Select * from products")
         print(cur.fetchall())
         cur.execute("SELECT * from prices")
