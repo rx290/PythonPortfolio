@@ -1,4 +1,4 @@
-"""Write a Python program to create a SQLi database and connect with the database and print the version of the SQLite database.  """ 
+"""Write a Python program to create a MySQL database and connect with the database. also Write a program to check existing database.  """ 
 
 import mysql.connector
 
@@ -11,3 +11,8 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 mycursor.execute("CREATE DATABASE mydatabase")
+
+mycursor.execute("SHOW DATABASES")
+
+for x in mycursor:
+  print(x)
