@@ -1,1 +1,1 @@
-"""Write a Python program to update all the values of a specific column of a given SQLite table. """ 
+"""Write a Python program to create a backup of a SQLite database. """ 

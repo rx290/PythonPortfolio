@@ -11,6 +11,7 @@
 
 ## How it works?
 
+     Python needs a driver called pymongo to interact with mongodb.
     
 
 ## Why?

@@ -1,1 +1,1 @@
-""" Write a Python program to count the number of rows of a given SQLite table.""" 
+"""Write a Python program to delete a specific row from a given SQLite table """ 
