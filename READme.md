@@ -426,7 +426,7 @@ content for this 100 days challenge is as follows:
     Content for this section is as follows:
     - [x]  01  Build Your Own Rest API with Python
     - [x]  02  Build Your Own Blog
-    - [ ]  03  Databases with SQLite
+    - [x]  03  Databases with SQLite
     - [ ]  04  Dataframes inspection
     - [ ]  05  Data Cleaning
     - [ ]  06  Sorting Values in Dataframes
@@ -435,7 +435,7 @@ content for this 100 days challenge is as follows:
     - [ ]  09  Chaining Functions
     - [ ]  10  Smoothing Time Series Data
     - [ ]  11  Creating Line Charts with Matplotlib
-    - [ ]  12  Relational Database Schemas
+    - []  12  Relational Database Schemas
     - [ ]  13  Descriptive Statistics
     - [ ]  14  Creating Bar Charts, Pie Charts, Donut Chart, Bo  Plots with Plotly
     - [ ]  15  Creating Numpy NDarrays
@@ -486,7 +486,7 @@ content for this 100 days challenge is as follows:
 <summary>  Conceptual Practice  </summary>
     Content for this section is as follows:  
 
-    - [ ]  Basics  
+    - [x]  Basics  
     - [ ]  Control Structures  
     - [ ]  Functional Programming  
     - [ ]  Enumerators, Generators and Iterators  
@@ -495,6 +495,7 @@ content for this 100 days challenge is as follows:
     - [ ]  Data Structures  
     - [ ]  Algorithms  
     - [ ]  Pickling / Unpickling  
-    - [ ]  Lambda Functions  
+    - [ ]  Lambda Functions    
+    - [x]  Database  
   
 </details>

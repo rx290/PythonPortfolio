@@ -1,1 +1,9 @@
-""" Write a Python program to count the number of rows of a given SQLite table.""" 
+""" Write a Python program to drop elements.""" 
+
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+mycol.drop()
