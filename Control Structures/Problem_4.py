@@ -12,6 +12,7 @@ elif (david_age<mark_age and david_age<tom_age):
     print("David is the youngest!")
 else:
     print("Tom is the youngest")
-# ages = {mark_age:"Mark",david_age:"David",tom_age:"Tom"}
 
+#other solution:
+# ages = {mark_age:"Mark",david_age:"David",tom_age:"Tom"}
 # print("The youngest one is: {}".format(ages[min(ages)]))
