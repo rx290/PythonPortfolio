@@ -435,7 +435,7 @@ content for this 100 days challenge is as follows:
     - [ ]  09  Chaining Functions
     - [ ]  10  Smoothing Time Series Data
     - [ ]  11  Creating Line Charts with Matplotlib
-    - []  12  Relational Database Schemas
+    - [ ]  12  Relational Database Schemas
     - [ ]  13  Descriptive Statistics
     - [ ]  14  Creating Bar Charts, Pie Charts, Donut Chart, Bo  Plots with Plotly
     - [ ]  15  Creating Numpy NDarrays
