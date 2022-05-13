@@ -8,3 +8,13 @@ Your programm should work for squares of all side sizes between 1 to 20 for exam
 *   *
 *****
 """
+
+size = int(input("Please enter the size of square: "))
+spacer = size -2
+for i in range(size):
+    if i ==0:
+        print("*"*size)
+    elif i == size-1:
+        print("*"*size)
+    else:
+        print("*"+" "*spacer+"*")
