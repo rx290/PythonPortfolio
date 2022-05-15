@@ -4,3 +4,15 @@ Test Data:
 sum_series(6) -> 12
 sum_series(10) -> 30
 """
+
+def sum_series(n:int):
+    sum = n
+    k = 2
+    if n-k <= 0:
+        return sum
+    else:
+        sum = sum + (n-k)
+        k = k+2
+        sum_series(sum)
+
+sum_series(6)

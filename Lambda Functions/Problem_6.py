@@ -6,4 +6,12 @@ Even numbers from the said list:
 [2, 4, 6, 8, 10]
 Odd numbers from the said list:
 [1, 3, 5, 7, 9]
-""" 
+"""
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even, odd = [],[]
+
+judge = lambda x: even.append(x) if x%2==0 else odd.append(x)
+
+mapper =list(map(judge,lst))
+print('even list',even)
+print('odd list',odd)

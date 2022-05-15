@@ -28,3 +28,5 @@ print(tup[::-1])
 #d
 dic = dict(tup)
 print("Converted dict: ",type(dict),dict)
+
+#e to be implemented

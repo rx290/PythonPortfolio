@@ -8,13 +8,18 @@ Quadruple the number of 15 = 60
 Quintuple the number 15 = 75
 """ 
 
+
 def num_mul(x):
-    print("""
+  doubler = lambda x : x * 2
+  triple = lambda x : x*3
+  quadruplex = lambda x : x * 4
+  quintupled = lambda x : x*5
+  print("""
         Double the number of {} = {}
         Triple the number of {} = {}
         Quadruple the number of {} = {}
         Quintuple the number {} = {}
-          """.format(x,x*2,x,x*3,x,x*4,x,x*5))
+          """.format(doubler,triple,quadruplex,quintupled))
     
     
 num = int(input("Enter some number: "))
