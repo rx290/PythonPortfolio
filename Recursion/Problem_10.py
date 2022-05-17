@@ -4,7 +4,12 @@ Test Data :
 (power(3,4) -> 81
 """
 def power(a:int,b:int):
-    return a**b
+    if b == 0 or b==1:
+        return 1
+    elif a == 0:
+        return 0
+    else:
+        return a*power(a,b-1)
 
 p=power(3,4)
 print(p)

@@ -4,7 +4,7 @@ Test Data:
 sum_series(6) -> 12
 sum_series(10) -> 30
 """
-
+#TO be fixed
 def sum_series(n:int):
     sum = n
     k = 2

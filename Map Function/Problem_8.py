@@ -1,7 +1,5 @@
 """Write a Python program to convert a given list of integers and a tuple of integers in a list of strings.""" 
 
-from operator import concat
-
 
 l = [1,2,3,4,5]
 tup = (4,5,6,)
