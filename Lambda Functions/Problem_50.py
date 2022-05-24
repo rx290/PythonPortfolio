@@ -7,3 +7,13 @@ Remove words:
 After removing the specified words from the said list:
 ['red', 'green', 'blue', 'white']
 """ 
+lst = ['orange', 'red', 'green', 'blue', 'white', 'black']
+
+words_to_remove = ['orange', 'black']
+
+remover = lambda x: lst.pop(lst.index(x))
+
+list(map(remover,words_to_remove))
+    
+print(lst)
+
