@@ -11,3 +11,6 @@ Print checking numbers:
 True
 True
 """ 
+_str = input("Please enter a string; ")
+int_checker = lambda x: print(True) if _str.isdigit() else print(False)
+int_checker(_str)
