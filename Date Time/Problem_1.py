@@ -16,3 +16,9 @@ print(datetime.today().year)
 print(datetime.today().month)
 
 print(datetime.today().isocalendar()[1])
+
+print(datetime.today().weekday())
+
+print(datetime.today().timetuple().tm_yday)
+
+print(datetime.today().day)
