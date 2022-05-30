@@ -7,3 +7,12 @@ e) Weekday of the week
 f) Day of year
 g) Day of the month
 h) Day of week """ 
+from datetime import datetime
+
+print(datetime.utcnow())
+
+print(datetime.today().year)
+
+print(datetime.today().month)
+
+print(datetime.today().isocalendar()[1])
