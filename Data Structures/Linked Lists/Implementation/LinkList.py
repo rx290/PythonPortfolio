@@ -25,6 +25,26 @@ class LinkedList:
     def All_Elements(self):
         temp = self.head
         self.node_printer(temp)
+        
+    # data adder at start
+    def data_adder_front(self,data):
+        temp = self.head
+        new_node = Node(data)
+        self.head = new_node
+        self.head.next_node = temp
+        
+    # Data adder at end
+    def none_finder(self,temp,data):
+        last_node =None
+        if temp.next_node is None:
+            temp.next_node = Node(data)
+        else:
+            self.none_finder(temp.next_node,data)
+    
+    def data_adder_rare(self,data):
+        temp = self.head
+        last_node = self.none_finder(temp,data)
+
     
 
 
@@ -39,5 +59,9 @@ if __name__=='__main__':
     
     linked_list.head.next_node = second_node
     second_node.next_node = third_node
+    
+    linked_list.data_adder_front(5)
+    
+    linked_list.data_adder_rare(7)
     
     linked_list.All_Elements()
