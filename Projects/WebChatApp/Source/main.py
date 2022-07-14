@@ -2,11 +2,11 @@ from flask import Flask
 from flask_socketio import SocketIO, send
 
 app=Flask(__name__)
-app.config['secret_key'] = "SomeSecret"
+app.config['SECRET_KEY'] = "SomeSecret"
 connection = SocketIO(app)
 
 @connection.on('message')
-def handle_message(msg):
+def handleMessage(msg):
     print('Message: '+ msg)
     send(msg,broadcast=True)
 

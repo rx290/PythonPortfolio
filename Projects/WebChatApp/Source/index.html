@@ -4,23 +4,22 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.5.0/socket.io.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
     </head>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Giving server Path
-            var connection = io.connect('https://127.0.0.1:5000');
-            // When Connected Throws a Message
-            connection.on('connect',function(){
-                connection.send('User is connected!')
-            });
-            connection.on('message',function(msg){
-                $('#message').append('<li>'+msg+'</li>');
-            })
-        });
-
-    </script>
     <body>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // Giving server Path
+                var connection = io.connect('http://127.0.0.1:5000/');
+                // When Connected Throws a Message
+                connection.on('connect',function(){
+                    connection.send('User is connected!')
+                });
+                connection.on('message',function(msg){
+                    $('#message').append('<li>'+msg+'</li>');
+                });
+            });
+     </script>
         <ul id ="message"></ul>
-        <input type="text" id="myMessage">
+        <input type="text" id="myMessage"/>
         <button id="sendbutton">Send</button>
 
     </body>
