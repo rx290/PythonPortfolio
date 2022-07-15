@@ -1,14 +1,19 @@
 from flask_restful import Resource
+import  logging as logger
 
 class Task(Resource):
     def get(self):
-        pass
+        logger.debug("Inside Get Method!")
+        return {"message": "Inside Get Method"},200
     
     def post(self):
-        pass
+        logger.debug("Inside Post Method!")
+        return {"message": "Inside Post Method"},200
     
     def put(self):
-        pass
+        logger.debug("Inside Put Method!")
+        return {"message": "Inside Put Method"},200
     
     def delete(self):
-        pass
+        logger.debug("Inside Delete Method!")
+        return {"message": "Inside Delete Method"},200
