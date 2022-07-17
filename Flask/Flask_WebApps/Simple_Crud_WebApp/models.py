@@ -10,8 +10,8 @@ class StudentModel(db.Model):
     # Fields and Datatype initialization
     id = db.Column(db.Integer, primary_key=True)
     fullName = db.Column(db.String())
-    email = db.Column(db.Email())
-    password = db.Column(db.Password())
+    email = db.Column(db.VARCHAR())
+    password = db.Column(db.VARCHAR())
     gender = db.Column(db.Boolean())
     hobbies = db.Column(db.String())
     country = db.Column(db.String(80))

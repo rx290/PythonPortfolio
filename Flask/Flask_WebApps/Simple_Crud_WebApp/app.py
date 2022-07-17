@@ -1,4 +1,3 @@
-from crypt import methods
 from flask import Flask,render_template,request,redirect
 from  models import db,StudentModel
 
@@ -20,6 +19,8 @@ def create_db():
     
 @flask_app.route('/create',methods=['GET', 'POST',])
 def create_():
+    if request.method == 'GET':
+        return render_template('Create.html')
     
 
 if __name__ == '__main__':
