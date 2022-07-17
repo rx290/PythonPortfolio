@@ -18,11 +18,13 @@ def create_db():
     db.create_all()
     
 @flask_app.route('/create',methods=['GET', 'POST',])
-def create_():
-    if request.method == 'GET':
-        return render_template('Create.html')
+def create():
+    return render_template('Create.html')    
+    # if request.method == 'GET':
+    #     return render_template('/pages/Create.html')
     
 
 if __name__ == '__main__':
     #DEBUG is SET to TRUE. CHANGE FOR PROD
     flask_app.run(port=5000,debug=True)
+    
