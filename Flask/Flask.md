@@ -29,7 +29,7 @@
     25. App routing in Flask?
 
 ## Answers
-    
+
     13. What is redirect() Function?
     14. Delimiters in jinja2
     15. Please Explain 1xx,2xx,3xx,and 5xx errors
@@ -47,13 +47,13 @@
 
     20. What is pickling and unpckling?
         Serialized representation of objects, converted into a string and dumped in a file is known as pickling.
-        Retrieving these serialized representation of objets from the stored string form is called unpickling.
+        Retrieving these serialized representation of objects from the stored string form is called unpickling.
 
 
     21. What are validators class of WTForm in Flask?
         List of Validators Class of WTForm in Flask is as follows:
         1. DataRequired: To check whether input field is empty or not
-        2. Email: To check if the text follows email id convections
+        2. Email: To check if the text follows email id convection
         3. IPAddress: To validate IP address in input Field
         4. Length: To verify if the length of string in input field is in given range
         5. NumberRange: To validate a number in input field within given range
