@@ -1,24 +1,32 @@
 <html>
     <head>
         <title>Chat Room</title>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.5.0/socket.io.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
     </head>
     <body>
         <script type="text/javascript">
             $(document).ready(function() {
-                // Giving server Path
-                var connection = io.connect('http://127.0.0.1:5000/');
-                // When Connected Throws a Message
-                connection.on('connect',function(){
-                    connection.send('User is connected!')
+
+                var socket = io.connect('http://127.0.0.1:5000');
+            
+                socket.on('connect', function() {
+                    socket.send('User has connected!');
                 });
-                connection.on('message',function(msg){
-                    $('#message').append('<li>'+msg+'</li>');
+            
+                socket.on('message', function(msg) {
+                    $("#messages").append('<li>'+msg+'</li>');
+                    console.log('Received message');
                 });
+            
+                $('#sendbutton').on('click', function() {
+                    socket.send($('#myMessage').val());
+                    $('#myMessage').val('');
+                });
+            
             });
      </script>
-        <ul id ="message"></ul>
+        <ul id ="messages"></ul>
         <input type="text" id="myMessage"/>
         <button id="sendbutton">Send</button>
 
