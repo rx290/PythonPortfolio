@@ -17,6 +17,7 @@ def occurrence_counter(unique_arr,sample_arr):
     for i in unique_arr:
         counter[i] = sample_arr.count(i)
     #Sorting Occurrence Dictionary based on values
+    # Another option dict(sorted(x.items(), key=lambda item: item[1]))
     counter = {k: v for k, v in sorted(counter.items(), key=lambda item: item[1])}
 
 def counting_sort_element_creator(element,iter):
