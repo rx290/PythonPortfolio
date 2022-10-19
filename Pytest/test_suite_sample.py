@@ -17,3 +17,15 @@ def test_Case2():
     
 #To run individual testcases go to the subdir and run this command filename.py -k markername -v
 # For Custom markers initiate a pytest.ini and declare your custom markets there
+
+# Class based Test Suite
+
+class TestCase:
+    def Test_One(args):
+        random_string = "He is a boy"
+        assert 'e' in random_string
+ 
+    def Test_Two(args):
+        sum = 4+4
+        assert 8 == sum
+ 
