@@ -487,7 +487,7 @@ content for this 100 days challenge is as follows:
     Content for this section is as follows:  
 
     - [x]  Basics  
-    - [ ]  Control Structures  
+    - [x]  Control Structures  
     - [ ]  Functional Programming  
     - [ ]  Enumerators, Generators and Iterators  
     - [ ]  File Handling  
