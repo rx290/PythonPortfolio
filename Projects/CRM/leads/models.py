@@ -22,10 +22,17 @@ class Lead(models.Model):
     ## Set to cascade if you want to delete 
     agent = models.ForeignKey("Agent", on_delete=models.SET_DEFAULT,default = 'Queued')
     
+    
+    def __str__(self):
+        return f"{self.first_name} {self.last_name}"
+    
     # Relational Tables
     
 class Agent(models.Model):
     user = models.OneToOneField("User",on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.user.email
 
 #When adding custom user class add it to the settings under AUTH_USER_MODEL variable
 class User(AbstractUser):

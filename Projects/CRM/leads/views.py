@@ -9,8 +9,11 @@ def home_page(request):
 def lead_detail(request,pk):
     print(pk)
     lead = Lead.objects.get(id=pk)
+    context = {
+        "lead": lead
+    }
     print(lead)
-    return HttpResponse("Here is the detail view!")
+    return render(request, "leads/lead_detail.html", context)
     
 
 def lead_list(request):

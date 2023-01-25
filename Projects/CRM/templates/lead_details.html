@@ -24,7 +24,8 @@
         </style>
     </head>
     <body>
-<h1>This is all our leads</h1>
+<h1>This is the details of the {{ lead.first_name }}</h1>
+<p> This person age: {{lead.age}}
 <ul>
     
     {% for Lead in Leads %}
