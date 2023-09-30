@@ -21,4 +21,8 @@ with open("./File Handling/file_handling_basic/sample.txt",mode='r')as f:
     lines = [lines for lines in f][:3]
     print("N number of lines are as follows: \n",lines)
     
-#
+# Task C
+with open("./File Handling/file_handling_basic/sample1.txt",mode='a')as f:
+    f.write("This file is now appended.")
+    
+# Task d
