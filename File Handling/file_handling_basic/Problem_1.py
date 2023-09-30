@@ -30,3 +30,15 @@ with open("./File Handling/file_handling_basic/sample.txt",mode='r')as f:
     lastLines = [lines for lines in f][-3:-1]
     print("Last Three Lines are as follows:\n",lastLines)
     
+# Task e
+with open('./File Handling/file_handling_basic/sample.txt','r') as f:
+    newList = [lines for lines in f]
+    print(newList)
+    
+# Task f
+with open('./File Handling/file_handling_basic/sample.txt','r') as f:
+    global someVar
+    someVar = ''
+    for i in f:
+        someVar =someVar + i
+    print("Lines in a variable:",someVar)
