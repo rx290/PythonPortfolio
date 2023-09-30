@@ -11,3 +11,18 @@ Expected Output :
 2015-01-01
 2017-01-01
 2001-03-01""" 
+
+from datetime import datetime,timedelta
+from dateutil.relativedelta import relativedelta
+
+def addYears(fullDate,numberOfYear):
+    parmDate = datetime.strptime(fullDate,'%Y,%m,%d')
+    if (numberOfYear<0):
+        return parmDate - relativedelta(years=abs(numberOfYear))
+    else:
+        return parmDate +relativedelta(years=numberOfYear)
+
+print(addYears('2015,1,1', -1))
+print(addYears('2015,1,1',  0))
+print(addYears('2015,1,1',  2))
+print(addYears('2000,2,29', 1))

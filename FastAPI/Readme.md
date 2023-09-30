@@ -18,7 +18,5 @@
         4. DELETE - To delete some information
 
     Use uvicorn to run the API so go to directory of the FastAPI and open a console and write: uvicorn myapi:app --reload
-    
 
 ## Advance
-
