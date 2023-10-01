@@ -49,7 +49,7 @@
 
     Hey there, this is my codefolio/portfolio for my Software Engineering skills using python as a programming Language.
     This repository contains all the Subject and related exercises I could find on the internet, along with my notes and small projects.
-    To learn more about me and this repository please consult [About page]().
+    To learn more about me and this repository please consult [About page](https://github.com/rx290/PythonPortfolio/blob/main/About.md).
     To get to know what methods have been used throughout this repository use Method Glossary page.
     To know more about the projects listed below see Project Description Page. 
 
