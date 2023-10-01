@@ -1374,23 +1374,45 @@ To know more about the projects listed below see [Project Description Page](http
 <details>
 <summary>  List of Algorithms  </summary>
 
-    - Heap Queue
-    - Searching
-      - Binary Search
-      - Linear Search
-      - Sequential Search
-      - Ternary Search
-    - Sorting
-      - Bubble Sort
-      - Bucket Sort
-      - Counting sort
-      - Heap sort
-      - Insertion sort
-      - Merge sort
-      - Quick sort
-      - Radix sort
-      - Selection sort
-    - Backtracking
+- [Heap Queue](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Heap%20Queue)
+- Searching
+  - [Binary Search](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Searching/Binary%20Searching)
+  - [Linear Search](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Searching/Linear%20Searching)
+  - [Sequential Search](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Searching/Linear%20Searching)
+  - [Ternary Search](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Searching/Ternary%20Searching)
+- Sorting
+  - [Bubble Sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Bubble%20Sort)
+  - [Bucket Sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Bucket%20Sort)
+  - [Counting sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Counting%20Sort)
+  - [Heap sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Heap%20Sort)
+  - [Insertion sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Insertion%20Sort)
+  - [Merge sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Radix%20Sort)
+  - [Quick sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Quick%20Sort)
+  - [Radix sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Radix%20Sort)
+  - [Selection sort](https://github.com/rx290/PythonPortfolio/tree/main/Algorithms/Sorting/Selection%20Sort)
+- Misc
+  - Bitonic Sort
+  - Bogosort
+  - Cocktail Shaker sort
+  - Comb sort
+  - Cycle sort
+  - Gnome sort
+  - Merge-Insertion sort
+  - Natural sort
+  - Odd Even transposition
+  - Odd Even Un parallel Sort
+  - Odd Even Parallel Sort
+  - Pancake sort
+  - Pigeonhole sort
+  - Shell sort
+  - Standard sort
+  - Stooge sort
+  - Tim sort
+  - Time sort
+  - Topological sort
+  - Tree sort
+  - Wiggle sort
+- Backtracking
   
 </details>
 
