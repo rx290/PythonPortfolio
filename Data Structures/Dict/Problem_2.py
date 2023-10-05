@@ -8,19 +8,25 @@ Write a function to print data of any given account number
 Write a menu to deposit or withdraw money
 """
 customerData = {
-    'customer1':{
-        'Account': 000,
-        'Name': '',
-        'Amount':0.0,
+   'asadwaseem32@gmail.com': {
+        'Account': 0,
+        'Name': 'Asad Waseem',
+        'Amount':2500.0,
+    },
+'waseem_asad@live.co.uk':    {
+        'Account': 1,
+        'Name': 'Muhammad Asad Waseem',
+        'Amount':85000.0,
     }
 }
 
 def ReturnAllData():
     return customerData
 
-def AccountFinder(Key,accountNumber):
-    index = customerData.get(Key,accountNumber)
-    return index
+def AccountFinder(email):
+    #index = customerData.get(email)
+    accountDetails = customerData[email]
+    return accountDetails
 
 print(ReturnAllData())
-print(AccountFinder('Account',000))
+print(AccountFinder('asadwaseem32@gmail.com'))
