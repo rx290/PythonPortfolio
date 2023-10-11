@@ -5,12 +5,7 @@ Product - multiplying all the numbers of the said tuple: -864
 Original Tuple:
 (2, 4, 8, 8, 3, 2, 9)
 Product - multiplying all the numbers of the said tuple: 27648""" 
+from math import prod
 tup = (4, 3, 2, 2, -1, 18)
-def TupleProduct(tup,i,length):
-    product= 0
-    if i == length-1:
-        return product
-    else:
-        i += 1
-        TupleProduct(tup,i,length)
-    
+productTup = prod(tup)
+print(productTup)
