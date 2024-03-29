@@ -42,6 +42,7 @@
       - [Flask-Restful](#flask-restful)
       - [Django-Restful](#django-restful)
   - [Scrappers and Crawlers](#scrappers-and-crawlers)
+  - [Data Science](#data-science)
   - [Projects](#projects)
   - [Notes](#notes)
 
@@ -1485,6 +1486,8 @@ To know more about the projects listed below see [Project Description Page](http
 #### Django-Restful
 
 ## Scrappers and Crawlers
+
+## Data Science
 
 ## Projects
 
