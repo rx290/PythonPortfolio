@@ -38,3 +38,4 @@
         FULL JOIN table_2 ON junction_table.foreign_key_column = table_2.primary_key_column;
 
         Many to Many
+
