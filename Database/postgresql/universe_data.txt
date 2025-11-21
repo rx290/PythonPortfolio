@@ -1,0 +1,66 @@
+Galaxy
+('Andromeda','Spiral galaxy',1000,'Spiral',2.5370,1000,1000000,false),
+('Milky Way','Barred spiral galaxy',13600,'Barred Spiral',0,200,200000,false),
+('Triangulum','Spiral galaxy',3000,'Spiral',3,500,500000,true),
+('Sombrero','Unbarred spiral galaxy',31000,'Unbarred Spiral',31,100,100000,false),
+('Pinwheel','Face-on spiral galaxy',20000,'Face-on Spiral',20,200,200000,true),
+('Whirlpool','Grand-design spiral galaxy',15000,'Grand-design Spiral','15,300,300000,false),
+('Black Eye','Spiral galaxy',10000,'Spiral',10,400,400000,true),
+('Cigar','Irregular galaxy',8000,'Irregular',8,500,500000,false),
+('Hoag's Object','Ring galaxy',12000,'Ring Galaxy',12,600,600000,true),
+('Cartwheel','Ring galaxy',15000,'Ring Galaxy',15,700,700000,false);
+
+
+Stars Table
+('Sun','G-type main-sequence star',4600,'G-type Main-sequence',0,8,false,false,2),
+('Proxima Centauri','M-type red dwarf',4850,'M-type Red Dwarf',4.2400,2,false,false,2),
+('Alpha Centauri A','G-type main-sequence star',4850,'G-type Main-sequence',4.3700,2,false,false,2),
+('Betelgeuse','Red supergiant','800','Red Supergiant','640','0',false,false,2),
+('Rigel','Blue-white supergiant','800','Blue-white Supergiant','860','0',false,false,2),
+('Deneb','Blue-white supergiant','200','Blue-white Supergiant','1400','0',false,false,2),
+('Vega','White main-sequence star','500','White Main-sequence','25','0',false,false,2),
+('Capella','Yellow-orange giant','500','Yellow-orange Giant','42','0',false,false,2),
+('Arcturus','Orange giant','700','Orange Giant','36','0',false,false,2),
+('Aldebaran','Orange giant','500','Orange Giant','65','0',false,false,2);
+
+
+Planets Table
+('Mercury','Innermost planet',4600.0000,'Rocky','0.3900','0',false,false,1),
+('Venus','Hottest planet',4600.0000,'Rocky','0.7200','0',false,false,1),
+('Earth','Third planet from the Sun',4600.0000,'Rocky',0.0000,1,true,false,1),
+('Mars','Red planet',4600.0000,'Rocky',0.5200,2,false,false,1),
+('Jupiter','Largest planet',4600.0000,'Gas Giant',5.2000,'79',false,false,1),
+('Saturn','Ringed planet',4600.0000,'Gas Giant','9.5000','62',false,false,1),
+('Uranus','Tilted planet',4600.0000,'Ice Giant','19.1000','27',false,false,1),
+('Neptune','Coldest planet',4600.0000,'Ice Giant','30.1000',14,false,false,1),
+('Proxima b','Exoplanet','4850.0000','Rocky','4.2400','0',false,false,2),
+('Alpha Centauri Bb','Exoplanet','4850.0000','Rocky','4.3700','0',false,false,3),
+('Betelgeuse b','Exoplanet','800.0000','Gas Giant','640.0000','0',false,false,4),
+('Rigel b','Exoplanet','800.0000','Gas Giant','860.0000','0',false,false,5),
+('Deneb b','Exoplanet','200.0000','Gas Giant','1400.0000','0',false,false,6),
+('Vega b','Exoplanet','500.0000','Rocky','25.0000','0',false,false,7),
+('Capella b','Exoplanet','500.0000','Gas Giant','42.0000','0',false,false,8);
+
+
+Moons Table
+('The Moon','Earth's moon',4600.0000,'Rocky',0.0000,'Earth',true,1,false,false,3),
+('Phobos','Mars' moon',4600.0000,'Rocky',0.5200,'Mars',false,1,false,false,4),
+('Deimos','Mars' moon',4600.0000,'Rocky',0.5200,'Mars',false,2,false,false,4),
+('Io','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,1,false,false,5),
+('Europa','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',true,2,false,false,5),
+('Ganymede','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,3,false,false,5),
+('Callisto','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,4,false,false,5),
+('Amalthea','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,5,false,false,5),
+('Thebe','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,6,false,false,5),
+('Metis','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,7,false,false,5),
+('Adrastea','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,8,false,false,5),
+('Themisto','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,9,false,false,5),
+('Carme','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,10,false,false,5),
+('Pasiphae','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,11,false,false,5),
+('Sinope','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,12,false,false,5),
+('Leda','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,13,false,false,5),
+('Himalia','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,14,false,false,5),
+('Lysithea','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,15,false,false,5),
+('Elara','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,16,false,false,5),
+('Dia','Jupiter's moon',4600.0000,'Rocky',5.20,'Jupiter',false,17,false,false,5);
+
