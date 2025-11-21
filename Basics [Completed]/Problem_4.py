@@ -9,3 +9,5 @@ else:
     for i in range(len(digit)):
         sum = sum + int(digit[i])
     print("Total sum of digits is: {}".format(sum))
+    
+# Revision 21st Nov, 2026

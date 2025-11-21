@@ -14,3 +14,15 @@ percentage = (aggerate_marks / total_marks) * 100
 
 # :.2f to show only 2 decimal places
 print("You have attained {:.2f} out of {} which are equivalent to {:.2f}%.".format(aggerate_marks,total_marks,percentage))
+
+## Revision 21st November 2025
+
+max_marks_obtainable_per_subject = 100
+subject=[
+    'Maths', 'Physics','Chemistry','Computer Science','Biology'
+]
+marks = [    float(input("Please enter the marks for {} subject: ".format(x))) for x in subject  ]
+obtained_marks = sum(marks)
+print("Total marks obtained are: ",obtained_marks)
+aggerate=  (obtained_marks/(max_marks_obtainable_per_subject*5))*100
+print ("Your Aggregate is: ",aggerate,"%.")
