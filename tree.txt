@@ -1,0 +1,1256 @@
+.
+├── ./100 Days of Python
+│   ├── ./100 Days of Python/Day1
+│   │   └── ./100 Days of Python/Day1/BandNameGenerator.py
+│   ├── ./100 Days of Python/Day10-Calculator
+│   │   └── ./100 Days of Python/Day10-Calculator/calculator.py
+│   ├── ./100 Days of Python/Day12-Number_guessing_game
+│   │   └── ./100 Days of Python/Day12-Number_guessing_game/ngg.py
+│   ├── ./100 Days of Python/Day13-FizzBuzz
+│   │   └── ./100 Days of Python/Day13-FizzBuzz/app.py
+│   ├── ./100 Days of Python/Day15-Coffee_Machine
+│   │   └── ./100 Days of Python/Day15-Coffee_Machine/app.py
+│   ├── ./100 Days of Python/Day2
+│   │   ├── ./100 Days of Python/Day2/BMI.py
+│   │   ├── ./100 Days of Python/Day2/time_calculator.py
+│   │   └── ./100 Days of Python/Day2/TipCalculator.py
+│   ├── ./100 Days of Python/Day3
+│   │   ├── ./100 Days of Python/Day3/BMI_2.0.py
+│   │   ├── ./100 Days of Python/Day3/love_counter.py
+│   │   ├── ./100 Days of Python/Day3/odd_or_even.py
+│   │   ├── ./100 Days of Python/Day3/pizza_app.py
+│   │   ├── ./100 Days of Python/Day3/rollercoaster_ticket_booth.py
+│   │   └── ./100 Days of Python/Day3/treassure_hunter.py
+│   ├── ./100 Days of Python/Day4
+│   │   ├── ./100 Days of Python/Day4/FizzBuzz.py
+│   │   ├── ./100 Days of Python/Day4/height_calculator.py
+│   │   ├── ./100 Days of Python/Day4/password_generator.py
+│   │   ├── ./100 Days of Python/Day4/Reboorg_Challenge.py
+│   │   ├── ./100 Days of Python/Day4/sum_of_all_even_number_under_100.py
+│   │   ├── ./100 Days of Python/Day4/treassure_mapping.py
+│   │   └── ./100 Days of Python/Day4/who's_Paying.py
+│   ├── ./100 Days of Python/Day5
+│   │   ├── ./100 Days of Python/Day5/function_ex_1.py
+│   │   └── ./100 Days of Python/Day5/prime_or_not.py
+│   ├── ./100 Days of Python/Day7-Hangman
+│   │   └── ./100 Days of Python/Day7-Hangman/hangman.py
+│   └── ./100 Days of Python/Day8-Cease Cipher
+│       └── ./100 Days of Python/Day8-Cease Cipher/app.py
+├── ./About.md
+├── ./Algorithms
+│   ├── ./Algorithms/Heap Queue
+│   │   ├── ./Algorithms/Heap Queue/explanation.md
+│   │   ├── ./Algorithms/Heap Queue/Problem_10.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_11.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_12.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_13.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_14.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_15.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_16.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_17.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_18.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_19.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_1.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_20.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_21.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_22.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_23.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_24.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_25.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_26.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_27.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_28.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_29.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_2.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_3.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_4.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_5.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_6.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_7.py
+│   │   ├── ./Algorithms/Heap Queue/Problem_8.py
+│   │   └── ./Algorithms/Heap Queue/Problem_9.py
+│   ├── ./Algorithms/Misc
+│   │   ├── ./Algorithms/Misc/Bitonic_Sort.py
+│   │   ├── ./Algorithms/Misc/Bogosort sort.py
+│   │   ├── ./Algorithms/Misc/Cocktail shaker sort.py
+│   │   ├── ./Algorithms/Misc/Comb Sort.py
+│   │   ├── ./Algorithms/Misc/Cycle Sort.py
+│   │   ├── ./Algorithms/Misc/Gnome sort.py
+│   │   ├── ./Algorithms/Misc/Merge-insertion sort.py
+│   │   ├── ./Algorithms/Misc/Natural Sort.py
+│   │   ├── ./Algorithms/Misc/Odd even transposition sort.py
+│   │   ├── ./Algorithms/Misc/Odd-even Transpostion sort 2.py
+│   │   ├── ./Algorithms/Misc/Odd-even Transpostion sort paraallel.py
+│   │   ├── ./Algorithms/Misc/Pancake Sort.py
+│   │   ├── ./Algorithms/Misc/Patience sorting.py
+│   │   ├── ./Algorithms/Misc/Pigeonhole sorting.py
+│   │   ├── ./Algorithms/Misc/Problem_8.py
+│   │   ├── ./Algorithms/Misc/Shell_sort.py
+│   │   ├── ./Algorithms/Misc/Standard Sort.py
+│   │   ├── ./Algorithms/Misc/Stooge Sort.py
+│   │   ├── ./Algorithms/Misc/Time Sort.py
+│   │   ├── ./Algorithms/Misc/Tim Sort.py
+│   │   ├── ./Algorithms/Misc/Topological Sort.py
+│   │   ├── ./Algorithms/Misc/Tree Sort.py
+│   │   └── ./Algorithms/Misc/Wiggle Sort.py
+│   ├── ./Algorithms/Searching
+│   │   ├── ./Algorithms/Searching/Binary Searching
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_10.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_11.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_12.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_13.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_14.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_15.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_16.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_17.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_18.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_19.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_1.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_20.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_2.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_3.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_4.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_5.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_6.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_7.py
+│   │   │   ├── ./Algorithms/Searching/Binary Searching/Problem_8.py
+│   │   │   └── ./Algorithms/Searching/Binary Searching/Problem_9.py
+│   │   ├── ./Algorithms/Searching/Linear Searching
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_10.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_11.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_12.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_13.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_1.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_2.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_3.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_4.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_5.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_6.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_7.py
+│   │   │   ├── ./Algorithms/Searching/Linear Searching/Problem_8.py
+│   │   │   └── ./Algorithms/Searching/Linear Searching/Problem_9.py
+│   │   ├── ./Algorithms/Searching/Sequentioal Search
+│   │   │   └── ./Algorithms/Searching/Sequentioal Search/Problem_1.py
+│   │   └── ./Algorithms/Searching/Ternary Searching
+│   │       ├── ./Algorithms/Searching/Ternary Searching/Problem_1.py
+│   │       ├── ./Algorithms/Searching/Ternary Searching/Problem_2.py
+│   │       ├── ./Algorithms/Searching/Ternary Searching/Problem_3.py
+│   │       ├── ./Algorithms/Searching/Ternary Searching/Problem_4.py
+│   │       ├── ./Algorithms/Searching/Ternary Searching/Problem_5.py
+│   │       └── ./Algorithms/Searching/Ternary Searching/Problem_6.py
+│   └── ./Algorithms/Sorting
+│       ├── ./Algorithms/Sorting/Bubble Sort
+│       │   ├── ./Algorithms/Sorting/Bubble Sort/Problem_1.py
+│       │   └── ./Algorithms/Sorting/Bubble Sort/Problem_2.py
+│       ├── ./Algorithms/Sorting/Bucket Sort
+│       │   └── ./Algorithms/Sorting/Bucket Sort/Problem_1.py
+│       ├── ./Algorithms/Sorting/Counting Sort
+│       │   └── ./Algorithms/Sorting/Counting Sort/Counting_sort.py
+│       ├── ./Algorithms/Sorting/Heap Sort
+│       │   ├── ./Algorithms/Sorting/Heap Sort/Problem_1.py
+│       │   ├── ./Algorithms/Sorting/Heap Sort/Problem_2.py
+│       │   ├── ./Algorithms/Sorting/Heap Sort/Problem_3.py
+│       │   ├── ./Algorithms/Sorting/Heap Sort/Problem_4.py
+│       │   └── ./Algorithms/Sorting/Heap Sort/Problem_5.py
+│       ├── ./Algorithms/Sorting/Insertion Sort
+│       │   ├── ./Algorithms/Sorting/Insertion Sort/Problem_1.py
+│       │   └── ./Algorithms/Sorting/Insertion Sort/Problem_2.py
+│       ├── ./Algorithms/Sorting/Merge Sort
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_10.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_11.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_12.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_13.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_14.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_15.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_16.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_17.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_18.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_19.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_1.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_20.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_2.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_3.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_4.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_5.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_6.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_7.py
+│       │   ├── ./Algorithms/Sorting/Merge Sort/Problem_8.py
+│       │   └── ./Algorithms/Sorting/Merge Sort/Problem_9.py
+│       ├── ./Algorithms/Sorting/Quick Sort
+│       │   ├── ./Algorithms/Sorting/Quick Sort/Multikey_quick_sort.py
+│       │   ├── ./Algorithms/Sorting/Quick Sort/Problem_1.py
+│       │   ├── ./Algorithms/Sorting/Quick Sort/Random Pivot Quick Sort.py
+│       │   └── ./Algorithms/Sorting/Quick Sort/Recusive Quick Sort.py
+│       ├── ./Algorithms/Sorting/Radix Sort
+│       │   └── ./Algorithms/Sorting/Radix Sort/Problem_1.py
+│       └── ./Algorithms/Sorting/Selection Sort
+│           └── ./Algorithms/Sorting/Selection Sort/Problem_1.py
+├── ./Analysis
+├── ./Bash
+│   └── ./Bash/Script_To_Make_New_Files.sh
+├── ./Basics [Completed]
+│   ├── ./Basics [Completed]/Problem_10.py
+│   ├── ./Basics [Completed]/Problem_11.py
+│   ├── ./Basics [Completed]/Problem_12.py
+│   ├── ./Basics [Completed]/Problem_13.py
+│   ├── ./Basics [Completed]/Problem_14.py
+│   ├── ./Basics [Completed]/Problem_15.py
+│   ├── ./Basics [Completed]/Problem_1.py
+│   ├── ./Basics [Completed]/Problem_2.py
+│   ├── ./Basics [Completed]/Problem_3.py
+│   ├── ./Basics [Completed]/Problem_4.py
+│   ├── ./Basics [Completed]/Problem_5.py
+│   ├── ./Basics [Completed]/Problem_6.py
+│   ├── ./Basics [Completed]/Problem_7.py
+│   ├── ./Basics [Completed]/Problem_8.py
+│   └── ./Basics [Completed]/Problem_9.py
+├── ./Batch
+│   └── ./Batch/Script_To_Create_Multiple_Files.bat
+├── ./Console_Programs
+│   ├── ./Console_Programs/Body_Mass_index.py
+│   ├── ./Console_Programs/Contact_Book.py
+│   ├── ./Console_Programs/Guess_The_Number.py
+│   ├── ./Console_Programs/Intro.md
+│   ├── ./Console_Programs/Password_Generator.py
+│   ├── ./Console_Programs/rock_paper_sissors.py
+│   └── ./Console_Programs/Youtube_video_downloader.py
+├── ./Control Structures [Completed]
+│   ├── ./Control Structures [Completed]/Create_Case_in_python.py
+│   ├── ./Control Structures [Completed]/Problem_10.py
+│   ├── ./Control Structures [Completed]/Problem_11.py
+│   ├── ./Control Structures [Completed]/Problem_12.py
+│   ├── ./Control Structures [Completed]/Problem_13.py
+│   ├── ./Control Structures [Completed]/Problem_14.py
+│   ├── ./Control Structures [Completed]/Problem_15.py
+│   ├── ./Control Structures [Completed]/Problem_16.py
+│   ├── ./Control Structures [Completed]/Problem_17.py
+│   ├── ./Control Structures [Completed]/Problem_18.py
+│   ├── ./Control Structures [Completed]/Problem_19.py
+│   ├── ./Control Structures [Completed]/Problem_1.py
+│   ├── ./Control Structures [Completed]/Problem_20.py
+│   ├── ./Control Structures [Completed]/Problem_21.py
+│   ├── ./Control Structures [Completed]/Problem_22.py
+│   ├── ./Control Structures [Completed]/Problem_23.py
+│   ├── ./Control Structures [Completed]/Problem_2.py
+│   ├── ./Control Structures [Completed]/Problem_3.py
+│   ├── ./Control Structures [Completed]/Problem_4.py
+│   ├── ./Control Structures [Completed]/Problem_5.py
+│   ├── ./Control Structures [Completed]/Problem_6.py
+│   ├── ./Control Structures [Completed]/Problem_7.py
+│   ├── ./Control Structures [Completed]/Problem_8.py
+│   └── ./Control Structures [Completed]/Problem_9.py
+├── ./Covid-19 Project
+│   ├── ./Covid-19 Project/info.md
+│   ├── ./Covid-19 Project/Problem_10.py
+│   ├── ./Covid-19 Project/Problem_11.py
+│   ├── ./Covid-19 Project/Problem_12.py
+│   ├── ./Covid-19 Project/Problem_13.py
+│   ├── ./Covid-19 Project/Problem_14.py
+│   ├── ./Covid-19 Project/Problem_1.py
+│   ├── ./Covid-19 Project/Problem_2.py
+│   ├── ./Covid-19 Project/Problem_3.py
+│   ├── ./Covid-19 Project/Problem_4.py
+│   ├── ./Covid-19 Project/Problem_5.py
+│   ├── ./Covid-19 Project/Problem_6.py
+│   ├── ./Covid-19 Project/Problem_7.py
+│   ├── ./Covid-19 Project/Problem_8.py
+│   └── ./Covid-19 Project/Problem_9.py
+├── ./Data
+├── ./Database
+│   ├── ./Database/Firebase
+│   │   └── ./Database/Firebase/Firebase_Admin
+│   │       ├── ./Database/Firebase/Firebase_Admin/Firebase_Conn_and_CRUD.py
+│   │       └── ./Database/Firebase/Firebase_Admin/sample_data.json
+│   ├── ./Database/Mongodb
+│   │   ├── ./Database/Mongodb/Problem_10.py
+│   │   ├── ./Database/Mongodb/Problem_1.py
+│   │   ├── ./Database/Mongodb/Problem_2.py
+│   │   ├── ./Database/Mongodb/Problem_3.py
+│   │   ├── ./Database/Mongodb/Problem_4.py
+│   │   ├── ./Database/Mongodb/Problem_5.py
+│   │   ├── ./Database/Mongodb/Problem_6.py
+│   │   ├── ./Database/Mongodb/Problem_7.py
+│   │   ├── ./Database/Mongodb/Problem_8.py
+│   │   ├── ./Database/Mongodb/Problem_9.py
+│   │   └── ./Database/Mongodb/Readme.md
+│   ├── ./Database/Mysql
+│   │   ├── ./Database/Mysql/Problem_10.py
+│   │   ├── ./Database/Mysql/Problem_11.py
+│   │   ├── ./Database/Mysql/Problem_1.3.py
+│   │   ├── ./Database/Mysql/Problem_1.5.py
+│   │   ├── ./Database/Mysql/Problem_1.py
+│   │   ├── ./Database/Mysql/Problem_2.py
+│   │   ├── ./Database/Mysql/Problem_3.py
+│   │   ├── ./Database/Mysql/Problem_4.py
+│   │   ├── ./Database/Mysql/Problem_5.py
+│   │   ├── ./Database/Mysql/Problem_6.py
+│   │   ├── ./Database/Mysql/Problem_7.py
+│   │   ├── ./Database/Mysql/Problem_8.py
+│   │   ├── ./Database/Mysql/Problem_9.py
+│   │   └── ./Database/Mysql/requirement.txt
+│   ├── ./Database/postgresql
+│   │   ├── ./Database/postgresql/CelestialBodiesDataBase.md
+│   │   ├── ./Database/postgresql/Notes.md
+│   │   └── ./Database/postgresql/universe_data.txt
+│   └── ./Database/Sqlite
+│       ├── ./Database/Sqlite/db
+│       │   ├── ./Database/Sqlite/db/product_database.db
+│       │   └── ./Database/Sqlite/db/Sqlite_backup.db
+│       ├── ./Database/Sqlite/Problem_10.py
+│       ├── ./Database/Sqlite/Problem_11.py
+│       ├── ./Database/Sqlite/Problem_12.py
+│       ├── ./Database/Sqlite/Problem_13.py
+│       ├── ./Database/Sqlite/Problem_1.py
+│       ├── ./Database/Sqlite/Problem_2.py
+│       ├── ./Database/Sqlite/Problem_3.py
+│       ├── ./Database/Sqlite/Problem_4.py
+│       ├── ./Database/Sqlite/Problem_5.py
+│       ├── ./Database/Sqlite/Problem_6.py
+│       ├── ./Database/Sqlite/Problem_7.py
+│       ├── ./Database/Sqlite/Problem_8.py
+│       └── ./Database/Sqlite/Problem_9.py
+├── ./Data Structures
+│   ├── ./Data Structures/Arrays, List [Completed]
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_10.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_11.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_12.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_13.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_14.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_15.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_1.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_2.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_3.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_4.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_5.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_6.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_7.py
+│   │   ├── ./Data Structures/Arrays, List [Completed]/Problem_8.py
+│   │   └── ./Data Structures/Arrays, List [Completed]/Problem_9.py
+│   ├── ./Data Structures/Collection
+│   │   ├── ./Data Structures/Collection/Problem_10.py
+│   │   ├── ./Data Structures/Collection/Problem_11.py
+│   │   ├── ./Data Structures/Collection/Problem_12.py
+│   │   ├── ./Data Structures/Collection/Problem_13.py
+│   │   ├── ./Data Structures/Collection/Problem_14.py
+│   │   ├── ./Data Structures/Collection/Problem_15.py
+│   │   ├── ./Data Structures/Collection/Problem_16.py
+│   │   ├── ./Data Structures/Collection/Problem_17.py
+│   │   ├── ./Data Structures/Collection/Problem_18.py
+│   │   ├── ./Data Structures/Collection/Problem_19.py
+│   │   ├── ./Data Structures/Collection/Problem_1.py
+│   │   ├── ./Data Structures/Collection/Problem_20.py
+│   │   ├── ./Data Structures/Collection/Problem_21.py
+│   │   ├── ./Data Structures/Collection/Problem_22.py
+│   │   ├── ./Data Structures/Collection/Problem_23.py
+│   │   ├── ./Data Structures/Collection/Problem_24.py
+│   │   ├── ./Data Structures/Collection/Problem_25.py
+│   │   ├── ./Data Structures/Collection/Problem_26.py
+│   │   ├── ./Data Structures/Collection/Problem_27.py
+│   │   ├── ./Data Structures/Collection/Problem_28.py
+│   │   ├── ./Data Structures/Collection/Problem_29.py
+│   │   ├── ./Data Structures/Collection/Problem_2.py
+│   │   ├── ./Data Structures/Collection/Problem_30.py
+│   │   ├── ./Data Structures/Collection/Problem_31.py
+│   │   ├── ./Data Structures/Collection/Problem_32.py
+│   │   ├── ./Data Structures/Collection/Problem_33.py
+│   │   ├── ./Data Structures/Collection/Problem_34.py
+│   │   ├── ./Data Structures/Collection/Problem_35.py
+│   │   ├── ./Data Structures/Collection/Problem_36.py
+│   │   ├── ./Data Structures/Collection/Problem_3.py
+│   │   ├── ./Data Structures/Collection/Problem_4.py
+│   │   ├── ./Data Structures/Collection/Problem_5.py
+│   │   ├── ./Data Structures/Collection/Problem_6.py
+│   │   ├── ./Data Structures/Collection/Problem_7.py
+│   │   ├── ./Data Structures/Collection/Problem_8.py
+│   │   └── ./Data Structures/Collection/Problem_9.py
+│   ├── ./Data Structures/Dict
+│   │   ├── ./Data Structures/Dict/Problem_10.py
+│   │   ├── ./Data Structures/Dict/Problem_11.py
+│   │   ├── ./Data Structures/Dict/Problem_12.py
+│   │   ├── ./Data Structures/Dict/Problem_13.py
+│   │   ├── ./Data Structures/Dict/Problem_14.py
+│   │   ├── ./Data Structures/Dict/Problem_15.py
+│   │   ├── ./Data Structures/Dict/Problem_16.py
+│   │   ├── ./Data Structures/Dict/Problem_17.py
+│   │   ├── ./Data Structures/Dict/Problem_18.py
+│   │   ├── ./Data Structures/Dict/Problem_19.py
+│   │   ├── ./Data Structures/Dict/Problem_1.py
+│   │   ├── ./Data Structures/Dict/Problem_20.py
+│   │   ├── ./Data Structures/Dict/Problem_21.py
+│   │   ├── ./Data Structures/Dict/Problem_22.py
+│   │   ├── ./Data Structures/Dict/Problem_23.py
+│   │   ├── ./Data Structures/Dict/Problem_24.py
+│   │   ├── ./Data Structures/Dict/Problem_25.py
+│   │   ├── ./Data Structures/Dict/Problem_26.py
+│   │   ├── ./Data Structures/Dict/Problem_27.py
+│   │   ├── ./Data Structures/Dict/Problem_28.py
+│   │   ├── ./Data Structures/Dict/Problem_29.py
+│   │   ├── ./Data Structures/Dict/Problem_2.py
+│   │   ├── ./Data Structures/Dict/Problem_30.py
+│   │   ├── ./Data Structures/Dict/Problem_31.py
+│   │   ├── ./Data Structures/Dict/Problem_32.py
+│   │   ├── ./Data Structures/Dict/Problem_33.py
+│   │   ├── ./Data Structures/Dict/Problem_34.py
+│   │   ├── ./Data Structures/Dict/Problem_35.py
+│   │   ├── ./Data Structures/Dict/Problem_36.py
+│   │   ├── ./Data Structures/Dict/Problem_37.py
+│   │   ├── ./Data Structures/Dict/Problem_38.py
+│   │   ├── ./Data Structures/Dict/Problem_39.py
+│   │   ├── ./Data Structures/Dict/Problem_3.py
+│   │   ├── ./Data Structures/Dict/Problem_40.py
+│   │   ├── ./Data Structures/Dict/Problem_41.py
+│   │   ├── ./Data Structures/Dict/Problem_42.py
+│   │   ├── ./Data Structures/Dict/Problem_43.py
+│   │   ├── ./Data Structures/Dict/Problem_44.py
+│   │   ├── ./Data Structures/Dict/Problem_45.py
+│   │   ├── ./Data Structures/Dict/Problem_46.py
+│   │   ├── ./Data Structures/Dict/Problem_47.py
+│   │   ├── ./Data Structures/Dict/Problem_48.py
+│   │   ├── ./Data Structures/Dict/Problem_49.py
+│   │   ├── ./Data Structures/Dict/Problem_4.py
+│   │   ├── ./Data Structures/Dict/Problem_50.py
+│   │   ├── ./Data Structures/Dict/Problem_51.py
+│   │   ├── ./Data Structures/Dict/Problem_52.py
+│   │   ├── ./Data Structures/Dict/Problem_53.py
+│   │   ├── ./Data Structures/Dict/Problem_54.py
+│   │   ├── ./Data Structures/Dict/Problem_55.py
+│   │   ├── ./Data Structures/Dict/Problem_56.py
+│   │   ├── ./Data Structures/Dict/Problem_57.py
+│   │   ├── ./Data Structures/Dict/Problem_58.py
+│   │   ├── ./Data Structures/Dict/Problem_59.py
+│   │   ├── ./Data Structures/Dict/Problem_5.py
+│   │   ├── ./Data Structures/Dict/Problem_60.py
+│   │   ├── ./Data Structures/Dict/Problem_61.py
+│   │   ├── ./Data Structures/Dict/Problem_62.py
+│   │   ├── ./Data Structures/Dict/Problem_63.py
+│   │   ├── ./Data Structures/Dict/Problem_64.py
+│   │   ├── ./Data Structures/Dict/Problem_65.py
+│   │   ├── ./Data Structures/Dict/Problem_66.py
+│   │   ├── ./Data Structures/Dict/Problem_67.py
+│   │   ├── ./Data Structures/Dict/Problem_68.py
+│   │   ├── ./Data Structures/Dict/Problem_69.py
+│   │   ├── ./Data Structures/Dict/Problem_6.py
+│   │   ├── ./Data Structures/Dict/Problem_70.py
+│   │   ├── ./Data Structures/Dict/Problem_71.py
+│   │   ├── ./Data Structures/Dict/Problem_72.py
+│   │   ├── ./Data Structures/Dict/Problem_73.py
+│   │   ├── ./Data Structures/Dict/Problem_74.py
+│   │   ├── ./Data Structures/Dict/Problem_75.py
+│   │   ├── ./Data Structures/Dict/Problem_76.py
+│   │   ├── ./Data Structures/Dict/Problem_77.py
+│   │   ├── ./Data Structures/Dict/Problem_78.py
+│   │   ├── ./Data Structures/Dict/Problem_79.py
+│   │   ├── ./Data Structures/Dict/Problem_7.py
+│   │   ├── ./Data Structures/Dict/Problem_80.py
+│   │   ├── ./Data Structures/Dict/Problem_81.py
+│   │   ├── ./Data Structures/Dict/Problem_82.py
+│   │   ├── ./Data Structures/Dict/Problem_83.py
+│   │   ├── ./Data Structures/Dict/Problem_84.py
+│   │   ├── ./Data Structures/Dict/Problem_85.py
+│   │   ├── ./Data Structures/Dict/Problem_8.py
+│   │   └── ./Data Structures/Dict/Problem_9.py
+│   ├── ./Data Structures/Graph
+│   │   ├── ./Data Structures/Graph/Bellman Ford Algorithm.py
+│   │   ├── ./Data Structures/Graph/BFS.py
+│   │   ├── ./Data Structures/Graph/DFS.py
+│   │   ├── ./Data Structures/Graph/Graph.py
+│   │   └── ./Data Structures/Graph/Spanning Tree.py
+│   ├── ./Data Structures/Heaps
+│   │   ├── ./Data Structures/Heaps/Problem_10.py
+│   │   ├── ./Data Structures/Heaps/Problem_11.py
+│   │   ├── ./Data Structures/Heaps/Problem_12.py
+│   │   ├── ./Data Structures/Heaps/Problem_13.py
+│   │   ├── ./Data Structures/Heaps/Problem_14.py
+│   │   ├── ./Data Structures/Heaps/Problem_15.py
+│   │   ├── ./Data Structures/Heaps/Problem_16.py
+│   │   ├── ./Data Structures/Heaps/Problem_17.py
+│   │   ├── ./Data Structures/Heaps/Problem_18.py
+│   │   ├── ./Data Structures/Heaps/Problem_19.py
+│   │   ├── ./Data Structures/Heaps/Problem_1.py
+│   │   ├── ./Data Structures/Heaps/Problem_20.py
+│   │   ├── ./Data Structures/Heaps/Problem_21.py
+│   │   ├── ./Data Structures/Heaps/Problem_22.py
+│   │   ├── ./Data Structures/Heaps/Problem_23.py
+│   │   ├── ./Data Structures/Heaps/Problem_24.py
+│   │   ├── ./Data Structures/Heaps/Problem_25.py
+│   │   ├── ./Data Structures/Heaps/Problem_ 26.py
+│   │   ├── ./Data Structures/Heaps/Problem_ 27.py
+│   │   ├── ./Data Structures/Heaps/Problem_ 28.py
+│   │   ├── ./Data Structures/Heaps/Problem_ 29.py
+│   │   ├── ./Data Structures/Heaps/Problem_2.py
+│   │   ├── ./Data Structures/Heaps/Problem_3.py
+│   │   ├── ./Data Structures/Heaps/Problem_4.py
+│   │   ├── ./Data Structures/Heaps/Problem_5.py
+│   │   ├── ./Data Structures/Heaps/Problem_6.py
+│   │   ├── ./Data Structures/Heaps/Problem_7.py
+│   │   ├── ./Data Structures/Heaps/Problem_8.py
+│   │   └── ./Data Structures/Heaps/Problem_9.py
+│   ├── ./Data Structures/Linked Lists
+│   │   ├── ./Data Structures/Linked Lists/Implementation
+│   │   │   └── ./Data Structures/Linked Lists/Implementation/LinkList.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_10.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_11.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_12.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_13.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_14.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_1.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_2.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_3.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_4.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_5.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_6.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_7.py
+│   │   ├── ./Data Structures/Linked Lists/Problem_8.py
+│   │   └── ./Data Structures/Linked Lists/Problem_9.py
+│   ├── ./Data Structures/Lists
+│   │   ├── ./Data Structures/Lists/Problem_1.py
+│   │   ├── ./Data Structures/Lists/Problem_2.py
+│   │   ├── ./Data Structures/Lists/Problem_3.py
+│   │   ├── ./Data Structures/Lists/Problem_4.py
+│   │   ├── ./Data Structures/Lists/Problem_5.py
+│   │   ├── ./Data Structures/Lists/Problem_6.py
+│   │   ├── ./Data Structures/Lists/Problem_7.py
+│   │   ├── ./Data Structures/Lists/Problem_8.py
+│   │   └── ./Data Structures/Lists/Problem_9.py
+│   ├── ./Data Structures/Queue [Complete]
+│   │   ├── ./Data Structures/Queue [Complete]/Problem_1.py
+│   │   ├── ./Data Structures/Queue [Complete]/Problem_2.py
+│   │   ├── ./Data Structures/Queue [Complete]/Problem_3.py
+│   │   └── ./Data Structures/Queue [Complete]/Problem_4.py
+│   ├── ./Data Structures/Sets
+│   │   ├── ./Data Structures/Sets/Problem_1.py
+│   │   ├── ./Data Structures/Sets/Problem_2.py
+│   │   ├── ./Data Structures/Sets/Problem_3.py
+│   │   └── ./Data Structures/Sets/Problem_4.py
+│   ├── ./Data Structures/Stack
+│   │   ├── ./Data Structures/Stack/Problem_1.py
+│   │   └── ./Data Structures/Stack/Problem_2.py
+│   ├── ./Data Structures/Trees
+│   │   ├── ./Data Structures/Trees/Binary Search Tree
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/AVL Tree.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Balnaced Binary Tree.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/BinaryTree.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Full Binary Tree.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Perfect Binary Tree.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Problem_1.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Problem_2.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Problem_3.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Problem_4.py
+│   │   │   ├── ./Data Structures/Trees/Binary Search Tree/Problem_5.py
+│   │   │   └── ./Data Structures/Trees/Binary Search Tree/Problem_6.py
+│   │   ├── ./Data Structures/Trees/B Tree.py
+│   │   ├── ./Data Structures/Trees/B+ Tree.py
+│   │   ├── ./Data Structures/Trees/Red-Black Tree.py
+│   │   └── ./Data Structures/Trees/Tree.py
+│   └── ./Data Structures/Tupples [Complete]
+│       ├── ./Data Structures/Tupples [Complete]/Problem_10.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_11.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_12.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_13.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_14.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_15.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_16.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_17.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_18.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_19.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_1.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_20.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_21.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_2.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_3.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_4.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_5.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_6.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_7.py
+│       ├── ./Data Structures/Tupples [Complete]/Problem_8.py
+│       └── ./Data Structures/Tupples [Complete]/Problem_9.py
+├── ./Date Time
+│   ├── ./Date Time/Problem_10.py
+│   ├── ./Date Time/Problem_11.py
+│   ├── ./Date Time/Problem_12.py
+│   ├── ./Date Time/Problem_13.py
+│   ├── ./Date Time/Problem_14.py
+│   ├── ./Date Time/Problem_15.py
+│   ├── ./Date Time/Problem_16.py
+│   ├── ./Date Time/Problem_17.py
+│   ├── ./Date Time/Problem_18.py
+│   ├── ./Date Time/Problem_19.py
+│   ├── ./Date Time/Problem_1.py
+│   ├── ./Date Time/Problem_20.py
+│   ├── ./Date Time/Problem_21.py
+│   ├── ./Date Time/Problem_22.py
+│   ├── ./Date Time/Problem_23.py
+│   ├── ./Date Time/Problem_24.py
+│   ├── ./Date Time/Problem_25.py
+│   ├── ./Date Time/Problem_26.py
+│   ├── ./Date Time/Problem_27.py
+│   ├── ./Date Time/Problem_28.py
+│   ├── ./Date Time/Problem_29.py
+│   ├── ./Date Time/Problem_2.py
+│   ├── ./Date Time/Problem_30.py
+│   ├── ./Date Time/Problem_31.py
+│   ├── ./Date Time/Problem_32.py
+│   ├── ./Date Time/Problem_33.py
+│   ├── ./Date Time/Problem_34.py
+│   ├── ./Date Time/Problem_35.py
+│   ├── ./Date Time/Problem_36.py
+│   ├── ./Date Time/Problem_37.py
+│   ├── ./Date Time/Problem_38.py
+│   ├── ./Date Time/Problem_39.py
+│   ├── ./Date Time/Problem_3.py
+│   ├── ./Date Time/Problem_40.py
+│   ├── ./Date Time/Problem_41.py
+│   ├── ./Date Time/Problem_42.py
+│   ├── ./Date Time/Problem_43.py
+│   ├── ./Date Time/Problem_44.py
+│   ├── ./Date Time/Problem_45.py
+│   ├── ./Date Time/Problem_46.py
+│   ├── ./Date Time/Problem_47.py
+│   ├── ./Date Time/Problem_48.py
+│   ├── ./Date Time/Problem_49.py
+│   ├── ./Date Time/Problem_4.py
+│   ├── ./Date Time/Problem_50.py
+│   ├── ./Date Time/Problem_51.py
+│   ├── ./Date Time/Problem_52.py
+│   ├── ./Date Time/Problem_53.py
+│   ├── ./Date Time/Problem_54.py
+│   ├── ./Date Time/Problem_55.py
+│   ├── ./Date Time/Problem_56.py
+│   ├── ./Date Time/Problem_57.py
+│   ├── ./Date Time/Problem_58.py
+│   ├── ./Date Time/Problem_59.py
+│   ├── ./Date Time/Problem_5.py
+│   ├── ./Date Time/Problem_60.py
+│   ├── ./Date Time/Problem_61.py
+│   ├── ./Date Time/Problem_62.py
+│   ├── ./Date Time/Problem_63.py
+│   ├── ./Date Time/Problem_6.py
+│   ├── ./Date Time/Problem_7.py
+│   ├── ./Date Time/Problem_8.py
+│   └── ./Date Time/Problem_9.py
+├── ./Enums Generators and Iterators
+│   ├── ./Enums Generators and Iterators/Enums
+│   │   ├── ./Enums Generators and Iterators/Enums/Problem_1.py
+│   │   ├── ./Enums Generators and Iterators/Enums/Problem_2.py
+│   │   ├── ./Enums Generators and Iterators/Enums/Problem_3.py
+│   │   ├── ./Enums Generators and Iterators/Enums/Problem_4.py
+│   │   └── ./Enums Generators and Iterators/Enums/Problem_5.py
+│   └── ./Enums Generators and Iterators/Generator and Iterators
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_10.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_11.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_12.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_13.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_14.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_15.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_16.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_17.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_18.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_19.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_1.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_20.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_21.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_22.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_23.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_24.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_25.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_26.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_27.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_28.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_29.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_2.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_30.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_31.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_32.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_33.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_34.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_35.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_36.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_37.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_38.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_39.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_3.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_40.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_41.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_42.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_43.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_44.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_4.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_5.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_6.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_7.py
+│       ├── ./Enums Generators and Iterators/Generator and Iterators/Problem_8.py
+│       └── ./Enums Generators and Iterators/Generator and Iterators/Problem_9.py
+├── ./FastAPI
+│   ├── ./FastAPI/Api_demo.py
+│   ├── ./FastAPI/__pycache__
+│   │   └── ./FastAPI/__pycache__/Api_demo.cpython-38.pyc
+│   ├── ./FastAPI/Readme.md
+│   └── ./FastAPI/requirements.txt
+├── ./File Handling
+│   ├── ./File Handling/CSV
+│   │   ├── ./File Handling/CSV/Problem_10.py
+│   │   ├── ./File Handling/CSV/Problem_11.py
+│   │   ├── ./File Handling/CSV/Problem_1.py
+│   │   ├── ./File Handling/CSV/Problem_2.py
+│   │   ├── ./File Handling/CSV/Problem_3.py
+│   │   ├── ./File Handling/CSV/Problem_4.py
+│   │   ├── ./File Handling/CSV/Problem_5.py
+│   │   ├── ./File Handling/CSV/Problem_6.py
+│   │   ├── ./File Handling/CSV/Problem_7.py
+│   │   ├── ./File Handling/CSV/Problem_8.py
+│   │   └── ./File Handling/CSV/Problem_9.py
+│   ├── ./File Handling/file_handling_basic [Partially Complete]
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/A.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/B.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/C.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/D.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/E.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/F.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/G.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/H.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/I.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/J.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/K.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/L.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/M.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/N.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/O.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/P.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/Q.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/R.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/S.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/T.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/U.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/V.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/W.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/X.txt
+│   │   │   ├── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/Y.txt
+│   │   │   └── ./File Handling/file_handling_basic [Partially Complete]/AlphabetFiles/Z.txt
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/DestinationFile.txt
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_10.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_11.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_12.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_13.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_14.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_15.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_1.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_2.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_3.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_4.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_5.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_6.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_7.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_8.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Problem_9.py
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/sample1.txt
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/sample.txt
+│   │   ├── ./File Handling/file_handling_basic [Partially Complete]/Taks9File.txt
+│   │   └── ./File Handling/file_handling_basic [Partially Complete]/task15b.txt
+│   └── ./File Handling/File_handling_conceptual
+│       ├── ./File Handling/File_handling_conceptual/Problem_10.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_11.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_12.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_13.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_14.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_15.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_16.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_17.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_18.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_1.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_2.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_3.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_4.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_5.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_6.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_7.py
+│       ├── ./File Handling/File_handling_conceptual/Problem_8.py
+│       └── ./File Handling/File_handling_conceptual/Problem_9.py
+├── ./Flask
+│   ├── ./Flask/Authentication.md
+│   ├── ./Flask/CSS.md
+│   ├── ./Flask/Design_Architecture.md
+│   ├── ./Flask/Django.md
+│   ├── ./Flask/Flask.md
+│   ├── ./Flask/Flask_Restful
+│   │   └── ./Flask/Flask_Restful/Simple_Crud
+│   │       ├── ./Flask/Flask_Restful/Simple_Crud/api
+│   │       │   ├── ./Flask/Flask_Restful/Simple_Crud/api/__init.py
+│   │       │   ├── ./Flask/Flask_Restful/Simple_Crud/api/TaskById.py
+│   │       │   └── ./Flask/Flask_Restful/Simple_Crud/api/Task.py
+│   │       └── ./Flask/Flask_Restful/Simple_Crud/app.py
+│   ├── ./Flask/Flask_WebApps
+│   │   └── ./Flask/Flask_WebApps/Simple_Crud_WebApp
+│   │       ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/app.py
+│   │       ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/Create.html
+│   │       ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/models.py
+│   │       ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/__pycache__
+│   │       │   ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/__pycache__/app.cpython-310.pyc
+│   │       │   └── ./Flask/Flask_WebApps/Simple_Crud_WebApp/__pycache__/models.cpython-310.pyc
+│   │       ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/Readme.md
+│   │       ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/students.db
+│   │       └── ./Flask/Flask_WebApps/Simple_Crud_WebApp/templates
+│   │           ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/templates/Create.html
+│   │           ├── ./Flask/Flask_WebApps/Simple_Crud_WebApp/templates/header.html
+│   │           └── ./Flask/Flask_WebApps/Simple_Crud_WebApp/templates/Temp.html
+│   └── ./Flask/HTML.md
+├── ./Functional Programming
+│   ├── ./Functional Programming/Calling Methods
+│   │   ├── ./Functional Programming/Calling Methods/Caling by value
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_10.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_11.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_1.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_2.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_3.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_4.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_5.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_6.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_7.py
+│   │   │   ├── ./Functional Programming/Calling Methods/Caling by value/Problem_8.py
+│   │   │   └── ./Functional Programming/Calling Methods/Caling by value/Problem_9.py
+│   │   └── ./Functional Programming/Calling Methods/Calling by refrence
+│   │       ├── ./Functional Programming/Calling Methods/Calling by refrence/Problem_12.py
+│   │       ├── ./Functional Programming/Calling Methods/Calling by refrence/Problem_13.py
+│   │       ├── ./Functional Programming/Calling Methods/Calling by refrence/Problem_14.py
+│   │       └── ./Functional Programming/Calling Methods/Calling by refrence/Problem_15.py
+│   ├── ./Functional Programming/Problem_10.py
+│   ├── ./Functional Programming/Problem_11.py
+│   ├── ./Functional Programming/Problem_12.py
+│   ├── ./Functional Programming/Problem_13.py
+│   ├── ./Functional Programming/Problem_14.py
+│   ├── ./Functional Programming/Problem_1.py
+│   ├── ./Functional Programming/Problem_2.py
+│   ├── ./Functional Programming/Problem_3.py
+│   ├── ./Functional Programming/Problem_4.py
+│   ├── ./Functional Programming/Problem_5.py
+│   ├── ./Functional Programming/Problem_6.py
+│   ├── ./Functional Programming/Problem_7.py
+│   ├── ./Functional Programming/Problem_8.py
+│   └── ./Functional Programming/Problem_9.py
+├── ./GeoPy
+│   ├── ./GeoPy/Problem_1.py
+│   ├── ./GeoPy/Problem_2.py
+│   ├── ./GeoPy/Problem_3.py
+│   ├── ./GeoPy/Problem_4.py
+│   ├── ./GeoPy/Problem_5.py
+│   ├── ./GeoPy/Problem_6.py
+│   └── ./GeoPy/Problem_7.py
+├── ./Json
+│   ├── ./Json/Problem_1.py
+│   ├── ./Json/Problem_2.py
+│   ├── ./Json/Problem_3.py
+│   ├── ./Json/Problem_4.py
+│   ├── ./Json/Problem_5.py
+│   ├── ./Json/Problem_6.py
+│   ├── ./Json/Problem_7.py
+│   ├── ./Json/Problem_8.py
+│   └── ./Json/Problem_9.py
+├── ./Kivy_Learnings
+├── ./Lambda Functions
+│   ├── ./Lambda Functions/Problem_10.py
+│   ├── ./Lambda Functions/Problem_11.py
+│   ├── ./Lambda Functions/Problem_12.py
+│   ├── ./Lambda Functions/Problem_13.py
+│   ├── ./Lambda Functions/Problem_14.py
+│   ├── ./Lambda Functions/Problem_15.py
+│   ├── ./Lambda Functions/Problem_16.py
+│   ├── ./Lambda Functions/Problem_17.py
+│   ├── ./Lambda Functions/Problem_18.py
+│   ├── ./Lambda Functions/Problem_19.py
+│   ├── ./Lambda Functions/Problem_1.py
+│   ├── ./Lambda Functions/Problem_20.py
+│   ├── ./Lambda Functions/Problem_21.py
+│   ├── ./Lambda Functions/Problem_22.py
+│   ├── ./Lambda Functions/Problem_23.py
+│   ├── ./Lambda Functions/Problem_24.py
+│   ├── ./Lambda Functions/Problem_25.py
+│   ├── ./Lambda Functions/Problem_26.py
+│   ├── ./Lambda Functions/Problem_27.py
+│   ├── ./Lambda Functions/Problem_28.py
+│   ├── ./Lambda Functions/Problem_29.py
+│   ├── ./Lambda Functions/Problem_2.py
+│   ├── ./Lambda Functions/Problem_30.py
+│   ├── ./Lambda Functions/Problem_31.py
+│   ├── ./Lambda Functions/Problem_32.py
+│   ├── ./Lambda Functions/Problem_33.py
+│   ├── ./Lambda Functions/Problem_34.py
+│   ├── ./Lambda Functions/Problem_35.py
+│   ├── ./Lambda Functions/Problem_36.py
+│   ├── ./Lambda Functions/Problem_37.py
+│   ├── ./Lambda Functions/Problem_38.py
+│   ├── ./Lambda Functions/Problem_39.py
+│   ├── ./Lambda Functions/Problem_3.py
+│   ├── ./Lambda Functions/Problem_40.py
+│   ├── ./Lambda Functions/Problem_41.py
+│   ├── ./Lambda Functions/Problem_42.py
+│   ├── ./Lambda Functions/Problem_43.py
+│   ├── ./Lambda Functions/Problem_44.py
+│   ├── ./Lambda Functions/Problem_45.py
+│   ├── ./Lambda Functions/Problem_46.py
+│   ├── ./Lambda Functions/Problem_47.py
+│   ├── ./Lambda Functions/Problem_48.py
+│   ├── ./Lambda Functions/Problem_49.py
+│   ├── ./Lambda Functions/Problem_4.py
+│   ├── ./Lambda Functions/Problem_50.py
+│   ├── ./Lambda Functions/Problem_51.py
+│   ├── ./Lambda Functions/Problem_52.py
+│   ├── ./Lambda Functions/Problem_5.py
+│   ├── ./Lambda Functions/Problem_6.py
+│   ├── ./Lambda Functions/Problem_7.py
+│   ├── ./Lambda Functions/Problem_8.py
+│   └── ./Lambda Functions/Problem_9.py
+├── ./Machine Learning
+│   ├── ./Machine Learning/Models.md
+│   ├── ./Machine Learning/Music Genre Prediction
+│   │   ├── ./Machine Learning/Music Genre Prediction/genre-prediction.joblib
+│   │   ├── ./Machine Learning/Music Genre Prediction/intro.md
+│   │   ├── ./Machine Learning/Music Genre Prediction/music.csv
+│   │   ├── ./Machine Learning/Music Genre Prediction/music dataset.zip
+│   │   ├── ./Machine Learning/Music Genre Prediction/Music Prediction.ipynb
+│   │   └── ./Machine Learning/Music Genre Prediction/visual-rep-Music-Recommender.dot
+│   └── ./Machine Learning/Video Game Sales Prediction
+│       ├── ./Machine Learning/Video Game Sales Prediction/archive.zip
+│       ├── ./Machine Learning/Video Game Sales Prediction/vgsales.csv
+│       └── ./Machine Learning/Video Game Sales Prediction/Video game sales prediction.ipynb
+├── ./Map Function
+│   ├── ./Map Function/Problem_10.py
+│   ├── ./Map Function/Problem_11.py
+│   ├── ./Map Function/Problem_12.py
+│   ├── ./Map Function/Problem_13.py
+│   ├── ./Map Function/Problem_14.py
+│   ├── ./Map Function/Problem_15.py
+│   ├── ./Map Function/Problem_16.py
+│   ├── ./Map Function/Problem_17.py
+│   ├── ./Map Function/Problem_1.py
+│   ├── ./Map Function/Problem_2.py
+│   ├── ./Map Function/Problem_3.py
+│   ├── ./Map Function/Problem_4.py
+│   ├── ./Map Function/Problem_5.py
+│   ├── ./Map Function/Problem_6.py
+│   ├── ./Map Function/Problem_7.py
+│   ├── ./Map Function/Problem_8.py
+│   └── ./Map Function/Problem_9.py
+├── ./Method Glossary.md
+├── ./Natural Language Processing
+│   └── ./Natural Language Processing/NLTK
+│       ├── ./Natural Language Processing/NLTK/Corpus
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_10.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_11.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_12.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_13.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_1.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_2.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_3.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_4.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_5.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_6.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_7.py
+│       │   ├── ./Natural Language Processing/NLTK/Corpus/Problem_8.py
+│       │   └── ./Natural Language Processing/NLTK/Corpus/Problem_9.py
+│       └── ./Natural Language Processing/NLTK/Tokenization
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_1.py
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_2.py
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_3.py
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_4.py
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_5.py
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_6.py
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_7.py
+│           ├── ./Natural Language Processing/NLTK/Tokenization/Problem_8.py
+│           └── ./Natural Language Processing/NLTK/Tokenization/Problem_9.py
+├── ./Notes
+│   ├── ./Notes/classes.md
+│   ├── ./Notes/DB.md
+│   ├── ./Notes/Django.md
+│   ├── ./Notes/excel_notes.md
+│   ├── ./Notes/flask.md
+│   ├── ./Notes/Interview_questions_prac.md
+│   ├── ./Notes/postgresql_datawrapper.md
+│   ├── ./Notes/postgresql.md
+│   ├── ./Notes/python.md
+│   ├── ./Notes/Python_mistakes_to_avoid.md
+│   └── ./Notes/Scrapy.md
+├── ./OOP
+│   └── ./OOP/Class
+│       ├── ./OOP/Class/Basic Application
+│       │   ├── ./OOP/Class/Basic Application/Problem_10.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_11.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_12.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_1.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_2.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_3.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_4.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_5.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_6.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_7.py
+│       │   ├── ./OOP/Class/Basic Application/Problem_8.py
+│       │   └── ./OOP/Class/Basic Application/Problem_9.py
+│       └── ./OOP/Class/Basic Exercises
+│           ├── ./OOP/Class/Basic Exercises/Problem_10.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_11.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_12.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_1.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_2.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_3.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_4.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_5.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_6.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_7.py
+│           ├── ./OOP/Class/Basic Exercises/Problem_8.py
+│           └── ./OOP/Class/Basic Exercises/Problem_9.py
+├── ./OS
+│   ├── ./OS/Problem_10.py
+│   ├── ./OS/Problem_11.py
+│   ├── ./OS/Problem_12.py
+│   ├── ./OS/Problem_13.py
+│   ├── ./OS/Problem_14.py
+│   ├── ./OS/Problem_15.py
+│   ├── ./OS/Problem_16.py
+│   ├── ./OS/Problem_17.py
+│   ├── ./OS/Problem_18.py
+│   ├── ./OS/Problem_1.py
+│   ├── ./OS/Problem_2.py
+│   ├── ./OS/Problem_3.py
+│   ├── ./OS/Problem_4.py
+│   ├── ./OS/Problem_5.py
+│   ├── ./OS/Problem_6.py
+│   ├── ./OS/Problem_7.py
+│   ├── ./OS/Problem_8.py
+│   └── ./OS/Problem_9.py
+├── ./Pickling_Unpickling
+│   ├── ./Pickling_Unpickling/Problem_10.py
+│   ├── ./Pickling_Unpickling/Problem_11.py
+│   ├── ./Pickling_Unpickling/Problem_12.py
+│   ├── ./Pickling_Unpickling/Problem_13.py
+│   ├── ./Pickling_Unpickling/Problem_14.py
+│   ├── ./Pickling_Unpickling/Problem_15.py
+│   ├── ./Pickling_Unpickling/Problem_1.py
+│   ├── ./Pickling_Unpickling/Problem_2.py
+│   ├── ./Pickling_Unpickling/Problem_3.py
+│   ├── ./Pickling_Unpickling/Problem_4.py
+│   ├── ./Pickling_Unpickling/Problem_5.py
+│   ├── ./Pickling_Unpickling/Problem_6.py
+│   ├── ./Pickling_Unpickling/Problem_7.py
+│   ├── ./Pickling_Unpickling/Problem_8.py
+│   └── ./Pickling_Unpickling/Problem_9.py
+├── ./ProjectDescriptions.md
+├── ./Projects
+│   ├── ./Projects/ContactBook
+│   │   ├── ./Projects/ContactBook/ContactBook
+│   │   │   ├── ./Projects/ContactBook/ContactBook/asgi.py
+│   │   │   ├── ./Projects/ContactBook/ContactBook/__init__.py
+│   │   │   ├── ./Projects/ContactBook/ContactBook/settings.py
+│   │   │   ├── ./Projects/ContactBook/ContactBook/urls.py
+│   │   │   └── ./Projects/ContactBook/ContactBook/wsgi.py
+│   │   ├── ./Projects/ContactBook/manage.py
+│   │   ├── ./Projects/ContactBook/ReadMe.md
+│   │   └── ./Projects/ContactBook/requirements.txt
+│   ├── ./Projects/CRM
+│   │   ├── ./Projects/CRM/djCRM
+│   │   │   ├── ./Projects/CRM/djCRM/asgi.py
+│   │   │   ├── ./Projects/CRM/djCRM/__init__.py
+│   │   │   ├── ./Projects/CRM/djCRM/settings.py
+│   │   │   ├── ./Projects/CRM/djCRM/urls.py
+│   │   │   └── ./Projects/CRM/djCRM/wsgi.py
+│   │   ├── ./Projects/CRM/leads
+│   │   │   ├── ./Projects/CRM/leads/admin.py
+│   │   │   ├── ./Projects/CRM/leads/apps.py
+│   │   │   ├── ./Projects/CRM/leads/forms.py
+│   │   │   ├── ./Projects/CRM/leads/__init__.py
+│   │   │   ├── ./Projects/CRM/leads/migrations
+│   │   │   │   ├── ./Projects/CRM/leads/migrations/0001_initial.py
+│   │   │   │   └── ./Projects/CRM/leads/migrations/__init__.py
+│   │   │   ├── ./Projects/CRM/leads/models.py
+│   │   │   ├── ./Projects/CRM/leads/templates
+│   │   │   │   └── ./Projects/CRM/leads/templates/leads
+│   │   │   │       ├── ./Projects/CRM/leads/templates/leads/lead_create.html
+│   │   │   │       └── ./Projects/CRM/leads/templates/leads/lead_details.html
+│   │   │   ├── ./Projects/CRM/leads/tests.py
+│   │   │   ├── ./Projects/CRM/leads/urls.py
+│   │   │   └── ./Projects/CRM/leads/views.py
+│   │   ├── ./Projects/CRM/manage.py
+│   │   ├── ./Projects/CRM/requirements.txt
+│   │   └── ./Projects/CRM/templates
+│   │       ├── ./Projects/CRM/templates/lead_details.html
+│   │       └── ./Projects/CRM/templates/lead_list.html
+│   ├── ./Projects/Project List.md
+│   ├── ./Projects/WebChatApp
+│   │   ├── ./Projects/WebChatApp/intro.md
+│   │   ├── ./Projects/WebChatApp/requirements.txt
+│   │   └── ./Projects/WebChatApp/Source
+│   │       ├── ./Projects/WebChatApp/Source/index.html
+│   │       └── ./Projects/WebChatApp/Source/main.py
+│   └── ./Projects/Youtube Downloader.py
+├── ./Pytest
+│   ├── ./Pytest/__pycache__
+│   │   ├── ./Pytest/__pycache__/sample_TestCase.cpython-38-pytest-7.1.3.pyc
+│   │   ├── ./Pytest/__pycache__/sample_TestSuite.cpython-38.pyc
+│   │   ├── ./Pytest/__pycache__/sample_TestSuite.cpython-38-pytest-7.1.3.pyc
+│   │   ├── ./Pytest/__pycache__/test_api.cpython-38-pytest-7.1.3.pyc
+│   │   ├── ./Pytest/__pycache__/test_fixtures.cpython-38-pytest-7.1.3.pyc
+│   │   ├── ./Pytest/__pycache__/test_parameterized.cpython-38-pytest-7.1.3.pyc
+│   │   └── ./Pytest/__pycache__/test_suite_sample.cpython-38-pytest-7.1.3.pyc
+│   ├── ./Pytest/pytest.ini
+│   ├── ./Pytest/PyTest Notes.md
+│   ├── ./Pytest/test_api.py
+│   ├── ./Pytest/test_fixtures.py
+│   ├── ./Pytest/test_parameterized.py
+│   ├── ./Pytest/test_sample_cases.py
+│   └── ./Pytest/test_suite_sample.py
+├── ./RE
+│   ├── ./RE/Problem_10.py
+│   ├── ./RE/Problem_11.py
+│   ├── ./RE/Problem_12.py
+│   ├── ./RE/Problem_13.py
+│   ├── ./RE/Problem_14.py
+│   ├── ./RE/Problem_15.py
+│   ├── ./RE/Problem_16.py
+│   ├── ./RE/Problem_17.py
+│   ├── ./RE/Problem_18.py
+│   ├── ./RE/Problem_19.py
+│   ├── ./RE/Problem_1.py
+│   ├── ./RE/Problem_20.py
+│   ├── ./RE/Problem_21.py
+│   ├── ./RE/Problem_22.py
+│   ├── ./RE/Problem_23.py
+│   ├── ./RE/Problem_24.py
+│   ├── ./RE/Problem_25.py
+│   ├── ./RE/Problem_26.py
+│   ├── ./RE/Problem_27.py
+│   ├── ./RE/Problem_28.py
+│   ├── ./RE/Problem_29.py
+│   ├── ./RE/Problem_2.py
+│   ├── ./RE/Problem_30.py
+│   ├── ./RE/Problem_31.py
+│   ├── ./RE/Problem_32.py
+│   ├── ./RE/Problem_33.py
+│   ├── ./RE/Problem_34.py
+│   ├── ./RE/Problem_35.py
+│   ├── ./RE/Problem_36.py
+│   ├── ./RE/Problem_37.py
+│   ├── ./RE/Problem_38.py
+│   ├── ./RE/Problem_39.py
+│   ├── ./RE/Problem_3.py
+│   ├── ./RE/Problem_40.py
+│   ├── ./RE/Problem_41.py
+│   ├── ./RE/Problem_42.py
+│   ├── ./RE/Problem_43.py
+│   ├── ./RE/Problem_44.py
+│   ├── ./RE/Problem_45.py
+│   ├── ./RE/Problem_46.py
+│   ├── ./RE/Problem_47.py
+│   ├── ./RE/Problem_48.py
+│   ├── ./RE/Problem_49.py
+│   ├── ./RE/Problem_4.py
+│   ├── ./RE/Problem_50.py
+│   ├── ./RE/Problem_51.py
+│   ├── ./RE/Problem_52.py
+│   ├── ./RE/Problem_53.py
+│   ├── ./RE/Problem_54.py
+│   ├── ./RE/Problem_55.py
+│   ├── ./RE/Problem_56.py
+│   ├── ./RE/Problem_5.py
+│   ├── ./RE/Problem_6.py
+│   ├── ./RE/Problem_7.py
+│   ├── ./RE/Problem_8.py
+│   └── ./RE/Problem_9.py
+├── ./Readme.md
+├── ./Recursion
+│   ├── ./Recursion/Problem_10.py
+│   ├── ./Recursion/Problem_11.py
+│   ├── ./Recursion/Problem_1.py
+│   ├── ./Recursion/Problem_2.py
+│   ├── ./Recursion/Problem_3.py
+│   ├── ./Recursion/Problem_4.py
+│   ├── ./Recursion/Problem_5.py
+│   ├── ./Recursion/Problem_6.py
+│   ├── ./Recursion/Problem_7.py
+│   ├── ./Recursion/Problem_8.py
+│   └── ./Recursion/Problem_9.py
+├── ./Requests
+│   ├── ./Requests/Problem_1.py
+│   ├── ./Requests/Problem_2.py
+│   ├── ./Requests/Problem_3.py
+│   ├── ./Requests/Problem_4.py
+│   ├── ./Requests/Problem_5.py
+│   ├── ./Requests/Problem_6.py
+│   ├── ./Requests/Problem_7.py
+│   ├── ./Requests/Problem_8.py
+│   └── ./Requests/Problem_9.py
+├── ./tree.txt
+├── ./Web
+│   ├── ./Web/Project_10.py
+│   ├── ./Web/Project_11.py
+│   ├── ./Web/Project_12.py
+│   ├── ./Web/Project_1.py
+│   ├── ./Web/Project_2.py
+│   ├── ./Web/Project_3.py
+│   ├── ./Web/Project_4.py
+│   ├── ./Web/Project_5.py
+│   ├── ./Web/Project_6.py
+│   ├── ./Web/Project_7.py
+│   ├── ./Web/Project_8.py
+│   └── ./Web/Project_9.py
+└── ./Web scrapers
+    ├── ./Web scrapers/BeautifulSoap_Project
+    │   ├── ./Web scrapers/BeautifulSoap_Project/beautiful_soup.md
+    │   ├── ./Web scrapers/BeautifulSoap_Project/main.py
+    │   ├── ./Web scrapers/BeautifulSoap_Project/requirements.txt
+    │   └── ./Web scrapers/BeautifulSoap_Project/sample.py
+    ├── ./Web scrapers/BeautifulSoup
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_10.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_11.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_12.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_13.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_14.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_15.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_16.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_17.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_18.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_19.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_1.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_20.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_21.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_22.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_23.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_24.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_25.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_26.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_27.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_28.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_29.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_2.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_30.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_31.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_32.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_33.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_34.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_35.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_36.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_3.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_4.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_5.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_6.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_7.py
+    │   ├── ./Web scrapers/BeautifulSoup/Problem_8.py
+    │   └── ./Web scrapers/BeautifulSoup/Problem_9.py
+    └── ./Web scrapers/scrapy_project
+        └── ./Web scrapers/scrapy_project/lightNovel_Scraper
+            ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper
+            │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/__init__.py
+            │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/items.py
+            │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/middlewares.py
+            │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/pipelines.py
+            │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/__pycache__
+            │   │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/__pycache__/__init__.cpython-39.pyc
+            │   │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/__pycache__/items.cpython-39.pyc
+            │   │   └── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/__pycache__/settings.cpython-39.pyc
+            │   ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/settings.py
+            │   └── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/spiders
+            │       ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/spiders/__init__.py
+            │       ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/spiders/LN_Scraper.py
+            │       └── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/spiders/__pycache__
+            │           ├── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/spiders/__pycache__/__init__.cpython-39.pyc
+            │           └── ./Web scrapers/scrapy_project/lightNovel_Scraper/lightNovel_Scraper/spiders/__pycache__/LN_Scraper.cpython-39.pyc
+            └── ./Web scrapers/scrapy_project/lightNovel_Scraper/scrapy.cfg
+
+131 directories, 1123 files

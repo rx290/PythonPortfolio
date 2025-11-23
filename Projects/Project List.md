@@ -98,3 +98,5 @@ content for this 100 days challenge is as follows:
     - [ ]  Advent of Code challange
     - [ ]  Kaggle titanic Challange
     - [ ]  Bring Your umbrella notifier
+    - [ ]  Youtube Video/Song Downloader
+    - [ ]  Removing Vocals from Songs
